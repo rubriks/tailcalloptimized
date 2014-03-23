@@ -1,0 +1,12 @@
+title: Tail Call Optimized
+description: "straighten things out"
+markdown: redcarpet
+pygments: true
+permalink: /:year/:month/:day/:title.html
+google_analytics: #
+
+owner:
+    name: Mikael Lundin
+    disqus_shortname: tailcalloptimized
+    twitter: mikaellundin
+
