@@ -24,7 +24,7 @@
 body {
     background: #f7f7f7;
     color:#444;
-    font:14px 'Poly', georgia, serif;
+    font: 14px georgia, serif;
     line-height:1.5;
     font-weight: lighter;
     margin: 0 auto;
@@ -43,7 +43,7 @@ strong { font-weight:bold; }
 hr { height:1px; border:none; background-color:#ddd; }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: 'Poly', helvetica, sans-serif;
+    font-family: georgia, helvetica, sans-serif;
     font-weight:normal;
     color:#040404;
     margin: 1.618em 0 1em 0;
@@ -146,7 +146,12 @@ ul, ol {
     margin-left: 1em;
     margin-bottom: 1em;
 }
+div.highlight {
+    font-family: "Segoe UI", Tahoma, Verdana, Arial;
+    margin-bottom: 1em;
+}
 div.content {
+    clear: both;
     background:white;
     padding:70px 60px;
     margin-bottom:60px;
@@ -172,7 +177,7 @@ div.content li { margin-left: 2em; margin-bottom:0.3em; }
 div.content ul > li { margin-left:1.4em; }
 
 div.content blockquote {
-    font-family: 'Poly', georgia;
+    font-family: georgia;
     font-style:italic;
     line-height:1.618;
     background:transparent url(quotation-mark.png) no-repeat scroll 25px 1.4em;
@@ -331,6 +336,7 @@ div.content.photo-post p, div.content.photo-post iframe {
 /* posts */
 
 div.post {
+    clear: both;
     padding-bottom: 0em;
     /*margin-bottom:-70px;*/
     page-break-before: always;
@@ -496,7 +502,7 @@ footer a:link {
 /* medium-res devices (e.g. ipad, but not iphone) */
 #sidebar { display:none; }
 @media only screen and (min-device-width: 480px) and (max-device-width: 1024px) {
-    body { zoom: 1; width:100%; font-family: 'Poly', georgia; }
+    body { zoom: 1; width:100%; font-family: georgia; }
 }
 
 .comments {

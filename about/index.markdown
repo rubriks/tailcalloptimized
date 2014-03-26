@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
 title: About this blog | tailcalloptimized.com
 ---
 
-<script src="//about.me/embed/mikaellundin"></script>
 
 I created [my first blog](http://mint.litemedia.se) in 2008 when I started my
 first employment in 2008. All the hip developers were having a blog, and it was
