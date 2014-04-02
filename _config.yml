@@ -1,5 +1,7 @@
-title: Tail Call Optimized
-description: "straighten things out"
+title: Mikael Lundin Weblog
+name: Mikael Lundin Weblog
+description: Short stories about functional things, non-functional things, and things that doesn't function.
+url: 
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:day/:title.html
