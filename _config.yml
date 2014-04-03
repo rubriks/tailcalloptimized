@@ -5,7 +5,7 @@ url:
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:day/:title.html
-google_analytics: #
+google_analytics: UA-49087954-2
 
 owner:
     name: Mikael Lundin
