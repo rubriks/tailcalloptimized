@@ -386,6 +386,12 @@ div.post iframe[width="640"] {
     zoom:0.87;
 }
 
+div.post figcaption {
+    font-size: 0.8em;
+    line-height: 0.8em;
+    font-style: italic;
+}
+
 
 /* prettyprint */
 pre { color:black; }
