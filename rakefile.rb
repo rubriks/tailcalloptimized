@@ -38,7 +38,7 @@ namespace :posts do
         post_date = DateTime.now.strftime("%Y-%m-%d %H:%M:%S")
 
         # create new post
-        post_file = "_posts/#{post_id}.html"
+        post_file = "_posts/#{post_id}.markdown"
         puts "Create new post: #{post_file}"
         post_template = File.read("_posts/post.mustache");
         post_data = { :post_id => post_id, :post_name => post_name, :post_date => post_date, :assets_dir => assets_dir }
