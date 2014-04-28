@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bugs and defects"
-description: 
+description: "What are the different errors that might happen in software development"
 date: 2014-04-25 07:20:30
 tags: bugs defects
 ---
