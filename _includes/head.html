@@ -30,7 +30,7 @@
     <meta name="description" content="{{site.description}}">
     {% endif %}
 
-    <meta property="og:url" content="{{site.url}}/{{ page.url | remove_first:'index.html' }}">
+    <meta property="og:url" content="{{site.url}}{{ page.url | remove_first:'index.html' }}">
     <meta property="og:site_name" content="{{site.title}}">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="en_GB" />
@@ -42,7 +42,7 @@
     <meta property="twitter:domain" content="blog.mikaellundin.name">
     
     {% if page.image %}
-    <meta property="twitter:image:src" content="{{site.url}}{{page.image}}">
+    <meta property="twitter:image:src" content="{{site.url}}/{{page.image}}">
     {% endif %}
 
     <!-- Add custom CSS here -->
