@@ -10,7 +10,7 @@ assets: assets/posts/2014-08-31-how-to-fix-your-sony-pulse-headset
 I was thrilled when my wife bought me the Sony Pulse Headset for christmas,
 and I spent three weeks living inside it playing XCOM. That was fun times.
 
-![Sony Pulse Headset](assets/posts/2014-08-31-how-to-fix-your-sony-pulse-headset/headset.jpg)
+![Sony Pulse Headset](/assets/posts/2014-08-31-how-to-fix-your-sony-pulse-headset/headset.jpg)
 
 I was not so thrilled when 6 months later it broke down. It would no longer pair with the PS3 system. It would only blink blue repeatedly until it gave up.
 
