@@ -3,7 +3,7 @@ name: Mikael Lundin Weblog
 description: Short stories about functional things, non-functional things, and things that doesn't function.
 url: 
 markdown: redcarpet
-pygments: true
+highligher: pygments
 permalink: /:year/:month/:day/:title.html
 google_analytics: UA-49087954-2
 
