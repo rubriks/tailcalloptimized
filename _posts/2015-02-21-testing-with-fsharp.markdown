@@ -40,7 +40,7 @@ Distilling down the best practices of test automation have made it possible for 
 
 > Test Automation: Design, Verify, Explore
 
-In this book I have taken my two favorite principles of functional programming paradigm och test automation and combined them.
+In this book I have taken my two favorite principles of functional programming paradigm and test automation, and combined them.
 
 * What are the benefits of functional programming in testing?
 * What tools and frameworks are available in F#?
