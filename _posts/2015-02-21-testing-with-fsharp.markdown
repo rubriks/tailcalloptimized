@@ -50,5 +50,7 @@ In this book I have taken my two favorite principles of functional programming p
 
 Please go check out [the book at PACKT](https://www.packtpub.com/application-development/testing-f).
 
+UPDATE: Now [also on Amazon](http://www.amazon.com/Testing-F-Mikael-Lundin/dp/1784391239/ "Testing with F# on Amazon").
+
 ![Testing with F#](/assets/posts/2015-02-21-testing-with-fsharp/cover.jpg
  "Testing with F# by Mikael Lundin")
