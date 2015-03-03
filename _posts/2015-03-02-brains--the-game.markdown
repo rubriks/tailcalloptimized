@@ -36,6 +36,9 @@ Here's the game. (you need to read this in a javascript enabled browser)
       margin: 1px;
       border: 1px solid gray;
       background-color: #FAFAFA;
+
+      -webkit-appearance: none;
+      -webkit-border-radius: 0;
     }
     .board.success input {
       background-color: #F0FFF0;
