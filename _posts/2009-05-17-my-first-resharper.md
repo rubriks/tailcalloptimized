@@ -1,0 +1,16 @@
+---
+layout: migratedpost
+title: "My first Resharper"
+description:
+date: 2009-05-17 20:32:18
+assets: assets/posts/2009-05-17-my-first-resharper
+image: 
+---
+
+<p><img class="alignright size-full wp-image-309" title="Resharper" src="http://litemedia.info/media/Default/Mint/prod_resharper_over.gif" alt="Resharper" width="39" height="25" />Yesterday I finally got around and bought my own legitimate version of Resharper. I'm so looking forward to start working with this tool on a daily basis, as I only been using the trial version until now. A Personal C# licence costs 132€ + VAT, which made my licence end up at <strong>156€</strong>. Now that could be considered a lot of money for an add-on, especially in this economic crisis when we should save every penny, but I think it was a worth while investment. If it saves me 15 minutes of work every day it will most probably pay off in a couple of months. But, there's also a risk that I will work 15 minutes more every day, and in that case I should demand that money back from my employer. ;)  Here are some other tools that I would like to buy.</p>
+<ul>
+<li><a href="http://www.ndepend.com/">NDepend</a> <strong>299€</strong> I just love code analytics, and this is the god of analysis programs out there. Every time I use the demo, I just drool over the possibilities. One problem with this remarkable piece of software would be that I would spend all my time <em>meta coding and analysing</em> that I would not get any real work done. </li>
+<li><a href="http://testdriven.net/">TestDriven.Net</a> <strong>120€</strong> I've been using the personal edition of this Visual Studio plugin more than my conscience allows me to. Now it will stop! I will keep my hands off TestDriven.Net until I got a Professional licence. <em>*crying*</em> This is a wonderful tool for boosting your Unit Test productivity. Once you've start using it, you can't live without. </li>
+<li><a href="http://www.ncover.com/">NCover</a> <strong>199$</strong> (classic w.o. subscription) I recently got a feature coverage of Team Foundation Suite, and one of the main reasons to buy TFS: Developer would be the code coverage tool. I've not seen this tool yet, but it can't be as good as NCover. This is also one of these tools that I've been using for free, all too long. Time to pay the licence fee!</li>
+</ul>
+<p>At last I will get around buying all of these, but Resharper will have to do for this month. I would urge everyone to  buy the tools you use, and spread love to your fellow software developers. Send them the message: <em>Thank you for creating great software!</em></p>

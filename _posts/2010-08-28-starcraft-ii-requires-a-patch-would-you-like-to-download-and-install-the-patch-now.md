@@ -1,0 +1,16 @@
+---
+layout: migratedpost
+title: "StarCraft II requires a patch. Would you like to download and install the patch now?"
+description:
+date: 2010-08-28 05:24:16
+assets: assets/posts/2010-08-28-starcraft-ii-requires-a-patch-would-you-like-to-download-and-install-the-patch-now
+image: 
+---
+
+<p>So, I finally got around buying, and installing this StarCraft 2. I couldn't resist being part of the talk-the-talk at work.  Anyhow, it took me 1 week before I had enough time to push the "Start Game" button, and then I met a loop with the error message <em>"StarCraft II requires a patch. Would you like to download and install the patch now?"</em>. Very frustrating.  The reason is that there is a patch available, but the downloader does not recognize your internet/proxy settings. This is easily fixed.</p>
+<ol>
+<li>Open up Internet Explorer. Go to Tools - > Internet Options.<br /><img class="alignnone size-full wp-image-857" title="s2_step1" src="http://litemedia.info/media/Default/Mint/s2_step1.png" width="591" height="598" /></li>
+<li> Go to connections tab and press the button [LAN Settings]<br /> <img class="alignnone size-full wp-image-858" title="s2_step2" src="http://litemedia.info/media/Default/Mint/s2_step2.png" width="423" height="541" /></li>
+<li> Make sure that "Automatically detect settings" is <strong>unchecked</strong>. The problem could also be located around your Proxy server settings, if you're using a proxy server.<br /> <img class="alignnone size-full wp-image-859" title="s2_step3" src="http://litemedia.info/media/Default/Mint/s2_step3.png" width="394" height="345" /></li>
+</ol>
+<p>Enjoy the game!</p>

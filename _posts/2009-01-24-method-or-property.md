@@ -1,0 +1,81 @@
+---
+layout: migratedpost
+title: "Method or Property"
+description:
+date: 2009-01-24 09:04:34
+assets: assets/posts/2009-01-24-method-or-property
+image: 
+---
+
+<p>In .NET development this one question often reappears.</p>
+<blockquote>Should I implement this as a method or a property?</blockquote>
+<p>It is quite hard to distinguish the difference between a method with no arguments and a property. It is easy to say when you got it wrong, but it is much harder when you sit there and going to do the implementation. The book I'm reading has some very clear rules about this, that I would like to share with you.</p>
+<blockquote>Methods should represent actions and properties should represent data.</blockquote>
+<h4>Example</h4>
+<pre class="brush: csharp">// Property is data of an empty string value
+string s = string.Empty;
+
+// Action returns normalized string
+s.Normalize();</pre>
+<p>I believe this is the most common rule that we all follow. I seldom see code where an action has been implemented as a property, because it doesn't feel natural.</p>
+<blockquote>Do use a property, rather than a method, if the value of the property is stored in the process memory and the property would just provide access to the value.</blockquote>
+<h4>Example</h4>
+<pre class="brush: csharp">public class User
+{
+ private string username;
+ public string Username
+ {
+  get
+  {
+   return this.username;
+  }
+ }
+}</pre>
+<p>This is also the most common way to use a property. You have a field that you want publicaly exposed. This statement is important because of the next guideline.</p>
+<blockquote>Do use a <strong>method</strong> if the operation is orders of magnitude slower than a field access would be.</blockquote>
+<h4>Example</h4>
+<pre class="brush: csharp">public IEnumerable<User> Users
+{
+ get
+ {
+  IList<User> result = new List<User>();
+
+  using (DbConnection connection = dbFactory.GetDbConnection())
+  using (DbCommand command = dbFactory.CreateCommand(connection))
+  {
+   command.CommandText = "SELECT username FROM user";
+
+   using(DbDataReader reader = command.ExecuteReader())
+   {
+    while (reader.Read())
+    {
+     User user = new User { Username = reader.GetString(0) };
+     result.Add(user);
+    }
+   }
+  }
+
+  return result;
+ }
+}</pre>
+<p>The consumer of this class will not expect a database call when he accesses the property. Since it is defined as a property he will expect the property value to be retrieved in a trivial fashion and he will certainly not expect an exception to be thrown if the database is unavailable. This is the primary mistake I see when I read code.</p>
+<blockquote>Do use a <strong>method</strong> if the operation has a significant and observable side effect.</blockquote>
+<h4>Example</h4>
+<pre class="brush: csharp">private bool isDataSourceLoaded;
+
+private IEnumerable dataSource;
+public IEnumerable DataSource
+{
+ get
+ {
+  // A significant side effect where the GET-property populates the field
+  if (this.isDataSourceLoaded)
+  {
+   this.dataSource = GetUsers();
+   this.isDataSourceLoaded = true;
+  }
+
+  return this.dataSource;
+ }
+}</pre>
+<p>Debugging a class where the properties has side effects can be frustrating, since you will cause that side effect every time you put a watch on the property. (which in Visual Studio may happen only if you hover the property with the mouse pointer) Methods are however not executed in debug mode unless you explicitly invoke them.  All of these guidelines and more comes from the book I'm currently reading called <a href="http://www.amazon.com/Framework-Design-Guidelines-Conventions-Development/dp/0321545613/ref=sr_11_1?ie=UTF8&qid=1232786815&sr=11-1">"Framework Design Guidelines -Conventions, Idioms and Patterns for Reusable .Net Libraries</a>" by "Krzysztof Cwalina and Brad Abrams". It is an excellent book that I enjoy every minute of reading.</p>
