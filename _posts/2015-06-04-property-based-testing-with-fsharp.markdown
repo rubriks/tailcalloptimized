@@ -8,6 +8,9 @@ assets: assets/posts/2015-06-04-property-based-testing-with-fsharp
 image: assets/posts/2015-06-04-property-based-testing-with-fsharp/title.jpg
 ---
 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/N28KswmM9SzYDs" width="560" height="315" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/valtechsweden/tech-day-2015-49112791" title="Tech Day 2015 - Property-based testing med F#" target="_blank">Tech Day 2015 - Property-based
+testing med F#</a> </strong> from <strong><a href="//www.slideshare.net/valtechsweden" target="_blank">Valtech AB</a></strong> </div>
+
 This post is based on a talk I did at Valtech Tech Day, 4 June 2015. You can find the [slides for this talk here]("/assets/posts/2015-06-04-property-based-testing-with-fsharp/VTD15 - Property-Based Testing with F#.pdf" "Slides for Property-Based Testing with F#, Valtech Tech Day 2015") and the code examples in a [zip archive here]("/assets/posts/2015-06-04-property-based-testing-with-fsharp/PropertyBasedTesting.zip" "Code Samples for Property-Based Testing with F#, Valtech Tech Day 2015").
 
 
