@@ -1,23 +1,20 @@
 <!DOCTYPE HTML>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html class="nojs" lang="en" prefix="og: http://ogp.me/ns#">
     {% include head.html %}
-    <body{% if page.wide_layout %} class="wide"{% endif %}>   
-
-        <!--<div id="wrapper">-->
-        <div class="search-wrapper">
-            <div class="search-form">
-                <input type="text" class="search-field" placeholder="Search...">
-                <i class="fa fa-times icon-remove-sign"></i>
-                <ul class="search-results post-list"></ul><!-- /.search-results -->
-            </div><!-- /.search-form -->
-        </div><!-- ./search-wrapper -->
-
-        <header>
-            <h1 class="logo" id="blog-title"><a href="{{site.url}}">{{ site.title }}</a></h1>
-            {% include navigation.html %}
+    <body>   
+        <a class="sr-only sr-only-focusable" href="#content">
+            <div class="container">
+                <span class="skiplink-text">Skip to main content</span>
+            </div>
+        </a>
+        <header class="hero-image " role="banner">
+                {% include navigation.html %}
+            </div>
         </header>                 
 
-        {{ content }}
+        <div class="container">
+            {{ content }}
+        </div>
 
         {% if paginator.page %}
         <div id="paginator" class="content">
@@ -30,11 +27,6 @@
         </div>
         {% endif %}
 
-        {% unless page.no_footer %}
-        <footer>
-            <script src="//about.me/embed/mikaellundin"></script>
-        </footer>
-        {% endunless %}
 
         {% if page.path contains '_posts' %}
             {% include disqus.html %}

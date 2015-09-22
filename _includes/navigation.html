@@ -1,10 +1,69 @@
-<nav>
-    <ul class="navigation">        
-        <li><a href="{{site.url}}/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles"><i class="fa fa-archive"></i></a></li>
-        <li><a href="{{site.url}}/feed.xml" title="Subscribe to RSS feed"><i class="fa fa-rss"></i></a></li>
-        <li><a href="{{site.url}}/about/"{% if page.url contains "/about/" %}class="active"{% endif %} title="About this blog"><i class="fa fa-question"></i></a></li>
-        <li><a href="//mikaellundin.name" target="_new" title="About me"><i class="fa fa-user"></i></a></li>
-        <li><a href="//twitter.com/mikaellundin" target="_new" title="Mikael Lundin on Twitter"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="//github.com/miklund/tailcalloptimized" target="_new" title"Tail Call Optimized on Github"><i class="fa fa-github-alt"></i></a></li>
-    </ul>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and Toggle -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{site.url}}">{{ site.title }}</a>
+        </div>
+
+        <!-- Navigation starts here -->
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active dropdown">
+                    <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#">blog</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="{{site.url}}/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">archive</a>
+                        </li>
+                        <li>
+                            <a href="{{site.url}}/about/"{% if page.url contains "/about/" %}class="active"{% endif %} title="About this blog">about</a>
+                        </li>
+                        <li>
+                            <a href="{{site.url}}/feed.xml" title="Subscribe to RSS feed">feed</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#" >work</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="http://www.amazon.com/Testing-F-Mikael-Lundin/dp/1784391239/" title="Testing with F# book at Amazon">testing with f#</a>
+                        </li>
+                        <li>
+                            <a href="//replay.mikaellundin.name" title="r3pl4y">replay</a>
+                        </li>
+                        <li>
+                            <a href="//pokeit.mikaellundin.name" title="poke.it">poke.it</a>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#">me</a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="//mikaellundin.name" target="_new" title="About me">profile</a>
+                        </li>
+                        <li>
+                            <a href="//github.com/miklund" title="Mikael Lundin at github">code</a>
+                        </li>
+                        <li>
+                            <a href="https://se.linkedin.com/in/miklund" title="Mikael Lundin at linkedin">cv</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/contact/" title="Get in touch">contact</a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
 <nav>

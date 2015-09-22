@@ -1,23 +1,31 @@
 ---
 layout: default
 ---
-<div class="content{% if page.photo_url %} photo-post{% endif %}">
-    <div class="post single">
-        {% unless page.photo_url %}
-        <h1>{{ page.title }}</h1>
-        <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
-            {{ page.date | date: "%b %d, %Y" }}
-        </info>
-        {% endunless %}
-        <div class="body">{{ content }}</div>
-        <!-- <div class="breaker"></div> -->
-        <div class="breaker"></div>        
-    </div>  
 
-    <div class="comments container">
-        <div id="disqus_thread"></div>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<article class="post">
+    <header class="meta col-lg-3">
+        <img class="profile-image" src="//www.gravatar.com/avatar/f46a41ae19f35713a65841f144491a72?s=100" alt="Mikael Lundin" />
+        <div class="author-info">
+            <a class="author-name" href="//mikaellundin.name">Mikael Lundin</a>
+            <div class="social-media-icons">
+                <a href="//twitter.com/mikaellundin" title="Mikael Lundin on Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="//github.com/miklund" title="Mikael Lundin on GitHub"><i class="fa fa-github"></i></a>
+                <a href="//linkedin.com/in/miklund" title="Mikael Lundin on LinkedIn"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="content col-lg-9">
+        <info class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">
+            {{ page.date | date: "%B %d, %Y" }}
+        </info>
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+        <div class="comments">
+            <div id="disqus_thread"></div>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
     </div>
-</div>
+</article>
+
 

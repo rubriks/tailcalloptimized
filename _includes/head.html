@@ -5,8 +5,7 @@
     {% if page.title != "Archive (sidebar)" %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% endif %}
-    <link rel="stylesheet" media="screen, projection" href="{{site.url}}/res/screen.css" type="text/css">
-    <link rel="stylesheet" media="print" href="{{site.url}}/res/print.css" type="text/css">
+    <link rel="stylesheet" href="/dist/assets/css/main.min.css" type="text/css">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
@@ -45,7 +44,5 @@
     <meta property="twitter:image:src" content="{{site.url}}/{{page.image}}">
     {% endif %}
 
-    <!-- Add custom CSS here -->
-    <link href="{{site.url}}/assets/css/font-awesome.min.css" rel="stylesheet">        
     <link href="{{site.url}}/assets/css/pygments-jekyll-github.css" rel="stylesheet">
 </head>

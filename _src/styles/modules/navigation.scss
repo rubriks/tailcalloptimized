@@ -1,0 +1,55 @@
+nav.navbar {
+    font-family: Helvetica, sans-serif;
+    text-transform: lowercase;
+
+    // align navigation better with navigation header
+    .nav {
+       padding-top: 8px;
+    }   
+ 
+
+    // remove dropdown box shadow
+    .dropdown-menu {
+        box-shadow: none;
+    }
+
+    // remove the min width requirement on dropdown menu
+    .nav > li > .dropdown-menu {
+        min-width: inherit;
+    }
+
+    // align dropdown items with dropdown title
+    .dropdown-menu > li > a {
+        padding: 3px $navbar-padding-horizontal;
+    }
+
+}
+
+// large screen
+@media (min-width: $screen-xs-min) {
+    // display underline when mouse is hovering
+    .nav.navbar .nav > li > a, .nav > li > .dropdown-menu > li > a {
+        border-bottom: 3px solid transparent;
+    }
+    .nav.navbar .nav > li, .nav > li > .dropdown-menu > li {
+        padding: 0 $navbar-padding-horizontal;
+
+        & > a, & > a:hover {
+            display: inline-block;
+            padding: 10px 0;
+        }
+    }
+    // active navigation selection should be underlined
+    .nav.navbar .nav > li:hover > a, .nav > li > ul > li:hover > a {
+        border-color: white;
+    }
+
+    // display submenu on hover
+    nav.navbar .nav > li:hover > .dropdown-menu {
+        display: block;
+    }
+    nav.navbar .navbar-right .dropdown-menu {
+        right: auto;
+        left: 0px;
+    }
+}

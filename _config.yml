@@ -12,3 +12,4 @@ owner:
     disqus_shortname: tailcalloptimized
     twitter: mikaellundin
 
+exclude: [node_modules/, package.json, gulpfile.js, rakefile.rb, s3_website.yml, bower.json, _src/]

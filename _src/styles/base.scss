@@ -1,0 +1,10 @@
+// header should have white text on dark background
+header {
+    // TODO: Variableize the color
+    color: white;
+}
+
+// inherit the color of links
+a {
+    color: inherit;
+}
