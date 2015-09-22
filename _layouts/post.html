@@ -2,11 +2,24 @@
 layout: default
 ---
 
-<article class="post">
-    <header class="meta col-lg-3">
-        <img class="profile-image" src="//www.gravatar.com/avatar/f46a41ae19f35713a65841f144491a72?s=100" alt="Mikael Lundin" />
+<article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <!-- START: META -->
+    {% if page.image %}
+    <meta itemprop="name" content="{{page.title}}">
+    <meta itemprop="image" content="{{site.url}}/{{page.image}}">
+    <meta itemprop="url" content="{{site.url}}{{ page.url }}">
+    <meta itemprop="description" content="{{ page.description }}">
+    <meta itemprop="keywords" content="{{ page.tags }}">
+    {% endif %}
+    <!-- END: META -->
+
+    <header class="meta col-lg-3" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <img class="profile-image" src="//www.gravatar.com/avatar/f46a41ae19f35713a65841f144491a72?s=100" alt="Mikael Lundin" itemprop="image" />
         <div class="author-info">
-            <a class="author-name" href="//mikaellundin.name">Mikael Lundin</a>
+            <a class="author-name" href="http://mikaellundin.name" itemprop="url">
+                <span itemprop="name">Mikael Lundin</span>
+            </a>
             <div class="social-media-icons">
                 <a href="//twitter.com/mikaellundin" title="Mikael Lundin on Twitter"><i class="fa fa-twitter"></i></a>
                 <a href="//github.com/miklund" title="Mikael Lundin on GitHub"><i class="fa fa-github"></i></a>
@@ -14,16 +27,20 @@ layout: default
             </div>
         </div>
     </header>
+
+    
     <div class="content col-lg-9">
-        <info class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}">
+        <info class="published" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">
             {{ page.date | date: "%B %d, %Y" }}
         </info>
-        <h1>{{ page.title }}</h1>
+        <h1 itemprop="headline">{{ page.title }}</h1>
+        <div itemprop="articleBody">
         {{ content }}
+        </div>
         <div class="comments">
             <div id="disqus_thread"></div>
             <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            <a href="http://disqus.com" class="dsq-brlink" itemprop="discussionUrl">comments powered by <span class="logo-disqus">Disqus</span></a>
         </div>
     </div>
 </article>

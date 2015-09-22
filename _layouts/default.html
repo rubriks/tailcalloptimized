@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html class="nojs" lang="en" prefix="og: http://ogp.me/ns#">
     {% include head.html %}
-    <body>   
+    <body itemscope itemtype="http://schema.org/Blog">   
         <a class="sr-only sr-only-focusable" href="#content">
             <div class="container">
                 <span class="skiplink-text">Skip to main content</span>
@@ -12,7 +12,7 @@
             </div>
         </header>                 
 
-        <div class="container">
+        <div id="content" class="container">
             {{ content }}
         </div>
 

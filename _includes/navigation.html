@@ -2,13 +2,15 @@
     <div class="container">
         <!-- Brand and Toggle -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{site.url}}">{{ site.title }}</a>
+            <a class="navbar-brand" href="{{site.url}}" itemprop="url">
+                <span itemprop="name">{{ site.title }}</span>
+            </a>
         </div>
 
         <!-- Navigation starts here -->
@@ -47,7 +49,7 @@
                     <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#">me</a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="//mikaellundin.name" target="_new" title="About me">profile</a>
+                            <a href="http://mikaellundin.name" target="_new" title="About me">profile</a>
                         </li>
                         <li>
                             <a href="//github.com/miklund" title="Mikael Lundin at github">code</a>
@@ -62,8 +64,5 @@
                 </li>
             </ul>
         </div>
-
-
     </div>
-
-<nav>
+</nav>
