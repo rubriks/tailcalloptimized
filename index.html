@@ -1,31 +1,50 @@
 ---
 layout: default
 ---
-<div class="posts">
-  <div class="content full-bleed" id="recent-posts">
-  {% for post in site.posts limit:25 %}<a
-    href="{{ post.url }}" class="post-excerpt{% if post.image %} photo{% endif %}">
-      <div class="padded-content">
-        <div class="title">{{ post.title }}</div>
-      {% if post.image %}
-        <div class="image" style="background-image:url('{{ post.image }}')"></div>
-      {% else %}
-        <!-- <div class="title">{{ post.title }}</div> -->
-        <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+
+<section class="meta col-lg-3 col-lg-push-9" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="profile-image" src="//www.gravatar.com/avatar/f46a41ae19f35713a65841f144491a72?s=100" alt="Mikael Lundin" itemprop="image" />
+    <div class="author-info">
+        <a class="author-name" href="http://mikaellundin.name" itemprop="url">
+            <span itemprop="name">Mikael Lundin</span>
+        </a>
+        <div class="social-media-icons">
+            <a href="//twitter.com/mikaellundin" title="Mikael Lundin on Twitter"><i class="fa fa-twitter"></i></a>
+            <a href="//github.com/miklund" title="Mikael Lundin on GitHub"><i class="fa fa-github"></i></a>
+            <a href="//linkedin.com/in/miklund" title="Mikael Lundin on LinkedIn"><i class="fa fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Welcome</h1>
+        <p>
+            This is my blog where I talk about anything I find interesting and more than often code. If you want to know more about me, check my <a href="http://mikaellundin.name">about.me page</a>, or go to my <a href="/contact">contact page</a>.
+        </p>
+        <p>
+        Enjoy!
+        </p>
+    </div>
+</section>
+
+<section class="posts col-lg-9 col-lg-pull-3">
+    {% for post in site.posts limit:10 %}
+    <a  href="{{ post.url }}" class="post-excerpt">
+        <info class="post-published" datetime="{{ page.date | date: "%Y-%m-%d" }}">
           {{ post.date | date: "%b %Y" }}
         </info>
-        {% if post.description %}
-        <span class="body">{{ post.description | strip_html }}</span>
-        {% else %}
-        <span class="body">{{ post.excerpt | strip_html }}</span>
+        {% if post.image %}
+        <img class="post-image" src="{{ post.image }}"/>
         {% endif %}
-      {% endif %}<!-- post.image -->
-      </div>
-    </a>{% endfor %}
-    <div class="breaker"></div>
-    <div class="end">
-      <a href="/archive/">More...</a>
-    </div>
-  </div>
-</div>
-{% include pagescript.html %}
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.description %}
+        <p class="post-description">{{ post.description | strip_html }}</p>
+        {% else %}
+        <p class="post-description">{{ post.excerpt | strip_html }}</p>
+        {% endif %}
+    </a>
+    {% endfor %}
+    <p>
+        <a href="/archive/">For more, go to the archive</a>
+    </p>
+</section>
+
+

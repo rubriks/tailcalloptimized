@@ -1,0 +1,34 @@
+.post-excerpt {
+    font-family: $font-family-serif;
+
+    display: block;
+        
+    border-bottom: 1px dashed #999;
+    margin: 1em 0;
+    padding: 1em;
+
+    .post-image {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        border-radius: 10px;
+    }
+
+    .post-published {
+        font-size: $font-size-small;
+        color: $gray;
+    }
+}
+
+// do not highlight text on hover
+.post-excerpt:hover {
+    text-decoration: none;
+    color: #333;
+
+    // except the title
+    .post-title {
+        text-decoration: underline;
+    }
+}

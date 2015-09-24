@@ -1,0 +1,27 @@
+.content {
+    font-family: $font-family-serif;
+
+    & > * {
+        margin-top: 1.25em;
+        margin-bottom: 1.25em;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    blockquote {
+        font-size: $font-size-base;
+        font-style: italic;
+    }
+
+    .published {
+        font-size: $font-size-small;
+        color: $gray;
+    }
+
+    // only one column in small screens
+    @media (max-width: $screen-sm-max) {
+        clear: both;
+    }
+}

@@ -1,29 +1,27 @@
-.post {
+.index {
     .meta {
 
         // float right on medium to large devices
         @media (min-width: $screen-lg-min) {
-            text-align: right;
+            text-align: left;
 
             .profile-image {
-                float: right;
+                float: left;
             }
 
             .author-name {
-                float: right;
+                float: left;
             }
 
             .social-media-icons {
-                float: right;
+                float: left;
             }
 
             // make sure each element has its own row
             & > * {
-                margin-left: 100%;
+                margin-right: 100%;
             }
         }
 
     }
-
 }
-

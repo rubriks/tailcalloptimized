@@ -29,10 +29,12 @@ Here's the game. (you need to read this in a javascript enabled browser)
     .board {
       margin-right: 12px;
       float: left;
+      font-size: 12pt;
     }
     .board input {
       width: 24px;
       height: 24px;
+      line-height: 24px;
       margin: 1px;
       border: 1px solid gray;
       background-color: #FAFAFA;
