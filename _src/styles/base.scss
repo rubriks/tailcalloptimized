@@ -1,3 +1,51 @@
+// font size must be smaller on smaller devices
+@media (max-width: $screen-xs-max) {
+    body {
+        font-size: ceil($font-size-base * 0.7);
+        line-height: ceil($line-height-base * 0.7);
+    }
+    .content {
+        & > * {
+            margin-top: ceil(1.25em * 0.7);
+            margin-bottom: ceil(1.25em * 0.7);
+        }
+        pre {
+            font-size: ceil($font-size-base * 0.7);
+            line-height: ceil($line-height-base * 0.7);
+        }
+    }
+    h1 {
+        font-size: ceil($font-size-h1 * 0.7);
+        line-height: ceil($headings-line-height * 0.7);
+    }
+        
+    h2 {
+        font-size: ceil($font-size-h2 * 0.7);
+        line-height: ceil($headings-line-height * 0.7);
+    }
+        
+    h3 {
+        font-size: ceil($font-size-h3 * 0.7);
+        line-height: ceil($headings-line-height * 0.7);
+    }
+        
+    h4 {
+        font-size: ceil($font-size-h4 * 0.7);
+        line-height: ceil($headings-line-height * 0.7);
+    }
+        
+    h5 {
+        font-size: ceil($font-size-h5 * 0.7);
+        line-height: ceil($headings-line-height * 0.7);
+    }
+        
+    h6 {
+        font-size: ceil($font-size-h6 * 0.7);
+        line-height: ceil($headings-line-height * 0.7);
+    }
+        
+}
+
 // header should have white text on dark background
 header {
     // TODO: Variableize the color

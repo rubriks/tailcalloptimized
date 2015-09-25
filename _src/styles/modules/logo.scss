@@ -1,11 +1,10 @@
-.blog-title {
-}
-
-
-
-// large screen
-@media (min-width: $screen-lg-min) {
+// smaller screens
+@media (max-width: $screen-xs-max) {
+    /* hide text and show logo */
     .logo {
-        float: left;
+        background: url('../img/logo.png') no-repeat left center;
+        text-indent: -9999px;
+        width: 48px;
+        height: 48px;
     }
 }
