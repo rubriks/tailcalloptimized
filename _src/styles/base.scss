@@ -1,3 +1,10 @@
+// fix overflow-x:scroll on mobile devices
+@media (max-width: $screen-xs-max) {
+    .content {
+        overflow: hidden;
+    }
+}
+
 // font size must be smaller on smaller devices
 @media (max-width: $screen-xs-max) {
     body {
