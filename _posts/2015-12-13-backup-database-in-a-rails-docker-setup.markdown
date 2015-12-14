@@ -42,60 +42,19 @@ As for the file system there is no state that is not part of the application. I'
 
 Here is the Dockerfile I came up with for replay-backup.
 
-	# replay-backup
-	FROM zsoltm/debian-armhf:jessie
-	MAINTAINER Mikael Lundin <hello@mikaellundin.name>
-
-	# Install prerequisites
-	RUN apt-get update && apt-get install -y cron awscli postgresql-client-9.4
-
-	# ADD backup script to container
-	ADD backup-replay-database.sh /backup-replay-database.sh
-	ADD backup-replay-cron /etc/cron.d/backup-replay
-
-	# Make script files executable
-	RUN chmod 755 /backup-replay-database.sh
-	RUN chmod 755 /etc/crontab
-
-	# VOLUME where the backups reside
-	VOLUME /var/backups
-	VOLUME /var/log/cron
-
-	# start the application
-	CMD ["cron", "-f"]
+<script src="https://gist.github.com/miklund/0d94b4a9c772a94c4e7b.js?file=Dockerfile"></script>
 
 This is very straight forward. There are two important files that are included in this container. First is the script that does the backup.
 
-	#!/bin/bash
-
-	# Set environment variables
-	export DATABASE_URL=postgres://postgres:<obfuscated>@postgres:5432/r3pl4y_production
-	export AWS_ACCESS_KEY_ID=<obfuscated>
-	export AWS_SECRET_ACCESS_KEY=<obfuscated>
-	export AWS_DEFAULT_REGION=eu-west-1
-
-	echo $(date +"%Y-%m-%d %T"): START r3pl4y database backup
-
-	# get a dump of database
-	echo $(date +"%Y-%m-%d %T"): Dump the database
-	pg_dump --dbname=$DATABASE_URL | gzip > /var/backups/r3pl4y_production-$(date +%Y%m%d).psql.gz
-
-	# remove all but 5 latest backups
-	echo $(date +"%Y-%m-%d %T"): Remove old backups
-	ls -1trd /var/backups/* | head -n -5 | xargs rm -f
-
-	# synchronize folder to s3 backup bucket
-	echo $(date +"%Y-%m-%d %T"): Push new backup to Amazon S3
-	aws s3 sync /var/backups s3://replay-files.mikaellundin.name/backup
-
-	echo $(date +"%Y-%m-%d %T"): END r3pl4y database backup
+<script src="https://gist.github.com/miklund/0d94b4a9c772a94c4e7b.js?file=backup-replay-database.sh"></script>
 
 This script dumps the database, removes old backups and then pushes to S3 bucket. It is heavily annotated because its output will be the only way to troubleshoot.
 
 Next is the scheduling which is done with cron by dumping the following script into `/etc/cron.d/`
 
-	0 3 * * * root /backup-replay-database.sh >> /var/log/cron/backup-replay-database.log 2>&1
-	
+```shell
+0 3 * * * root /backup-replay-database.sh >> /var/log/cron/backup-replay-database.log 2>&1
+```
 
 Some magic requires this file to end with an empty line. So don't forget it if you decide to try this at home.
 
@@ -103,7 +62,9 @@ Every night 3am, root will run the script `backup-replay-database.sh` and append
 
 All that remains is to start up the container.
 
-	docker run --name replay-backup -v /var/log/cron:/var/log/cron --link postgres -d replay-backup
+```shell
+docker run --name replay-backup -v /var/log/cron:/var/log/cron --link postgres -d replay-backup
+```
 
 <pre>
 CONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O             BLOCK I/O

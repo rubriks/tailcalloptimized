@@ -20,6 +20,14 @@
         color: $gray;
     }
 
+    pre {
+        overflow-x: scroll;
+        font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16.8px;
+    }
+
     // only one column in small screens
     @media (max-width: $screen-md-max) {
         clear: both;
