@@ -21,7 +21,7 @@
     }
 
     // only one column in small screens
-    @media (max-width: $screen-sm-max) {
+    @media (max-width: $screen-md-max) {
         clear: both;
     }
 }
