@@ -41,7 +41,7 @@ Here's what I did to make it work.
         git checkout 3.16.13. -f
         svn checkout --force http://gyp.googlecode.com/svn/trunk build/gyp --revision 1501
 
-5. Then I made a change to the patch in `patches/fPIC-on-x64.path` 
+5. Then I made a change to the patch in `patches/fPIC-on-x64.patch` 
 
         diff --git a/patches/fPIC-on-x64.patch b/patches/fPIC-on-x64.patch
         index 7388132..a95341a 100644

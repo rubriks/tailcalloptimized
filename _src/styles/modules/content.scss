@@ -21,9 +21,10 @@
         color: $gray;
     }
 
-    pre {
+    pre, code {
         @media (max-width: $screen-xs-max) {
             overflow-x: scroll;
+            white-space: pre;
         }
 
         font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
