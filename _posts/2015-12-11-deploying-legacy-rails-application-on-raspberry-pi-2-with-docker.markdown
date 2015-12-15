@@ -26,54 +26,21 @@ So, what I wanted to do is to take this site that was built for Heroku and make 
 
 So, the first thing I did was to create a Docker container for R3PL4Y on my desktop Linux machine, with a little caveat. Instead of creating the container by hand, I chose to script it all in a Dockerfile. Why I did that will become apparent.
 
-    # Create a container for replay
-    FROM ubuntu:14.04
-    MAINTAINER Mikael Lundin <hello@mikaellundin.name>
-
-    # Install prerequisites
-    RUN apt-get update && apt-get install -y ruby ruby-dev git make libxslt-dev libxml2-dev libpq-dev libmagickwand-dev build-essential nodejs imagemagick
-
-    # Install ruby bundler
-    RUN gem install bundler --no-ri --no-rdoc
-
-    # Clone project into /var/www
-    RUN git clone https://github.com/rubriks/r3pl4y.git /var/www
-
-    # Set current working directory
-    WORKDIR /var/www
-
-    # Install all the gems
-    RUN bundle install --gemfile=/var/www/Gemfile
-
-    # Precompile assets
-    RUN RAILS_ENV=production bundle exec rake assets:precompile
-
-    # Set envrionment variables
-    ENV DATABASE_URL postgres://postgres:<obfuscated>@postgres:5432/r3pl4y_production
-    ENV facebook_app_id <obfuscated>
-    ENV facebook_app_secret <obfuscated>
-    ENV s3_access_key_id <obfuscated>
-    ENV s3_secret_access_key <obfuscated>
-    ENV steam_app_secret <obfuscated>
-    ENV tumblr_api_key <obfuscated>
-    ENV twitter_consumer_key <obfuscated>
-    ENV twitter_consumer_secret <obfuscated>
-
-    # open port 3000 for http
-    EXPOSE 3000
-
-    # start the application
-    CMD ["/var/www/script/rails", "server",  "-e production"]
+<script src="https://gist.github.com/miklund/e9754a246aed10ebb16a.js?file=Dockerfile"></script>
 
 A lot of magic is of course in the `bundle install` statement, where all gems from the [Gemfile](https://github.com/rubriks/r3pl4y/blob/master/Gemfile) will be installed, but apart from that, this small script contains everything that is needed for R3PL4Y to run.
 
 Now, all you have to do to build a complete production image is running the following command.
 
-    docker build -t replay-app .
+```shell
+docker build -t replay-app .
+```
 
 And after a while you have a new production environment image. With this you can start a container with the following command.
 
-    docker run --name replay-app -d replay-app
+```shell
+docker run --name replay-app -d replay-app
+```
 
 But there are some things missing, like a database.
 
@@ -85,23 +52,33 @@ Checkout the [postgres docker image at dockerhub](https://hub.docker.com/_/postg
 
 In order to build the database I started by download and install the official postgres docker image.
 
-    docker pull postgres
+```shell
+docker pull postgres
+```
 
 Then you need to create a container and boot it up.
 
-    docker run --name postgres -e POSTGRES_PASSWORD=<obfuscated> -d postgres
+```shell
+docker run --name postgres -e POSTGRES_PASSWORD=<obfuscated> -d postgres
+```
 
 Open up a psql database client to this database.
 
-    docker run -it --link postgres:postgres --rm zsoltm/postgresql-armhf sh -c 'exec psql -h "$POSTGRES_PORT_5432_TCP_ADDR" -p "$POSTGRES_PORT_5432_TCP_PORT" -U postgres'
+```shell
+docker run -it --link postgres:postgres --rm zsoltm/postgresql-armhf sh -c 'exec psql -h "$POSTGRES_PORT_5432_TCP_ADDR" -p "$POSTGRES_PORT_5432_TCP_PORT" -U postgres'
+```
 
 And then create a new database where we will restore the old production database.
 
-    # CREATE DATABASE r3pl4y_production;
+```sql
+CREATE DATABASE r3pl4y_production;
+```
 
 Then all that was left to do was to restore a database dump file that I had saved from the time R3PL4Y was situated at Heroku.
 
-    docker run -it --link postgres:postgres -v /tmp/db:/var/lib/postgresql/backup --rm postgres sh -c 'exec pg_restore --verbose --clean --no-acl --no-owner -h "$POSTGRES_PORT_5432_TCP_ADDR" -U postgres -d r3pl4y_production /var/lib/postgresql/backup/r3pl4y-201501270119.dump'
+```shell
+docker run -it --link postgres:postgres -v /tmp/db:/var/lib/postgresql/backup --rm postgres sh -c 'exec pg_restore --verbose --clean --no-acl --no-owner -h "$POSTGRES_PORT_5432_TCP_ADDR" -U postgres -d r3pl4y_production /var/lib/postgresql/backup/r3pl4y-201501270119.dump'
+```
 
 And in just a few moments the database was restored.
 
@@ -109,7 +86,9 @@ And in just a few moments the database was restored.
 
 In order to get the reolay-app container talk to the postgres container we need to link them together. This is simply done while starting the container.
 
-    docker run --name replay-app -p 80:3000 --link postgres -v /var/log/www:/var/www/log -d replay-app
+```shell
+docker run --name replay-app -p 80:3000 --link postgres -v /var/log/www:/var/www/log -d replay-app
+```
 
 I've added a few more arguments here
 
@@ -119,7 +98,9 @@ I've added a few more arguments here
 
 Now when the containers are linked, the R3PL4Y rails application can connect to the database with the following database connection string.
 
-    postgres://postgres:<obfuscated>@postgres:5432/r3pl4y_production
+```
+postgres://postgres:<obfuscated>@postgres:5432/r3pl4y_production
+```
 
 ## Setting up the Raspberry Pi 2
 
@@ -161,12 +142,11 @@ The RPi2 has a total of 1Gb RAM and here we can see that 74Mb are free, 206Mb bu
 
 If we take a look at `docker stats` it looks like this.
 
-<pre>
-CONTAINER           CPU %               MEM USAGE / LIMIT     MEM %               NET I/O               BLOCK I/O
-rails-app           0.05%               105.2 MB / 970.5 MB   10.84%              10.22 MB / 5.275 MB   11.76 MB / 892.9 kB
-postgres            0.00%               56 MB / 970.5 MB      5.77%               61.05 MB / 83.41 MB   4.911 MB / 513.5 MB
-rails-jobs          0.00%               74.03 MB / 970.5 MB   7.63%               5.003 MB / 5.007 MB   0 B / 0 B
-</pre>
+| CONTAINER          | CPU %              | MEM USAGE / LIMIT    | MEM %              | NET I/O              | BLOCK I/O           |
+| ------------------ | ------------------ | -------------------- | ------------------ | -------------------- | ------------------- |
+| rails-app          | 0.05%              | 105.2 MB / 970.5 MB  | 10.84%             | 10.22 MB / 5.275 MB  | 11.76 MB / 892.9 kB |
+| postgres           | 0.00%              | 56 MB / 970.5 MB     | 5.77%              | 61.05 MB / 83.41 MB  | 4.911 MB / 513.5 MB |
+| rails-jobs         | 0.00%              | 74.03 MB / 970.5 MB  | 7.63%              | 5.003 MB / 5.007 MB  | 0 B / 0 B           |
 
 The rails-app container is consuming most of the memory and the database is doing most of th I/O operations. This is expected. I also have a rails-jobs container that I've not talked about before which is responsible for doing async jobs, like e-mailing and doing social media api calls.
 

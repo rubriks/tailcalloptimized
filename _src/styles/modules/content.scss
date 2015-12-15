@@ -22,7 +22,10 @@
     }
 
     pre {
-        overflow-x: scroll;
+        @media (max-width: $screen-xs-max) {
+            overflow-x: scroll;
+        }
+
         font-family: Consolas,"Liberation Mono",Menlo,Courier,monospace;
         font-size: 12px;
         font-weight: 400;
