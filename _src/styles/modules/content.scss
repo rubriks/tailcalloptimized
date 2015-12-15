@@ -1,4 +1,8 @@
 .content {
+    overflow-x: hidden;
+    position: relative;
+    display: block;
+
     font-family: $font-family-serif;
 
     & > * {
@@ -34,6 +38,10 @@
     }
     
     table {
+        @media (max-width: $screen-xs-max) {
+            overflow-x: scroll;
+        }
+
         font-size: 17px;
 
         & > thead {
