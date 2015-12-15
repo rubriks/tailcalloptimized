@@ -1,7 +1,7 @@
 // fix overflow-x:scroll on mobile devices
 @media (max-width: $screen-xs-max) {
-    .content {
-        overflow: hidden;
+    html, body, .container {
+        overflow-x: hidden;
     }
 }
 
