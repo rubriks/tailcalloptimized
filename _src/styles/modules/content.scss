@@ -15,6 +15,11 @@
         cursor: pointer;
     }
 
+    a {
+        color: #E55EA2;
+        text-decoration: underline;
+    }
+
     blockquote {
         font-size: $font-size-base;
         font-style: italic;
