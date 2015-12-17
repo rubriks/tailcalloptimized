@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "How to UnitTest your WebControls rendered html"
 description:
 date: 2011-01-26 17:20:28

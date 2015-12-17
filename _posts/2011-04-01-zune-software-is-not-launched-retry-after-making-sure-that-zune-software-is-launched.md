@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Zune software is not launched. Retry after making sure that Zune software is launched"
 description:
 date: 2011-04-01 09:58:32

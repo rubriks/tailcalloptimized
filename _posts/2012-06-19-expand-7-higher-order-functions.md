@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Expand - 7 higher order functions"
 description:
 date: 2012-06-19 18:25:00

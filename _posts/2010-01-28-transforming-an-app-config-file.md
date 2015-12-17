@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Transforming an App.config file"
 description:
 date: 2010-01-28 22:12:42

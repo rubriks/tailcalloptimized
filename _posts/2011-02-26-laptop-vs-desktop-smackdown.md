@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Laptop vs. Desktop smackdown"
 description:
 date: 2011-02-26 11:27:41

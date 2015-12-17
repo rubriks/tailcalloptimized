@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "To test or not to test"
 description:
 date: 2011-01-31 07:12:51

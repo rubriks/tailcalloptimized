@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Write your own language"
 description:
 date: 2013-02-25 20:31:14

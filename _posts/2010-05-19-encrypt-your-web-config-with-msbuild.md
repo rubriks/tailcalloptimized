@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Encrypt your web.config with MSBuild"
 description:
 date: 2010-05-19 05:30:15

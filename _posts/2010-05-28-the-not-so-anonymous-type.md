@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "The not so anonymous type"
 description:
 date: 2010-05-28 05:44:40

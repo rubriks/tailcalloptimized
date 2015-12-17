@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Functional Patterns in C#: MapWhile"
 description:
 date: 2011-01-13 15:02:02

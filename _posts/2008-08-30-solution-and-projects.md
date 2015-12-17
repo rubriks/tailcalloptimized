@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Solution and Projects"
 description:
 date: 2008-08-30 20:55:34

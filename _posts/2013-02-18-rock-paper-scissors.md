@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Rock Paper Scissors"
 description:
 date: 2013-02-18 16:20:27

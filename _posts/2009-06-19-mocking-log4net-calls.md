@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Mocking log4net calls"
 description:
 date: 2009-06-19 18:39:41

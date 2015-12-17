@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Database versioning updated"
 description:
 date: 2011-12-03 11:30:13

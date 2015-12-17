@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Migrate blog from Wordpress to Orchard CMS"
 description:
 date: 2011-05-28 14:15:39

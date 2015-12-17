@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Real world functional programming"
 description:
 date: 2011-05-25 16:25:03

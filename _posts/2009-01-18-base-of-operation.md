@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Base of operation"
 description:
 date: 2009-01-18 11:27:12

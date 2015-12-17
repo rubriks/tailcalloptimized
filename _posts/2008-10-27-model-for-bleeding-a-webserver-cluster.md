@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Model for bleeding a webserver cluster"
 description:
 date: 2008-10-27 19:26:16

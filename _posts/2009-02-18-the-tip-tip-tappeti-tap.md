@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "The tip tip tappeti tap"
 description:
 date: 2009-02-18 19:35:18

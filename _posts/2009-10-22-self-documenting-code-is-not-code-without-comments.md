@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Self documenting code is not code without comments"
 description:
 date: 2009-10-22 19:32:50

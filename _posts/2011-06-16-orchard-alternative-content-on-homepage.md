@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Orchard: Alternative content on start page"
 description:
 date: 2011-06-16 15:04:15

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Authentication through OpenID"
 description:
 date: 2008-09-11 04:52:51

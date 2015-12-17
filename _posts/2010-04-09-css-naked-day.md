@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "CSS Naked Day"
 description:
 date: 2010-04-09 06:54:12

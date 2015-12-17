@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Measure your goals"
 description:
 date: 2011-01-04 18:22:28

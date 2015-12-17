@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Composite applications in WPF: Part 1 - Setting it up"
 description:
 date: 2012-11-28 19:30:12

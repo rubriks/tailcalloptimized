@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Failure of the dynamic keyword"
 description:
 date: 2011-12-18 10:44:39

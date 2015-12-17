@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "NDepend - Woohoo!"
 description:
 date: 2009-09-24 05:32:14

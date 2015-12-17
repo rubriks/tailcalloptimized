@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Your value in the consulting career"
 description:
 date: 2011-07-31 07:10:46

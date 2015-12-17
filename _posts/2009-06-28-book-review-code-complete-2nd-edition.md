@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Book review: Code Complete 2nd edition"
 description:
 date: 2009-06-28 19:26:18

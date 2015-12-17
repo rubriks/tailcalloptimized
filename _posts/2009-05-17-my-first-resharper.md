@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "My first Resharper"
 description:
 date: 2009-05-17 20:32:18

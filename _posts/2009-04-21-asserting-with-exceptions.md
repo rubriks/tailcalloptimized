@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Asserting with Exceptions"
 description:
 date: 2009-04-21 19:21:55

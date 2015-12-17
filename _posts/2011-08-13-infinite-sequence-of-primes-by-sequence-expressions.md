@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Infinite sequence of primes"
 description:
 date: 2011-08-13 16:39:16

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "StarCraft 2 crashes on Connect to Battle.net"
 description:
 date: 2010-08-28 06:26:41

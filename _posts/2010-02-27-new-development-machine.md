@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "New development machine"
 description:
 date: 2010-02-27 20:58:19

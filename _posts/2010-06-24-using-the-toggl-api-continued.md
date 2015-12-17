@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Using the Toggl API continued..."
 description:
 date: 2010-06-24 04:35:15

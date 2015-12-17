@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Map - 7 higher order functions"
 description:
 date: 2012-06-03 10:27:00

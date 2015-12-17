@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Coverage is a broken metric"
 description:
 date: 2011-10-29 13:49:10

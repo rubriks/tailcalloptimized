@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "There are too many active security negotiations or secure conversations at the service."
 description:
 date: 2010-11-16 18:06:41

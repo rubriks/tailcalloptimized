@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "[*Star]Cop at your service"
 description:
 date: 2009-02-10 17:22:00

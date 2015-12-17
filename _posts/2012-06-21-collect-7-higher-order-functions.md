@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Collect - 7 higher order functions"
 description:
 date: 2012-06-21 17:36:00

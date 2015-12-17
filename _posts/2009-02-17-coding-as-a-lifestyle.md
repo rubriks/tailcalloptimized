@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Coding as a lifestyle"
 description:
 date: 2009-02-17 18:08:46

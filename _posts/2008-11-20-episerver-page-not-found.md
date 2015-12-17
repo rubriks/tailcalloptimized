@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "EPiServer: Page Not Found!"
 description:
 date: 2008-11-20 20:21:46

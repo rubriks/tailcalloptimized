@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Dealing with dependencies in functional programming"
 description:
 date: 2011-06-15 05:46:49

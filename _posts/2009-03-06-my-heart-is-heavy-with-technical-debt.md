@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "My heart is heavy with technical debt"
 description:
 date: 2009-03-06 18:35:40

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Forwarding events in C#"
 description:
 date: 2011-04-07 06:11:24

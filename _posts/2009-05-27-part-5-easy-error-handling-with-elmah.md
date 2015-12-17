@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Part 5: Easy error handling with ELMAH"
 description:
 date: 2009-05-27 22:00:23

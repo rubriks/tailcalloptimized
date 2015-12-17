@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Don't be afraid of change"
 description:
 date: 2009-05-12 20:40:12

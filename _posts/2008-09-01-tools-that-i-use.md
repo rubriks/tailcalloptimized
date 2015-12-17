@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Tools that I use"
 description:
 date: 2008-09-01 20:41:23

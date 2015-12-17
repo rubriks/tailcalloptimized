@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Database change management"
 description:
 date: 2010-01-24 21:50:26

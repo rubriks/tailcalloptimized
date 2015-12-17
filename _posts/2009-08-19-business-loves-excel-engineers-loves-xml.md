@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Business loves Excel, Engineers loves XML"
 description:
 date: 2009-08-19 05:42:59

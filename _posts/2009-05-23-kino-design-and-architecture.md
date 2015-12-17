@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Part 1: Design and architecture"
 description:
 date: 2009-05-23 22:00:21

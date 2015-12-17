@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Certificates - the why, what and the missing how"
 description:
 date: 2009-06-03 15:38:59

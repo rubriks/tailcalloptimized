@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "N2 CMS vs. EPiServer CMS"
 description:
 date: 2010-02-22 20:11:24

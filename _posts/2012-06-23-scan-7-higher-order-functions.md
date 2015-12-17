@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Scan - 7 higher order functions"
 description:
 date: 2012-06-23 09:47:30

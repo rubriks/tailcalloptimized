@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Option type implementation in C#"
 description:
 date: 2011-04-08 05:50:35

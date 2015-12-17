@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Partition - 7 higher order functions"
 description:
 date: 2012-06-10 12:20:00

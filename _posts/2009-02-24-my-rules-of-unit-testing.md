@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "My rules of unit testing"
 description:
 date: 2009-02-24 06:32:14

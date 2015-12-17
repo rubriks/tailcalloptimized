@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Micro domains are everywhere"
 description:
 date: 2009-04-17 15:35:09

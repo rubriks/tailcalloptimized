@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Code conventions: Underscore on private fields"
 description:
 date: 2009-05-04 05:27:37

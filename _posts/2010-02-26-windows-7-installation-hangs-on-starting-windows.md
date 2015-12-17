@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Windows 7 installation hangs on Starting Windows"
 description:
 date: 2010-02-26 20:33:30

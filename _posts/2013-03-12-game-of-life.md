@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Game of Life"
 description:
 date: 2013-03-12 17:39:37

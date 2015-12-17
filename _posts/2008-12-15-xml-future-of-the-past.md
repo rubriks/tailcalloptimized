@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Xml, future of the past"
 description:
 date: 2008-12-15 15:20:53

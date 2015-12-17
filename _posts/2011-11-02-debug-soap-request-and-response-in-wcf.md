@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Debug SOAP request and response in WCF"
 description:
 date: 2011-11-02 11:11:42

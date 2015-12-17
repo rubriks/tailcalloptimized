@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Unit testing to find bugs"
 description:
 date: 2009-09-20 08:20:21

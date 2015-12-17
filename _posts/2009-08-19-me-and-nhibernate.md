@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Me and NHibernate"
 description:
 date: 2009-08-19 20:01:28

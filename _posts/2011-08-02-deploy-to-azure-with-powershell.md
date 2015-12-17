@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Deploy to Azure with Powershell"
 description:
 date: 2011-08-02 10:00:04

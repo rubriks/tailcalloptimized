@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "WCF: The connection was closed unexpectedly"
 description:
 date: 2010-01-20 17:01:23

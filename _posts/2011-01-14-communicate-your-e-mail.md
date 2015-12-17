@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Communicate your e-mail"
 description:
 date: 2011-01-14 06:49:56

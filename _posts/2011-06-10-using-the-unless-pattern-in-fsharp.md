@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Using the unless pattern in F#"
 description:
 date: 2011-06-10 10:01:32

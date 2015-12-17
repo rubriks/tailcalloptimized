@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Moving your users from Wordpress to new blog"
 description:
 date: 2011-06-02 07:53:07

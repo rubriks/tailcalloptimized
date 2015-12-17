@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Deploy Orchard CMS to Azure"
 description:
 date: 2011-05-01 10:52:23

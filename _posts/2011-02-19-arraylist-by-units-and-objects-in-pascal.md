@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "ArrayList by units and objects in Pascal"
 description:
 date: 2011-02-19 11:54:21

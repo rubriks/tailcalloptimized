@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Mocking with Rhino Mocks 3.5"
 description:
 date: 2008-12-06 15:50:29

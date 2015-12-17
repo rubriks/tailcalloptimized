@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Back on Azure"
 description:
 date: 2013-06-10 04:57:38

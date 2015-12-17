@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "The value of attributes"
 description:
 date: 2009-02-20 17:26:09

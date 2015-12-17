@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Reduce - 7 higher order functions"
 description:
 date: 2012-06-16 10:24:00

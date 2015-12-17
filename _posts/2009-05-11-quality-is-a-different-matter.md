@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Quality is a different matter"
 description:
 date: 2009-05-11 05:29:43

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Using TDD to test file system operations"
 description:
 date: 2011-10-27 05:54:35

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "56 useless buttons in your IDE"
 description:
 date: 2011-03-23 08:33:10

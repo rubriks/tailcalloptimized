@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Application logging for F#"
 description:
 date: 2011-12-02 05:38:35

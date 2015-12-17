@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Project Euler #016"
 description:
 date: 2010-08-20 15:15:34

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Dynamic user control list"
 description:
 date: 2009-09-20 10:49:47

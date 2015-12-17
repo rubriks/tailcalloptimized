@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Testdriven development with JavaScript and QUnit"
 description:
 date: 2010-02-07 10:10:54

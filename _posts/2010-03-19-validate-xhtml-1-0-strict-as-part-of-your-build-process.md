@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Validate XHtml 1.0 Strict as part of your build process"
 description:
 date: 2010-03-19 11:00:43

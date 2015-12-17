@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Sharpen Your Saw"
 description:
 date: 2012-11-12 19:46:16

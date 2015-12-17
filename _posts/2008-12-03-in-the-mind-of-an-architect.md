@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "In the mind of an architect"
 description:
 date: 2008-12-03 20:54:40

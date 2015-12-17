@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Unit test XSL transformations"
 description:
 date: 2009-02-22 17:19:16

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "EPiServer days 2009"
 description:
 date: 2009-03-10 13:27:38

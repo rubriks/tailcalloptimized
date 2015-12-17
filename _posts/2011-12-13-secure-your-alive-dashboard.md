@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Secure your Alive Dashboard"
 description:
 date: 2011-12-13 06:34:55

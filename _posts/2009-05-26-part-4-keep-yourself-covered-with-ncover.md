@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Part 4: Keep yourself covered with NCover"
 description:
 date: 2009-05-26 22:00:13

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "The co-worker's challenge"
 description:
 date: 2010-08-13 17:39:43

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Create your own custom NUnit build activity for Team Build 2010"
 description:
 date: 2011-01-22 19:10:31

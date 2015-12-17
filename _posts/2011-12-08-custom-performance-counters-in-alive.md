@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Custom Performance Counters in Alive"
 description:
 date: 2011-12-08 16:41:04

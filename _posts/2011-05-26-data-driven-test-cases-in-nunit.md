@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Data driven test cases in NUnit"
 description:
 date: 2011-05-26 05:12:41

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Unit testing in F#"
 description:
 date: 2013-03-11 05:23:47

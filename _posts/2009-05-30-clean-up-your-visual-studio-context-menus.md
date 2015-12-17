@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Clean up your Visual Studio Context Menus"
 description:
 date: 2009-05-30 22:00:48

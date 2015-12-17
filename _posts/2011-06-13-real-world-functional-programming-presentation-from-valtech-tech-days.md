@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Presentation from Valtech TECH Days"
 description:
 date: 2011-06-13 09:28:07

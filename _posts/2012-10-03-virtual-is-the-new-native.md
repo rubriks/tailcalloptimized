@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Virtual is the new native"
 description:
 date: 2012-10-03 04:14:15

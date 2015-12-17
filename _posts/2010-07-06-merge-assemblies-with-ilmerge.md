@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Merge assemblies with ILMerge"
 description:
 date: 2010-07-06 09:51:22

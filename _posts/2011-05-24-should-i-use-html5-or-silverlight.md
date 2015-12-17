@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Should I use HTML5 or Silverlight?"
 description:
 date: 2011-05-24 06:28:55

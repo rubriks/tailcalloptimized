@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "ASP.NET UserControl inside Thickbox"
 description:
 date: 2009-08-04 03:58:58

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "The 501 developer"
 description:
 date: 2009-05-05 06:00:54

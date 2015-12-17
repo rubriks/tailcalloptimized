@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Keep supporting IE6"
 description:
 date: 2009-03-07 08:03:14

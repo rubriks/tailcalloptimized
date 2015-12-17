@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Debugging large datasets"
 description:
 date: 2011-02-03 07:40:47

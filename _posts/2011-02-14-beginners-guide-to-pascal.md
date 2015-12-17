@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Beginners guide to Pascal"
 description:
 date: 2011-02-14 05:15:58

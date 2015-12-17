@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Virtual Path Provider"
 description:
 date: 2008-08-30 14:43:25

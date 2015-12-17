@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Samsung Omnia 7 - Windows Phone 7 Review"
 description:
 date: 2011-04-02 08:26:22

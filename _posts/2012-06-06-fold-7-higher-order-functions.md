@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Fold - 7 higher order functions"
 description:
 date: 2012-06-06 11:45:00

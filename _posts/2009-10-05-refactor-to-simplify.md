@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Refactor to simplify"
 description:
 date: 2009-10-05 16:10:35

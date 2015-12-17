@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Is it secret? Is it safe?"
 description:
 date: 2009-02-19 06:22:22

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Conditional compilation"
 description:
 date: 2009-02-27 06:15:49

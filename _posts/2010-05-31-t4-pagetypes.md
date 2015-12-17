@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "EPiServer CMS PageTypes T4-template"
 description:
 date: 2010-05-31 19:05:47

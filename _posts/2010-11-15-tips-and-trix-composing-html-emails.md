@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Tips and trix composing HTML emails"
 description:
 date: 2010-11-15 20:58:20

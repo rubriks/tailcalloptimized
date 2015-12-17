@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Hand rolling your datalayer"
 description:
 date: 2010-03-16 19:35:33

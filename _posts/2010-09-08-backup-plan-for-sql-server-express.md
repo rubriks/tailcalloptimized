@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Backup plan for SQL Server Express"
 description:
 date: 2010-09-08 04:59:24

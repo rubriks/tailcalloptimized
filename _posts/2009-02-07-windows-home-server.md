@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Windows Home Server"
 description:
 date: 2009-02-07 07:17:00

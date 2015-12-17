@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Data Annotations"
 description:
 date: 2009-11-07 11:57:49

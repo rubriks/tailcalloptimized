@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Part 3: Structured unit testing"
 description:
 date: 2009-05-25 22:00:47

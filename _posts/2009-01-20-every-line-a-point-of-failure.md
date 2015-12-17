@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Every line, a point of failure"
 description:
 date: 2009-01-20 06:14:58

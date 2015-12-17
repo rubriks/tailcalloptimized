@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "EPiServer CMS 5 Certified Developer"
 description:
 date: 2008-11-29 09:50:51

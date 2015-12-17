@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "NUnit for .NET Framework 4"
 description:
 date: 2010-11-04 21:02:31

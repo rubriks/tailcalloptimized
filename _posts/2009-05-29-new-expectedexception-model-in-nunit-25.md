@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "New ExpectedException model in NUnit 2.5"
 description:
 date: 2009-05-29 22:00:07

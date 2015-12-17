@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Method or Property"
 description:
 date: 2009-01-24 09:04:34

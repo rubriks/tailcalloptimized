@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Mocking out and ref parameters with Rhino Mocks"
 description:
 date: 2010-10-14 20:29:19

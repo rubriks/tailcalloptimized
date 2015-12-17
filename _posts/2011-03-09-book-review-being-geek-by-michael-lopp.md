@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Book review: Being Geek by Michael Lopp"
 description:
 date: 2011-03-09 08:10:56

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Introducing Alive"
 description:
 date: 2011-11-28 16:22:30

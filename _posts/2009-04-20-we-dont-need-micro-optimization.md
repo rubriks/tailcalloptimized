@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "We don't need micro-optimization!"
 description:
 date: 2009-04-20 15:31:08

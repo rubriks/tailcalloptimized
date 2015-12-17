@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Move your user profile to other drive"
 description:
 date: 2011-05-15 05:32:28

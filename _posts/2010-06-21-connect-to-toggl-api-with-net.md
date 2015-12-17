@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Connect to Toggl API with .NET"
 description:
 date: 2010-06-21 20:04:17

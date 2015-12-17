@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Unit Testing - What to test"
 description:
 date: 2009-08-24 19:16:23

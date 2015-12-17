@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "My history of computing"
 description:
 date: 2009-06-07 06:27:19

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Discovering JavaScript Patterns"
 description:
 date: 2011-04-22 10:42:09

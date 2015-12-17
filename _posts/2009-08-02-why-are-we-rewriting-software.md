@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Why are we rewriting software?"
 description:
 date: 2009-08-02 06:34:19

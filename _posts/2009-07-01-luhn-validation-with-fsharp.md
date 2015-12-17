@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "LUHN validation with F#"
 description:
 date: 2009-07-01 10:29:27

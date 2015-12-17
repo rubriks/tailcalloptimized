@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Split a string on whole words"
 description:
 date: 2010-06-19 09:59:12

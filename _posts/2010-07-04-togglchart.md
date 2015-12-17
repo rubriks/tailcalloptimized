@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "TogglChart"
 description:
 date: 2010-07-04 15:40:00

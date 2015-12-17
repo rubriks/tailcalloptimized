@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Alive demo"
 description:
 date: 2011-12-08 06:21:16

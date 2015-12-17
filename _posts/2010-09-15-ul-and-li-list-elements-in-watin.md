@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "UL and LI list elements in WatiN"
 description:
 date: 2010-09-15 18:20:38

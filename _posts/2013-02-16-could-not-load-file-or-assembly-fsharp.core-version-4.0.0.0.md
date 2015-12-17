@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Could not load file or assembly FSharp.Core, Version=4.0.0.0"
 description:
 date: 2013-02-16 05:58:00

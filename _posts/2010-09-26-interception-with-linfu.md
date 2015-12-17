@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Interception with LinFu"
 description:
 date: 2010-09-26 15:03:08

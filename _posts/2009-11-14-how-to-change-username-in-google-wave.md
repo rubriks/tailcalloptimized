@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "How to change username in Google Wave"
 description:
 date: 2009-11-14 14:18:18

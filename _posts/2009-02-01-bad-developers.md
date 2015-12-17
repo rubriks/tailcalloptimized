@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Bad developers"
 description:
 date: 2009-02-01 07:50:10

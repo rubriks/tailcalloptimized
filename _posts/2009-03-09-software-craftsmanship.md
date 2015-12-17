@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Software Craftsmanship"
 description:
 date: 2009-03-09 06:26:07

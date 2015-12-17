@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Integrating with Team System Build"
 description:
 date: 2013-02-08 07:00:16

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Outsource your caching with memcached"
 description:
 date: 2010-08-31 16:19:56

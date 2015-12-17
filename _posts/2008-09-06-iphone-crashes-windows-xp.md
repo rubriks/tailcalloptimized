@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "IPhone crashes Windows XP"
 description:
 date: 2008-09-06 15:43:26

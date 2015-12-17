@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Run your unit tests on the web"
 description:
 date: 2009-03-24 07:08:32

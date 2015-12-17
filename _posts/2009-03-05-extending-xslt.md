@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Extending XSLT"
 description:
 date: 2009-03-05 06:47:21

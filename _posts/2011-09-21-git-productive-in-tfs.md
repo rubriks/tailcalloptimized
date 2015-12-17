@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Git productive in TFS"
 description:
 date: 2011-09-21 06:46:58

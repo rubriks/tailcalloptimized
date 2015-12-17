@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Email is dead"
 description:
 date: 2011-01-07 17:00:55

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "When and how you should do acceptance testing"
 description:
 date: 2011-06-09 12:07:49

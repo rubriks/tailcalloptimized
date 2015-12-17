@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "The difference between member methods and extension methods"
 description:
 date: 2009-05-28 22:00:07

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Talking about ASP.NET MVC and Code Contracts"
 description:
 date: 2010-05-06 07:10:08

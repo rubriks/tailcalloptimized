@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Where do you want to goto today?"
 description:
 date: 2009-03-02 17:06:46

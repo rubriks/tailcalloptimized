@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "The gyroball code challenge"
 description:
 date: 2010-08-31 22:00:15

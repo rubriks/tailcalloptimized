@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Kino, Visual Web Developer Express Edition"
 description:
 date: 2009-05-28 20:34:01

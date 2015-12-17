@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Purpose of constructors"
 description:
 date: 2008-12-20 07:48:39

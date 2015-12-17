@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "HOWTO: Ringtones for your IPhone"
 description:
 date: 2008-09-07 06:47:20

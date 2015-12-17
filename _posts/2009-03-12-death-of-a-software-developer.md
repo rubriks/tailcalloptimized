@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Death of a software developer"
 description:
 date: 2009-03-12 17:19:09

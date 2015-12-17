@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Assert That!"
 description:
 date: 2008-08-31 15:37:14

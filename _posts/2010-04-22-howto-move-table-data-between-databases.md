@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Howto: Move table data between databases"
 description:
 date: 2010-04-22 15:33:41

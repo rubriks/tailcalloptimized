@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "They are all routines"
 description:
 date: 2009-04-27 05:33:19

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "NCover 3 - Review"
 description:
 date: 2009-06-14 15:39:20

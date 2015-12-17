@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "UTF8 encoding and Excel CSV"
 description:
 date: 2011-04-20 15:24:13

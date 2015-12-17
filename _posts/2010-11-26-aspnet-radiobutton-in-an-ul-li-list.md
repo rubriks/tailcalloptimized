@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "ASP.NET RadioButtons in an UL/LI list"
 description:
 date: 2010-11-26 18:23:00

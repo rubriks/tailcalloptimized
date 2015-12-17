@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Part 2: Dependency injection with Unity and XML configuration"
 description:
 date: 2009-05-24 22:00:30

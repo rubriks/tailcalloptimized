@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "jQuery/Thickbox + Prototype/Scriptaculous = ?"
 description:
 date: 2009-03-17 06:19:54

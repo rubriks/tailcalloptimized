@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Immutable Thesaurus"
 description:
 date: 2013-02-07 05:55:00

@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Citerus programming challenge"
 description:
 date: 2011-02-16 20:26:31

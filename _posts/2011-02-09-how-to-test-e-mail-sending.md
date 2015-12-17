@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "How to test e-mail sending"
 description:
 date: 2011-02-09 06:45:01

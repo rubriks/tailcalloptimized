@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "StarCraft II requires a patch. Would you like to download and install the patch now?"
 description:
 date: 2010-08-28 05:24:16

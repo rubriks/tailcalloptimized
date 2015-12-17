@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Extending types in F#"
 description:
 date: 2011-07-25 05:08:43

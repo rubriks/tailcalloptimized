@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Generate machine keys with F#"
 description:
 date: 2010-12-08 06:11:40

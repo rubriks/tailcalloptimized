@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Certified Scrum Master"
 description:
 date: 2010-01-14 21:13:30

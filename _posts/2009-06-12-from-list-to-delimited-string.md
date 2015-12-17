@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "From list to delimited string"
 description:
 date: 2009-06-12 05:28:30

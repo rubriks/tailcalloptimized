@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Dependency Injection in ASP.NET WebForms"
 description:
 date: 2011-08-24 12:46:43

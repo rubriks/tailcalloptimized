@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Untestable code"
 description:
 date: 2008-11-16 08:14:38

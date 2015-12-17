@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "CruiseControl with NAnt"
 description:
 date: 2009-02-16 21:21:39

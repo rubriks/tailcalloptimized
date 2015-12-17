@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Crash course in regular expressions"
 description:
 date: 2011-02-12 12:00:17

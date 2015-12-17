@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Kino - Everything to RSS"
 description:
 date: 2009-05-22 22:00:35

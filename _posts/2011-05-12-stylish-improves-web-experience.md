@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Stylish improves web experience"
 description:
 date: 2011-05-12 17:00:34

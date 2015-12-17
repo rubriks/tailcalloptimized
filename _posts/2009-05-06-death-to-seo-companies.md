@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "This recession will claim death to SEO companies"
 description:
 date: 2009-05-06 05:31:31

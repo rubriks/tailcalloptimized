@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Performance in C# recursion vs. F#"
 description:
 date: 2010-11-28 10:50:31

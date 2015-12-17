@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "There were build errors. Would you like to continue and run the last successful build?"
 description:
 date: 2011-11-03 16:58:22

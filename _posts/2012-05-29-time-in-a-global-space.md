@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Time in a global space"
 description:
 date: 2012-05-29 09:20:00

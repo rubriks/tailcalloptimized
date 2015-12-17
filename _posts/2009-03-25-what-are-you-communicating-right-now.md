@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "What are you communicating right now?"
 description:
 date: 2009-03-25 17:44:44

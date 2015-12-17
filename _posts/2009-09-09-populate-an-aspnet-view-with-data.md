@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Populate an ASP.NET view with data"
 description:
 date: 2009-09-09 20:26:44

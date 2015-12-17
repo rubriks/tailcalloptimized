@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "TFS Weirdness"
 description:
 date: 2009-09-03 20:12:37

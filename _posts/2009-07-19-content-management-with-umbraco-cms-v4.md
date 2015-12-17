@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Content Management with Umbraco CMS v4"
 description:
 date: 2009-07-19 18:14:38

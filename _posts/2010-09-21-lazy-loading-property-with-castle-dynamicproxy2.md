@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Lazy loading property with Castle.DynamicProxy2"
 description:
 date: 2010-09-21 06:02:04

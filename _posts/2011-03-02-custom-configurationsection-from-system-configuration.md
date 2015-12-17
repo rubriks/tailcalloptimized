@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Custom ConfigurationSection from System.Configuration"
 description:
 date: 2011-03-02 16:21:17

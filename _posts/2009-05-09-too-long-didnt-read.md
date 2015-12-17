@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "Too long, didn't read"
 description:
 date: 2009-05-09 07:28:39

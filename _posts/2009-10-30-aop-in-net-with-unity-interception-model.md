@@ -1,5 +1,5 @@
 ---
-layout: migratedpost
+layout: post
 title: "AOP in .NET with Unity Interception Model"
 description:
 date: 2009-10-30 06:39:57
