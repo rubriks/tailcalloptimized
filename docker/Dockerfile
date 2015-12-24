@@ -6,7 +6,7 @@ MAINTAINER Mikael Lundin <hello@mikaellundin.name>
 RUN apt-get update && apt-get install -y git ruby ruby-dev gem nodejs npm
 
 # Install jekyll and redcarpet
-RUN gem install jekyll redcarpet --no-ri --nordoc
+RUN gem install jekyll redcarpet --no-ri --no-rdoc
 
 # Make sure that nodejs is found
 RUN ln -s /usr/bin/nodejs /usr/bin/node

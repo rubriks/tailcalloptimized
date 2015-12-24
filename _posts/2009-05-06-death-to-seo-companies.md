@@ -12,10 +12,11 @@ I predict the financial crisis to hit hard on SEO companies all around the world
 Those were harsh words! Did I really claim that SEO does not pay off, that it does not improve traffic to websites? Please, let me elaborate.
 
 The idea behind SEO is twofold.
-<ol>
- <li>Make your content as accessible as possible for the search engine.</li>
- <li>Modify your content to fit common search queries and to make it search engine friendly.</li>
-</ol>
+
+1. Make your content as accessible as possible for the search engine.</li>
+
+2. Modify your content to fit common search queries and to make it search engine friendly.</li>
+
 It is my job as a developer to make your content as accessible as possible. This means that I will produce semantic HTML to make it easier for the search engines to index your content. This is my job and this is what I'm trained to do.
 
 Writing content that fits common search queries does not require a rocket scientist. This is something that any web editor should learn to do, and focus upon in every piece of content that is put on the web.
@@ -32,17 +33,18 @@ It did not take long until the SEO rules would become quite known in the develop
 
 So what do these SEO companies bring us?
 
-Most often these companies get included in some of the development that we do. They are responsible to analyze the code and the content to build a report that they will deliver to us. We take a look at the report, make some minor adjustments to shut them up, and report to our client that <em>the site is now optimized</em><em>!</em>
+Most often these companies get included in some of the development that we do. They are responsible to analyze the code and the content to build a report that they will deliver to us. We take a look at the report, make some minor adjustments to shut them up, and report to our client that _the site is now optimized!_
 
-When I say minor adjustments, I mean that the site is mostly 95% optimized after we built it, because you can't really make everything perfect and you will find flaws in anything if you look really hard. But how much do the SEO report improve the page rank of the site? In most cases: <em>nada</em>.
+When I say minor adjustments, I mean that the site is mostly 95% optimized after we built it, because you can't really make everything perfect and you will find flaws in anything if you look really hard. But how much do the SEO report improve the page rank of the site? In most cases: _nada_.
 
 Do you believe that these SEO companies have 200 information experts? No, they do have 200 kids fresh out of college that can apply SEO Template A1 to your website, manage Google Adwords and write reports on glossy paper. This is what they're selling, and the reason they are able to make money on it is because of the until recently fresh economy, and the hype built up around it. (much like Flash a couple of years back)
 
 What will happen now when your clients needs to save money, but can't afford to let their IT out of funds? They will ask us if this SEO crap really gives them anything, and we will say: "You're already on top of the search results in these search queries. What do you really want to accomplish here?"
 
 Tips to clients
-<ul>
- <li>Ask <strong>us</strong> to analyze the website and tell you how SEO could be improved and what effects it should have on visitor statistics. We know the technical aspect of the site, and can weight the effort to the result so you will make a better judgment if its really enough bang for your buck.</li>
- <li>Instead of having some independent consultant analyze the content, educate your web editors to write optimized content, based on common search engine queries. It is not only cheaper, but will render a more consistent result.</li>
-</ul>
-<address>Real information experts can do wonderful things with your information structure, navigation and how your message should be recieved. That is not what I'm fighting here. What I address are SEO companies with SEO experts that know nothing more about SEO than any common developer that has no intent of calling himself expert in any sense.</address>
+
+* Ask **us** to analyze the website and tell you how SEO could be improved and what effects it should have on visitor statistics. We know the technical aspect of the site, and can weight the effort to the result so you will make a better judgment if its really enough bang for your buck.
+
+* Instead of having some independent consultant analyze the content, educate your web editors to write optimized content, based on common search engine queries. It is not only cheaper, but will render a more consistent result.
+
+Real information experts can do wonderful things with your information structure, navigation and how your message should be recieved. That is not what I'm fighting here. What I address are SEO companies with SEO experts that know nothing more about SEO than any common developer that has no intent of calling himself expert in any sense.
