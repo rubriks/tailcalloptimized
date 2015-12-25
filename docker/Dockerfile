@@ -6,7 +6,8 @@ MAINTAINER Mikael Lundin <hello@mikaellundin.name>
 RUN apt-get update && apt-get install -y git nodejs npm git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
 
 # install ruby 2
-RUN apt-get install curl -L https://get.rvm.io | bash -s stable
+RUN gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+RUN curl -L https://get.rvm.io | bash -s stable
 RUN source ~/.rvm/scripts/rvm
 RUN rvm install 2.2.3
 RUN rvm use 2.2.3 --default
