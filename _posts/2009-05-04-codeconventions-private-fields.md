@@ -15,7 +15,7 @@ Why would you **not** put underscore on private fields in a class?
 
 * Because you already state in the declaration of the field that it is private. The underscore is duplicating that purpose. It would be the same (in a horrifying and extreme kind of way) as
 
-    ```chsarp
+    ```csharp
     private static MySingleton privateStaticFieldInstance;
     ```
  
