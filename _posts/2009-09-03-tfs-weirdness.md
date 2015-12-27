@@ -7,4 +7,6 @@ assets: assets/posts/2009-09-03-tfs-weirdness
 image: 
 ---
 
-<p>Please tell me how this is wired up!  <a href="http://mint.litemedia.se/wp-content/uploads/howisthiswiredup.png"><img class="alignleft size-full wp-image-519" title="howisthiswiredup" src="http://litemedia.info/media/Default/Mint/howisthiswiredup.png" alt="howisthiswiredup" style="width: 95%;" /></a></p>
+Please tell me how this is wired up!
+
+![Team Foundation Error Windows Live Messenger is not running](/assets/posts/2009-09-03-tfs-weirdness/howisthiswiredup.png)
