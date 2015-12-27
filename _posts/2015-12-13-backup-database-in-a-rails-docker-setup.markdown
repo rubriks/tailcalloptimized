@@ -51,7 +51,7 @@ This script dumps the database, removes old backups and then pushes to S3 bucket
 
 Next is the scheduling which is done with cron by dumping the following script into `/etc/cron.d/`
 
-```shell
+```bash
 0 3 * * * root /backup-replay-database.sh >> /var/log/cron/backup-replay-database.log 2>&1
 ```
 
@@ -61,7 +61,7 @@ Every night 3am, root will run the script `backup-replay-database.sh` and append
 
 All that remains is to start up the container.
 
-```shell
+```bash
 docker run --name replay-backup -v /var/log/cron:/var/log/cron --link postgres -d replay-backup
 ```
 

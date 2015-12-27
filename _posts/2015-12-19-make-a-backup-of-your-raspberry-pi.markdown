@@ -14,7 +14,7 @@ Here's how to make a backup of the SD card of a Raspberry Pi.
 
 1. Make a clean shutdown of your Raspberry Pi.
 
-    ```shell
+    ```bash
     sudo /sbin/shutdown -h now
     ```
 
@@ -22,13 +22,13 @@ Here's how to make a backup of the SD card of a Raspberry Pi.
 
 3. List the partitions on your system.
 
-    ```shell
+    ```bash
     diskutil list
     ```
 
 4. Find the mounted partitions and unmount them. (can't use the Eject functionality from Finder)
 
-    ```shell
+    ```bash
     diskutil unmount /dev/disk<X>s<Y>
     ```
 
@@ -36,13 +36,13 @@ _* Where <X> is drive number and <Y> is partition._
 
 5. When all partitions are unmounted _(mind you, not ejected)_ run the following command to read the SD card and write it to disc.
 
-    ```shell
+    ```bash
     sudo dd bs=4m if=/dev/disk<X> | gzip > ~/backup.img.gz
     ```
 
 6. After you're done you may eject the SD card with the following command.
 
-    ```shell
+    ```bash
     diskutil eject /dev/disk<X>
     ```
 
