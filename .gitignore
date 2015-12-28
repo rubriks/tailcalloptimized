@@ -5,3 +5,4 @@ bower_components
 node_modules
 s3_website.yml
 _site
+dist
