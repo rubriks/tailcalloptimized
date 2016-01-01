@@ -7,8 +7,10 @@ assets: assets/posts/2010-08-21-project-euler-018
 image: 
 ---
 
-<p>By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23.  <strong>3</strong> <strong>7</strong> 4 2 <strong>4</strong> 6 8 5 <strong>9</strong> 3  That is, 3 + 7 + 4 + 9 = 23.  Find the maximum total from top to bottom of the triangle below</p>
-<pre class="brush:fsharp">type BinaryTree =
+By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23. *3 7* 4 2 *4* 6 8 5 *9* 3  That is, 3 + 7 + 4 + 9 = 23.  Find the maximum total from top to bottom of the triangle below
+
+```fsharp
+type BinaryTree =
     | Node of int * BinaryTree * BinaryTree
     | Empty
 
@@ -43,4 +45,5 @@ let rec data_tree (data : string list) row i =
     | 15 -> Empty
     | _ -> Node ((data_row row).[i], data_tree data (row + 1) i, data_tree data (row + 1) (i + 1))
 
-data_tree s_data 0 0 |> calculate;;</pre>
+data_tree s_data 0 0 |> calculate;;
+```
