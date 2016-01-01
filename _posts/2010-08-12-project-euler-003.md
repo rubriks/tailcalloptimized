@@ -9,7 +9,7 @@ image:
 
 The prime factors of 13195 are 5, 7, 13 and 29.  What is the largest prime factor of the number 600851475143 ?
 
-```
+```fsharp
 let sqrt_int(x:int64) = x |> float |> sqrt |> int64 
 let rec factor (n:int64) = 
     let max = sqrt_int n
