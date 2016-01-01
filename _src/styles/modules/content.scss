@@ -25,6 +25,11 @@
         font-style: italic;
     }
 
+    sup {
+        font-size: smaller;
+        vertical-align: super;
+    }
+
     .published {
         font-size: $font-size-small;
         color: $gray;
