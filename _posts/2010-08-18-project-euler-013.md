@@ -7,9 +7,12 @@ assets: assets/posts/2010-08-18-project-euler-013
 image: 
 ---
 
-<div id="_mcePaste">Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.</div>
-<p>37107287533902102798797998220837590246510135740250 46376937677490009712648124896970078050417018260538 ...</p>
-<pre class="brush:fsharp">let data = [
+Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+
+37107287533902102798797998220837590246510135740250 46376937677490009712648124896970078050417018260538 ...
+
+```fsharp
+let data = [
     "37107287533902102798797998220837590246510135740250";
     "46376937677490009712648124896970078050417018260538";
     "74324986199524741059474233309513058123726617309629";
@@ -114,4 +117,5 @@ image:
 
 
 let sum = data |> List.map (fun s -> System.Int64.Parse(s.Substring(0, 15))) |> List.sum
-(sum |> string).Substring(0, 10)</pre>
+(sum |> string).Substring(0, 10)
+```
