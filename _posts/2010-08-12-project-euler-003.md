@@ -7,8 +7,10 @@ assets: assets/posts/2010-08-12-project-euler-003
 image: 
 ---
 
-<p>The prime factors of 13195 are 5, 7, 13 and 29.  What is the largest prime factor of the number 600851475143 ?</p>
-<pre class="brush:fsharp">let sqrt_int(x:int64) = x |> float |> sqrt |> int64 
+The prime factors of 13195 are 5, 7, 13 and 29.  What is the largest prime factor of the number 600851475143 ?
+
+```
+let sqrt_int(x:int64) = x |> float |> sqrt |> int64 
 let rec factor (n:int64) = 
     let max = sqrt_int n
     [1L..max] |> 
@@ -22,4 +24,5 @@ let rec factor (n:int64) =
         |> List.max 
         |> int
 
-factor 600851475143L</pre>
+factor 600851475143L
+```
