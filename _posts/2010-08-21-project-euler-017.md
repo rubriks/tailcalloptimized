@@ -7,8 +7,10 @@ assets: assets/posts/2010-08-21-project-euler-017
 image: 
 ---
 
-<p>If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.  If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?</p>
-<pre class="brush:fsharp">let dictionary = 
+If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.  If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
+
+```fsharp
+let dictionary = 
     [
     (1000, "one thousand"); 
     (90, "ninety");
@@ -57,4 +59,5 @@ let rec translate (n:int) : string =
         else
             (translate (part n)) + (translate (n - (part n)))
             
-(List.fold (fun acc n -> acc + translate n) "" [1..1000]).Replace(" ", System.String.Empty).Length</pre>
+(List.fold (fun acc n -> acc + translate n) "" [1..1000]).Replace(" ", System.String.Empty).Length
+```
