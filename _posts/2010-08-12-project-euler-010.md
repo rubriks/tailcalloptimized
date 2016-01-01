@@ -7,8 +7,10 @@ assets: assets/posts/2010-08-12-project-euler-010
 image: 
 ---
 
-<p>The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.  Find the sum of all the primes below two million.</p>
-<pre class="brush:fsharp">let rec sum_primes top (primes:list<int>) : int64 =
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.  Find the sum of all the primes below two million.
+
+```fsharp
+let rec sum_primes top (primes:list<int>) : int64 =
     let root = top |> float |> sqrt |> int
 
     if (primes.Head < root) then
@@ -18,4 +20,5 @@ image:
     else
         primes |> List.map (fun x -> x |> int64) |> List.sum
 
-sum_primes 2000000 [2..2000000]</pre>
+sum_primes 2000000 [2..2000000]
+```
