@@ -7,22 +7,7 @@ assets: assets/posts/2010-10-14-mocking-out-and-ref-parameters-with-rhino-mocks
 image: 
 ---
 
-<p>Today I learned that you can mock out and ref parameters with the following syntax in Rhino Mocks.</p>
-<pre class="brush:csharp">[TestMethod]
-public void ShowHowRhinoMocksOutRefParameterWorks()
-{
-    /* Setup */
-    var mock = MockRepository.GenerateMock<IBookRepository>();
-    var bookFinder = new BookFinder(mock);
+Today I learned that you can mock out and ref parameters with the following syntax in Rhino Mocks.
 
-    /* Arrange */
-    mock.Expect(rep => rep.FindByTitle(Arg<string>.Is.Anything, out Arg<int>.Out(10).Dummy))
-        .Return(new List<Book>());
+<script src="https://gist.github.com/miklund/8c189ca61c9e8fff1135.js?file=Test.cs"></script>
 
-    /* Act */
-    var count = 0;
-    var books = bookFinder.FindBooks("hitchhikers guide to the galaxy", out count);
-
-    /* Assert */
-    Assert.AreEqual(10, count);
-}</pre>
