@@ -7,59 +7,34 @@ assets: assets/posts/2010-09-23-interception-with-unity
 image: 
 ---
 
-<p>I've already written about this <a href="http://mint.litemedia.se/2009/10/30/aop-in-net-with-unity-interception-model/">here</a> but this is such a obscure topic that it really doesn't hurt with some more examples.  In this example we have a bookstore with two repositories defined as below.</p>
-<pre class="brush:csharp">public interface IBookRepository
-{
-    IList<Book> GetAll();
-}
+I've already written about this [here](/2009/10/30/aop-in-net-with-unity-interception-model.html "AOP in .NET with Unity Interception Model") but this is such a obscure topic that it really doesn't hurt with some more examples.  In this example we have a bookstore with two repositories defined as below.
 
-public interface IAuthorRepository
-{
-    IList<Author> GetAuthorsForBook(string isbn);
-}</pre>
-<p>I would like to measure how long these calls take, but I don't want to change the implementation. This can be done with AOP and interception.</p>
-<h2>ICallHandler</h2>
-<p>We create a class that implements ICallHandler. This is the code that will intercept the calls.</p>
-<pre class="brush:csharp">public class MeasureLatencyCallHandler : ICallHandler
-{
-    public IMethodReturn Invoke(IMethodInvocation input, GetNextHandlerDelegate getNext)
-    {
-        var watch = new Stopwatch();
-        Debug.WriteLine("Begin: {0}", new[] { input.MethodBase.Name });
+<script src="https://gist.github.com/miklund/f6306706eb7756a4c868.js?file=Repositories.cs"></script>
 
-        watch.Start();
-        var result = getNext()(input, getNext);
-        watch.Stop();
+I would like to measure how long these calls take, but I don't want to change the implementation. This can be done with AOP and interception.
 
-        Debug.WriteLine("End: {0} ({1} ms, {2} ticks)", input.MethodBase.Name, watch.ElapsedMilliseconds, watch.ElapsedTicks);
-        return result;
-    }
+## ICallHandler
 
-    public int Order { get; set; }
-}</pre>
-<p>The strange call getNext()(input, getNext) is the actual call to the method that is intercepted. The Order property controls the inner order of interceptions.</p>
-<h2>IMatchingRule</h2>
-<p>Interception is done by putting a proxy class on top of the class/interface that should be intercepted. But how do we control that only some methods on that class/interface should be interrupted? We implement a IMatchingRule.</p>
-<pre class="brush:csharp">public class AnyMatchingRule : IMatchingRule
-{
-    public bool Matches(MethodBase member)
-    {
-        return true;
-    }
-}</pre>
-<p>This matching rule always returns true, which means that we want to intercept everything on that class/interface. Otherwise we could use the MethodBase argument to return true or false.</p>
-<h2>Container configuration</h2>
-<p>Last, but not least, we have to tell the Unity container to intercept these interfaces with out MeasureLatencyCallHandler filtering the methods with our AnyMatchingRule.</p>
-<pre class="brush:csharp">container.AddNewExtension<Interception>();
+We create a class that implements ICallHandler. This is the code that will intercept the calls.
 
-container.RegisterType<IMatchingRule, AnyMatchingRule>("AnyMatchingRule");
-container.RegisterType<ICallHandler, MeasureLatencyCallHandler>("MeasureLatencyCallHandler");
+<script src="https://gist.github.com/miklund/f6306706eb7756a4c868.js?file=MeasureLatencyCallHandler.cs"></script>
 
-container.Configure<Interception>().AddPolicy("TracePolicy")
- .AddMatchingRule("AnyMatchingRule")
- .AddCallHandler("MeasureLatencyCallHandler");
+The strange call `getNext()(input, getNext)` is the actual call to the method that is intercepted. The Order property controls the inner order of interceptions.
 
-container.Configure<Interception>().SetInterceptorFor(typeof(IBookRepository), new InterfaceInterceptor());
-container.Configure<Interception>().SetInterceptorFor(typeof(IAuthorRepository), new InterfaceInterceptor());
-</pre>
-<p><img src="http://litemedia.info/media/Default/Mint/output.png" title="output" width="562" height="326" class="alignnone size-full wp-image-910" />That's it! You will find the <a href="https://bitbucket.org/bokmal/litemedia.bookstore.unity">source here</a>, or you can download <a href="https://bitbucket.org/bokmal/litemedia.bookstore.unity/get/7e1787751971.zip">as a zip archive</a>.</p>
+## IMatchingRule
+
+Interception is done by putting a proxy class on top of the class/interface that should be intercepted. But how do we control that only some methods on that class/interface should be interrupted? We implement a IMatchingRule.
+
+<script src="https://gist.github.com/miklund/f6306706eb7756a4c868.js?file=AnyMatchingRule.cs"></script>
+
+This matching rule always returns true, which means that we want to intercept everything on that class/interface. Otherwise we could use the MethodBase argument to return true or false.
+
+## Container configuration
+
+Last, but not least, we have to tell the Unity container to intercept these interfaces with out MeasureLatencyCallHandler filtering the methods with our AnyMatchingRule.
+
+<script src="https://gist.github.com/miklund/f6306706eb7756a4c868.js?file=Container.cs"></script>
+
+![example output](/assets/posts/2010-09-23-interception-with-unity/output.png)
+
+That's it! You will find the [source here](https://bitbucket.org/bokmal/litemedia.bookstore.unity "LiteMedia.BookStore.Unity on BitBucket repository"), or you can download [as a zip archive](/assets/posts/2010-09-23-interception-with-unity/7e1787751971.zip "LiteMedia.BookStore.Unity as zip archive").
