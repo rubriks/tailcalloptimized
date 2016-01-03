@@ -46,6 +46,10 @@
         font-weight: 400;
         line-height: 16.8px;
     }
+
+    mark {
+        background-color: yellow;
+    }
     
     table {
         @media (max-width: $screen-xs-max) {
