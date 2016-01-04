@@ -29,10 +29,10 @@ image:
 
 Simply, write a method that will convert from decimal to any number system. Lucky for us all their examples contains only positive discrete numbers.
 
-<script src="https://gist.github.com/miklund/527772dd9d642e454100.js?file=Gyroball.fs"></script>
+{% gist miklund/527772dd9d642e454100 Gyroball.fs %}
 
 Here's the same thing in C#.
 
-<script src="https://gist.github.com/miklund/527772dd9d642e454100.js?file=Gyroball.cs"></script>
+{% gist miklund/527772dd9d642e454100 Gyroball.cs %}
 
 Personally I think F# looks much better.

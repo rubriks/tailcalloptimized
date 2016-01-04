@@ -34,10 +34,10 @@ I've come up with the following solutions.
 
 If you can't fix the problem with open/closing connections you could make the problem less critical by increasing the pending sessions queue length. This you do by creating a custom binding.
 
-<script src="https://gist.github.com/miklund/3111d8c36207923b68cd.js?file=customBinding.xml"></script>
+{% gist miklund/3111d8c36207923b68cd customBinding.xml %}
 
 Then you refer to this custom binding from your endpoint like this.
 
-<script src="https://gist.github.com/miklund/3111d8c36207923b68cd.js?file=endpoint.xml"></script>
+{% gist miklund/3111d8c36207923b68cd endpoint.xml %}
 
 Hope this will help someone along the way. My main inspiration was [this forum thread](http://social.msdn.microsoft.com/Forums/en-US/wcf/thread/a8f82f1d-e824-474e-84ef-b5e9ba7eca18).

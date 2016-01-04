@@ -9,11 +9,11 @@ One of the most basic concepts of functional programming is the recursive call c
 
 Join a set of string values into a comma delimited string.
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=IterativeJoin.cs"></script>
+{% gist miklund/73f8b743234208061efc IterativeJoin.cs %}
 
 The same in F#.
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=join.fs"></script>
+{% gist miklund/73f8b743234208061efc join.fs %}
 
 In a functional language you do it recursivly because
 
@@ -24,7 +24,7 @@ The Problem
 -----------
 Let's say you would want to do functional programming in C# like the big boys do, and implement the recursive version of the algorithm above.
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=RecursiveJoin.cs"></script>
+{% gist miklund/73f8b743234208061efc RecursiveJoin.cs %}
 
 What will happen when you run your program?
 
@@ -50,17 +50,17 @@ Tail Call Optimization
 ----------------------
 We'll take a look at the IL code of the bad C# function.
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=RecursiveJoin.il"></script>
+{% gist miklund/73f8b743234208061efc RecursiveJoin.il %}
 
 Through all this jibberish you will notice that the code will make a recursive call to itself TailCallOptimized.Program::RecursiveJoin(...) and this is what screw things over.
 
 What about the F# function? That did also call itself. Why doesn't this blow up in a StackOverflowException?
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=join.fs"></script>
+{% gist miklund/73f8b743234208061efc join.fs %}
 
 This code will be compiled to the following IL-code.
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=join.il"></script>
+{% gist miklund/73f8b743234208061efc join.il %}
 
 I'm sure you don't find this as fascinating as I do, but you can notice that there is a loop, and no recursive call to the function join. The compiler has basically optimized away the recursive call and exchanged it with an iterative looping construct.
 
@@ -70,7 +70,7 @@ I'm sure you don't find this as fascinating as I do, but you can notice that the
 
 The tail call optimization is dependent on a tail call. Otherwise you will have the same issue as with C#. Let's rewrite our F# function to omit the tail call recursion.
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=join_bad.fs"></script>
+{% gist miklund/73f8b743234208061efc join_bad.fs %}
 
 When running this code we'll get the expected exception.
 
@@ -83,6 +83,6 @@ When running this code we'll get the expected exception.
 
 And this is of course because there was no tail call to be optimized. The compiled IL looks very much like the bad C# function.
 
-<script src="https://gist.github.com/miklund/73f8b743234208061efc.js?file=join_bad.il"></script>
+{% gist miklund/73f8b743234208061efc join_bad.il %}
 
 See the bad line that starts with IL_0049. That is the recursive call, and that is why we fail.

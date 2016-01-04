@@ -17,6 +17,6 @@ This will let you use all jQuery functionality but with jQuery() instead of $().
 
 Like this:
 
-<script src="https://gist.github.com/miklund/caabb4588463f5c285e4.js?file=Example1.js"></script>
+{% gist miklund/caabb4588463f5c285e4 Example1.js %}
 
 Beware of regex and other constructs that also use $. Don't do replace-all in your thickbox.js, because it just won't work. Thickbox is a small framework and it will take you just a minute to manually go through it and replace all jQuery calls.

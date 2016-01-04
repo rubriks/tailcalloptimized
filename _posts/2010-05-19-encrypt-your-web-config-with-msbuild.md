@@ -33,7 +33,7 @@ aspnet_regiis -px "MyAppContainer" MyAppContainerKeys.xml -pri
 
 Since you're not using the default container, you will need to tell ASP.NET how to decrypt encrypted configuration sections. This is done by adding the following to your web.config.
 
-<script src="https://gist.github.com/miklund/84d6657c11a16df918de.js?file=Web.config.xml"></script>
+{% gist miklund/84d6657c11a16df918de Web.config.xml %}
 
 ### Step 4 - Import the keys on target environment
 
@@ -55,7 +55,7 @@ aspnet_regiis.exe -pa "MyAppContainer" "NT AUTHORITY\NETWORK SERVICE"
 
 Here is how we encrypt the connectionStrings section on build.
 
-<script src="https://gist.github.com/miklund/84d6657c11a16df918de.js?file=Project.csproj.xml"></script>
+{% gist miklund/84d6657c11a16df918de Project.csproj.xml %}
 
 ## You can still manually update the configuration
 

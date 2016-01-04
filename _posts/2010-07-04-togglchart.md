@@ -51,7 +51,7 @@ There are some posibilities to customize the output. Here's the full usage for t
 
 I've also included an MSBuild task. Instead of using the TogglChart.exe directly you can call the MSBuild task inside the TogglChart.dll.
 
-<script src="https://gist.github.com/miklund/7f0c3ef80e89b5ffe9c3.js?file=Project.csproj.xml"></script>
+{% gist miklund/7f0c3ef80e89b5ffe9c3 Project.csproj.xml %}
 
 Both TogglChart.exe and TogglChart.dll are stand-alone. You do not need the DLL for the EXE to run, nor the other way around.
 

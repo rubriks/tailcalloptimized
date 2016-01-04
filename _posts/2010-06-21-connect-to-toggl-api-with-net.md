@@ -9,7 +9,7 @@ image:
 
 Here's the quick and dirty way to extract information out of Toggl API with .NET. You will need [NewtonSoft JSON.NET](http://james.newtonking.com/projects/json-net.aspx) for the JSON parsing, otherwise it's just cut/paste/run and have fun! Enjoy!
 
-<script src="https://gist.github.com/miklund/4bcb5cf0a1cf494243de.js?file=Program.cs"></script>
+{% gist miklund/4bcb5cf0a1cf494243de Program.cs %}
 
 And the result should look like this.
 

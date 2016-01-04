@@ -9,23 +9,23 @@ image:
 
 One thing that I never seem to remember is how to extend my XSLT with extensions. How to include your own namespace and let the transformation engine call my own methods written in C#. It might be hard to remember because I do it once every year, at the most. Now I will write down the procedure here, so that when I google this a year from now, I will find my own blog post. ;)  First, write a class that you want to use in your XSLT. Keep the class public and your methods also.
 
-<script src="https://gist.github.com/miklund/badcac4e2b12d160843e.js?file=XsltExtensions.cs"></script>
+{% gist miklund/badcac4e2b12d160843e XsltExtensions.cs %}
 
 My extension above will return a parameter from the current HttpContext. Some would argue that this should be included in the XSLT 2.0 basic functions, but the transformation does not really have any scope in which it is transformed. Could be a web scenario like mine, or a console application where HttpContext would not be present.  Now, in your tranformation code you will have to include this extension class as an argument.
 
 
-<script src="https://gist.github.com/miklund/badcac4e2b12d160843e.js?file=Example1.cs"></script>
+{% gist miklund/badcac4e2b12d160843e Example1.cs %}
 
 The magic happens in row 4 and 5. Now it is possible to call this function from within the XSL stylesheet like this.
 
-<script src="https://gist.github.com/miklund/badcac4e2b12d160843e.js?file=stylesheet.xsl"></script>
+{% gist miklund/badcac4e2b12d160843e stylesheet.xsl %}
 
 Since XSLT is of a very dynamic nature and easy to change, it would seem quite stupid to lock yourself in using only  a specified set of extensions. Right? You can solve this by actually loading your XSLT extensions through dependency injection. Let your extension classes implement the following interface.
 
-<script src="https://gist.github.com/miklund/badcac4e2b12d160843e.js?file=IXsltExtensions.cs"></script>
+{% gist miklund/badcac4e2b12d160843e IXsltExtensions.cs %}
 
 Now you can add extensions as you will in the configuration of your dependency injection framework. I've chosen to use Unity for my needs, and my implementation looks something like this.
 
-<script src="https://gist.github.com/miklund/badcac4e2b12d160843e.js?file=LoadExtensions.cs"></script>
+{% gist miklund/badcac4e2b12d160843e LoadExtensions.cs %}
 
 There you have it! ContainerFactory is in my case a singleton that derives from UnityContainer. Let's hope this will be of any use to you, me or anyone else in a near future.

@@ -16,7 +16,7 @@ When you would like to generate a list of radio buttons in ASP.NET you will run 
 
 This is very inspired by [Scott Elikin's post Render RadioButtonList as an Unordered List UL](http://scottelkin.com/aspnet/render-radiobuttonlist-as-an-unordered-list-ul "Render RadioButtonList as an Unordered List UL"). I have mostly translated his code to C#.
 
-<script src="https://gist.github.com/miklund/abce3de8ae3d1c1cf688.js?file=ULRadioButtonList.cs"></script>
+{% gist miklund/abce3de8ae3d1c1cf688 ULRadioButtonList.cs %}
 
 ## Usage
 

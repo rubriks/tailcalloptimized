@@ -9,10 +9,10 @@ image:
 
 In case you've ever needed an extension method that splits a string on whole words, here are my implementation.
 
-<script src="https://gist.github.com/miklund/4e2f251fa88d0eb130bf.js?file=StringExtensions.cs"></script>
+{% gist miklund/4e2f251fa88d0eb130bf StringExtensions.cs %}
 
 And some tests to prove that it works.
 
-<script src="https://gist.github.com/miklund/4e2f251fa88d0eb130bf.js?file=StringExtensionsTests.cs"></script>
+{% gist miklund/4e2f251fa88d0eb130bf StringExtensionsTests.cs %}
 
 Happy coding!

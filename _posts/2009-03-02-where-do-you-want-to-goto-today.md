@@ -9,7 +9,7 @@ image:
 
 It's been a while since goto was a valid statement in code and I am proud to say that I seldom ever see it being used anywhere. I haven't even used it myself except for some very unusual cases.  Why is this? How come goto is such an evil statement? How would you write the following code?
 
-<script src="https://gist.github.com/miklund/1afdbab7c1c6cf7f5084.js?file=LogIn.cs"></script>
+{% gist miklund/1afdbab7c1c6cf7f5084 LogIn.cs %}
 
 Just because you have the ring of power doesn't have to mean that you are completely evil, right? Is it possible to do some good with goto? To find something good in this world, Mr Frodo, that is worth fighting for?  For some perspective on the goto statement, please read the following blog post and get back to me. 
 

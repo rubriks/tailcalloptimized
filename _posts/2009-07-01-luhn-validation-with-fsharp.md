@@ -41,8 +41,8 @@ If the result is evenly divisible by 10, then this personal identity number is v
 
 At this point you set `x` some a number that will make y evenly divisible with 10, and you have your control digit.  I wrote this validation algorithm in F# as practice. This piece of code probably looks like shit to those of you that are already fluent with F#.
 
-<script src="https://gist.github.com/miklund/b3682e35f729b59a4235.js?file=luhn.fs"></script>
+{% gist miklund/b3682e35f729b59a4235 luhn.fs %}
 
 And the usage may look like this
 
-<script src="https://gist.github.com/miklund/b3682e35f729b59a4235.js?file=example.fs"></script>
+{% gist miklund/b3682e35f729b59a4235 example.fs %}

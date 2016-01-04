@@ -27,11 +27,11 @@ I've chosen to put my DI configuration as XML in Kino, because I want to show yo
 
 The following code is placed in your App.config (or web.config if it is a web project).
 
-<script src="https://gist.github.com/miklund/f57921afa48f40fe12b3.js?file=Web.config.xml"></script>
+{% gist miklund/f57921afa48f40fe12b3 Web.config.xml %}
 
 This tells your program that there is a configuration section handler inside the Microsoft.Practices.Unity.Configuration assembly that knows how to handle the configuration inside the file Unity.config. I like to keep my Unity configuration in a separate file because this configuration tend to get quite massive, and web.config is bloated as it is. You will find the following code to access the unity container in my little singleton ContainerFactory.
 
-<script src="https://gist.github.com/miklund/f57921afa48f40fe12b3.js?file=UnityContainer.cs"></script>
+{% gist miklund/f57921afa48f40fe12b3 UnityContainer.cs %}
 
 If you would setup the container through code, this is probably where you would do it. We will just use it for creating a new container and configure it through the configuration. Or you could use it to invoke some dynamic method in IronPython or similar that would have the same effect. Now it comes to the configuration file Unity.config. If you check it out I think you will get how it works. I would like to share a small schema that has helped me a lot in figure it all out.
 
@@ -39,10 +39,10 @@ If you would setup the container through code, this is probably where you would 
 
 As you know from  [the previous article](/2009/05/24/kino-design-and-architecture.html) the first thing resolved will be the RssDocument, and it will be resolved by name.
 
-<script src="https://gist.github.com/miklund/f57921afa48f40fe12b3.js?file=Unity.config.xml"></script>
+{% gist miklund/f57921afa48f40fe12b3 Unity.config.xml %}
 
 Here name equals "Movies" is the argument given to the RssController. This means that when a client request the http://localhost/Rss/Movies/ url, the RssController will tell the UniyContainer to resolve this RssDocument. This document contains an array of channelGenerators. In this case only one generator defined "MovieList", but with the ability to have several. The `<dependency name="MovieList" />` refers to this piece of declaration.
 
-<script src="https://gist.github.com/miklund/f57921afa48f40fe12b3.js?file=Unity2.config.xml"></script>
+{% gist miklund/f57921afa48f40fe12b3 Unity2.config.xml %}
 
 This is really the same thing as the RssDocument, and you can match the constructor declaration with that of the RssDirectoryGenerator and see that it matches. More interesting here is to look at the type="RssChannelGenerator" mapTo="Kino.Lib.Rss.RssDirectoryGenerator, Kino.Lib". This tells us that we want to resolve an RssChannelGenerator, but it could be any kind of type that derives from this abstract class. Here is the extensibility where you can implement your own RssChannelGenerator and really get **Anything to Rss**.

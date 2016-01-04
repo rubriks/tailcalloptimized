@@ -15,19 +15,19 @@ I did know that the F# compiler pulls some magic tricks with recursion, but I di
 
 ## Iterative string manipulating solution by Whettingstone
 
-<script src="https://gist.github.com/miklund/fc0d3c723895e0cef1c8.js?file=Whettingstone.cs"></script>
+{% gist miklund/fc0d3c723895e0cef1c8 Whettingstone.cs %}
 
 This solution is pretty straight forward. Put the result in a string, double all the digits and span out overflowing number to next number in the string. At the end he sums it all up to an int. **Mean execution time: 127 ms**
 
 ## Recursive F# solution by me
 
-<script src="https://gist.github.com/miklund/fc0d3c723895e0cef1c8.js?file=E016.fs"></script>
+{% gist miklund/fc0d3c723895e0cef1c8 E016.fs %}
 
 This is two recursive loops where the outer loop doubles every list item and the inner loop evens out the list with moving any number larger than 9 up the stack. **Mean execution time: 5 ms**
 
 ## Recursive C# translation of the F# version
 
-<script src="https://gist.github.com/miklund/fc0d3c723895e0cef1c8.js?file=E016.cs"></script>
+{% gist miklund/fc0d3c723895e0cef1c8 E016.cs %}
 
 In order to explain to my friend whettingstone what I do with my F# code I translated it to C#. I was really suprised when I noticed that it took so much longer to execute. **Mean execution time: 87235 ms**
 

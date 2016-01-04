@@ -17,25 +17,25 @@ There are many ways to do this and here I will present one.
 
 Start with adding a button and a placeholder on the page. The button will create user controls in the placeholder.
 
-<script src="https://gist.github.com/miklund/6dba7e1a7efd98c0b31e.js?file=Page.aspx"></script>
+{% gist miklund/6dba7e1a7efd98c0b31e Page.aspx %}
 
 ## The user control
 
 The user control is very simple. The delete button is tied to an event that will call the Delete-method on the current page.
 
-<script src="https://gist.github.com/miklund/6dba7e1a7efd98c0b31e.js?file=UserControl.ascx"></script>
-<script src="https://gist.github.com/miklund/6dba7e1a7efd98c0b31e.js?file=UserControl.ascx.cs"></script>
+{% gist miklund/6dba7e1a7efd98c0b31e UserControl.ascx %}
+{% gist miklund/6dba7e1a7efd98c0b31e UserControl.ascx.cs %}
 
 ## The IDynamicControlContainer interface
 
 If you want this to work you need to create an interface that has the Delete-method, and implement this interface on the container page. The reason you want the method on an interface and not on the container page, is to create lower coupling from the user control on the container page.
 
-<script src="https://gist.github.com/miklund/6dba7e1a7efd98c0b31e.js?file=IDynamicControlContainer.cs"></script>
+{% gist miklund/6dba7e1a7efd98c0b31e IDynamicControlContainer.cs %}
 
 ## Keep state between post backs
 
 We will use the ViewState to save and restore state between postbacks. The only thing we need to keep track on our selves is the control IDs that we added to the user control. When we return on postback, we recreate the controls in the placeholder with the previous IDs and trust that ASP.NET will read back the state of these controls for us. When we change the list by adding and removing a control, we also update the list of IDs in ViewState.  Here comes my code behind for the container page.
 
-<script src="https://gist.github.com/miklund/6dba7e1a7efd98c0b31e.js?file=NameList.cs"></script>
+{% gist miklund/6dba7e1a7efd98c0b31e NameList.cs %}
 
 You can download the [complete source code sample here](/assets/posts/2009-09-20-dynamic-user-control-list/DynamicUserControls.zip).

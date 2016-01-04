@@ -66,6 +66,6 @@ When I check in code I will rebuild the database and execute my integration test
 
 Here comes the complete database change management script.
 
-<script src="https://gist.github.com/miklund/af625af74dec03d07d17.js?file=database-change-management.ps1"></script>
+{% gist miklund/af625af74dec03d07d17 database-change-management.ps1 %}
 
 **An update to this database script has been posted [here](/2011/12/03/database-versioning-updated.html "Database versioning updated").**

@@ -33,4 +33,4 @@ In the 20 &times; 20 grid below, four numbers along a diagonal line have been ma
 
 The product of these numbers is 26 &times; 63 &times; 78 &times; 14 = 1788696.  What is the greatest product of four adjacent numbers in any direction (up, down, left, right, or diagonally) in the 20 &times; 20 grid?
 
-<script src="https://gist.github.com/miklund/e90ba53c5601555a5750.js?file=E011.fs"></script>
+{% gist miklund/e90ba53c5601555a5750 E011.fs %}

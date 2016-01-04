@@ -13,7 +13,7 @@ I have previously showed you how you can do interception with both [Castle Dynam
 
 There are several ways for interception with LinFu but I like the InvokeWrapper, because it's so easy to use. Just implement the LinFu.AOP.Interfaces.IInvokeWrapper.
 
-<script src="https://gist.github.com/miklund/0d12e3b6f1c6f52ad8ff.js?file=MyInvokeWrapper.cs"></script>
+{% gist miklund/0d12e3b6f1c6f52ad8ff MyInvokeWrapper.cs %}
 
 Now that's quite self explanatory.
 
@@ -21,6 +21,6 @@ Now that's quite self explanatory.
 
 Now all you need to do to get your proxy class is the following.
 
-<script src="https://gist.github.com/miklund/0d12e3b6f1c6f52ad8ff.js?file=Example.cs"></script>
+{% gist miklund/0d12e3b6f1c6f52ad8ff Example.cs %}
 
 Go [here for a full example](https://bitbucket.org/bokmal/litemedia.bookstore.linfu "LiteMedia.BookStore.LinFu at BitBucket repository") , or [download as a zip archive](/assets/posts/2010-09-26-interception-with-linfu/b79e9f83af1b.zip).

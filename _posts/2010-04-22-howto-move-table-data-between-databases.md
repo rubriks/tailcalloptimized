@@ -9,5 +9,5 @@ image:
 
 Working in different environments - development, test, staging, production often makes you create data in one database and have the need to move it to another. This is actually quite easy to do with T-SQL.
 
-<script src="https://gist.github.com/miklund/c19ee4bc70837a537b4e.js?file=MoveData.sql"></script>
+{% gist miklund/c19ee4bc70837a537b4e MoveData.sql %}
 

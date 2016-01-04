@@ -33,10 +33,10 @@ Add references to the `Enyim.Caching.dll` and `Northscale.Store.dll`.
 
 You will need to add configuration to tell NorthScaleClient where to find memcached service.</p>
 
-<script src="https://gist.github.com/miklund/73fd3cfccb0c6fa678f8.js?file=Web.config.xml"></script>
+{% gist miklund/73fd3cfccb0c6fa678f8 Web.config.xml %}
 
 Now you can get and set data from the cache like this.
 
-<script src="https://gist.github.com/miklund/73fd3cfccb0c6fa678f8.js?file=GetData.cs"></script>
+{% gist miklund/73fd3cfccb0c6fa678f8 GetData.cs %}
 
 Easy huh! Now, go out there and cache the world!

@@ -11,16 +11,16 @@ image:
 
 I've been missing the UL/LI element querying in [WatiN](http://watin.sourceforge.net/) since I started to use it, but I've never even thought about doing something about it. Thanks to WatiN's excellent extensibility it was proven not too hard.
 
-<script src="https://gist.github.com/miklund/6a8b8e4423e82a502464.js?file=Ul.cs"></script>
+{% gist miklund/6a8b8e4423e82a502464 Ul.cs %}
 
 You'll notice at once that most of the code is inheritence and calling base. The magic is all in the type declarations and their ElementTag-attributes.  Now you can use the UL element in a page declaration to give easy access to the UL list.
 
-<script src="https://gist.github.com/miklund/6a8b8e4423e82a502464.js?file=List.html"></script>
+{% gist miklund/6a8b8e4423e82a502464 List.html %}
 
-<script src="https://gist.github.com/miklund/6a8b8e4423e82a502464.js?file=IndexView.aspx.cs"></script>
+{% gist miklund/6a8b8e4423e82a502464 IndexView.aspx.cs %}
 
 And you use this in a test as usual.
 
-<script src="https://gist.github.com/miklund/6a8b8e4423e82a502464.js?file=Test.cs"></script>
+{% gist miklund/6a8b8e4423e82a502464 Test.cs %}
 
 This was made with [WatiN 2.0 RC 1](http://sourceforge.net/project/showfiles.php?group_id=167632). You can download the [complete source and example here](/assets/posts/2010-09-15-ul-and-li-list-elements-in-watin/LiteMedia.WatinExtension.zip).

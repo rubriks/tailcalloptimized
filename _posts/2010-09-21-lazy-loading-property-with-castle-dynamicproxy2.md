@@ -9,7 +9,7 @@ image:
 
 Today I will solve a problem concerning single responsibility principle and lazy loading properties using [Castle DynamicProxy](http://www.castleproject.org/dynamicproxy/index.html). My example application is a simple bookstore, that can display books from an XML.
 
-<script src="https://gist.github.com/miklund/569d1fbb342ef763991f.js?file=IStoreRepository.cs"></script>
+{% gist miklund/569d1fbb342ef763991f IStoreRepository.cs %}
 
 ![domain model](/assets/posts/2010-09-21-lazy-loading-property-with-castle-dynamicproxy2/Model.png)
 
@@ -23,7 +23,7 @@ Download the dynamic proxy and reference it in your project.
 
 Now create a ProxyBuilder that will be responsible for creating proxies instances for the Book class. It is also possible to create proxies from classes but that is something you may discover by yourself.
 
-<script src="https://gist.github.com/miklund/569d1fbb342ef763991f.js?file=ProxyBuilder.cs"></script>
+{% gist miklund/569d1fbb342ef763991f ProxyBuilder.cs %}
 
 If this where a larger application I would use a DI framework and register different instances of IProxyGenerator, for example.
 
@@ -33,10 +33,10 @@ container.Register<IProxyBuilder>("LazyAuthors", new[] { new LazyLoadAuthorsInte
 
 Our implementation of the interceptor that will be triggered on every virtual member of the class where it's put.
 
-<script src="https://gist.github.com/miklund/569d1fbb342ef763991f.js?file=LazyLoadAuthorsInterceptor.cs"></script>
+{% gist miklund/569d1fbb342ef763991f LazyLoadAuthorsInterceptor.cs %}
 
 Now we can create a proxy class of book, and when we call the Authors property, the authors will be loaded and returned from IStoreRepository.
 
-<script src="https://gist.github.com/miklund/569d1fbb342ef763991f.js?file=Example.cs"></script>
+{% gist miklund/569d1fbb342ef763991f Example.cs %}
 
 You may get the code for this [here](https://bitbucket.org/bokmal/litemedia.bookstore.dynamicproxy "Lazy Loading property with Castle DynamicProxy2 example on Mikael Lundin BitBucket"), or you may [download it as a zip package](/assets/posts/2010-09-21-lazy-loading-property-with-castle-dynamicproxy2/litemedia.bookstore.dynamicproxy.zip).

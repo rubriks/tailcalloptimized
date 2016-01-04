@@ -13,11 +13,11 @@ Testing ASP.NET code is always hard. How do you test that a control renders the 
 
 The downside of using a XSD schema to validate HTML, is that HTML 5 is not XML as XHTML was. There's not much we can do about that except writing our controls markup as if it where strict XHTML.
 
-<script src="https://gist.github.com/miklund/6ff7a9bf8b62c02a6fc9.js?file=schema.xsd"></script>
+{% gist miklund/6ff7a9bf8b62c02a6fc9 schema.xsd %}
 
 If you think XSD coding is hard, I recommend that you start with writing the XML that you are specifying and then write the XSD to fit that XML. In Visual Studio you will get feedback at once, if your XML does not fit the XSD.
 
-<script src="https://gist.github.com/miklund/6ff7a9bf8b62c02a6fc9.js?file=RadioButtonList.html"></script>
+{% gist miklund/6ff7a9bf8b62c02a6fc9 RadioButtonList.html %}
 
 Make sure that you add these files to your project as Embedded Resource, since they're not interesting for anything except your test.
 
@@ -27,7 +27,7 @@ Make sure that you add these files to your project as Embedded Resource, since t
 
 Now we would like to use our schema to validate output of the web control. This is done with the following code.
 
-<script src="https://gist.github.com/miklund/6ff7a9bf8b62c02a6fc9.js?file=UnorderedRadioButtonListShould.cs"></script>
+{% gist miklund/6ff7a9bf8b62c02a6fc9 UnorderedRadioButtonListShould.cs %}
 
 This looks really cool, but it is completely useless because it will never fail. That is because the HTML is not associated with that schema.
 
@@ -35,10 +35,10 @@ This looks really cool, but it is completely useless because it will never fail.
 
 We have to change our system under test to allow this kind of validation. We need to add `xmlns="urn:unordered-radio-button-list"` to the root element to apply the validation. But, we don't want this when we render in page. I propose that you add a property called Xmlns and only render its contents on the ul node when it is not null.
 
-<script src="https://gist.github.com/miklund/6ff7a9bf8b62c02a6fc9.js?file=Example1.cs"></script>
+{% gist miklund/6ff7a9bf8b62c02a6fc9 Example1.cs %}
 
 Now you will initialize the web control with the following.
 
-<script src="https://gist.github.com/miklund/6ff7a9bf8b62c02a6fc9.js?file=Example2.cs"></script>
+{% gist miklund/6ff7a9bf8b62c02a6fc9 Example2.cs %}
 
 Now we have a test that will validate that the web control renders expected markup. Pretty powerful huh! The whole solution can be [downloaded from my repository on bitbucket](http://code.litemedia.se/litemedia.web.ui.webcontrols "Unit test web controls example on Mikael Lundin bitbucket repository").

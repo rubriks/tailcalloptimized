@@ -9,6 +9,12 @@ highligher: pygments
 permalink: /:year/:month/:day/:title.html
 google_analytics: UA-49087954-2
 
+gems:
+    - jekyll-gist
+
+gist:
+    noscript: true
+
 owner:
     name: Mikael Lundin
     disqus_shortname: tailcalloptimized

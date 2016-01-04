@@ -20,4 +20,4 @@ I think this might be less stable than just adding the elements to body and I've
 
 Here's my code as reference when you do your own mojo.
 
-<script src="https://gist.github.com/miklund/acac36e5e996ef347bca.js?file=thickbox.js"></script>
+{% gist miklund/acac36e5e996ef347bca thickbox.js %}

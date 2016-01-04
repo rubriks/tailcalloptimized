@@ -25,7 +25,7 @@ I would say that the most usefulness would be in development as you add this too
 
 Add the following to your web.config in each corresponding section.
 
-<script src="https://gist.github.com/miklund/71730313857b8a88cb15.js?file=Web.config.xml"></script>
+{% gist miklund/71730313857b8a88cb15 Web.config.xml %}
 
 Make sure that you have elmah.dll in your bin-folder and point your browser to `http://[host]/elmah.axd`
 

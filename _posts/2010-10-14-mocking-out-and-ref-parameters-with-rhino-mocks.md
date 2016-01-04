@@ -9,5 +9,5 @@ image:
 
 Today I learned that you can mock out and ref parameters with the following syntax in Rhino Mocks.
 
-<script src="https://gist.github.com/miklund/8c189ca61c9e8fff1135.js?file=Test.cs"></script>
+{% gist miklund/8c189ca61c9e8fff1135 Test.cs %}
 

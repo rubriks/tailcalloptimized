@@ -18,10 +18,10 @@ Programmers doesn't like Excel as a data format because it is an unreliable grid
 
 First I create my model object that represents a row in the spreadsheet.
 
-<script src="https://gist.github.com/miklund/f8e6c24cf230602abaa1.js?file=ZipCodeWorksheet.cs"></script>
+{% gist miklund/f8e6c24cf230602abaa1 ZipCodeWorksheet.cs %}
 
 Then I write the LINQ query.
 
-<script src="https://gist.github.com/miklund/f8e6c24cf230602abaa1.js?file=Example.cs"></script>
+{% gist miklund/f8e6c24cf230602abaa1 Example.cs %}
 
 Easy, maintainable and your clients will love you for it.

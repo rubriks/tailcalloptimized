@@ -26,7 +26,7 @@ So, what I wanted to do is to take this site that was built for Heroku and make 
 
 So, the first thing I did was to create a Docker container for R3PL4Y on my desktop Linux machine, with a little caveat. Instead of creating the container by hand, I chose to script it all in a Dockerfile. Why I did that will become apparent.
 
-<script src="https://gist.github.com/miklund/e9754a246aed10ebb16a.js?file=Dockerfile"></script>
+{% gist miklund/e9754a246aed10ebb16a Dockerfile %}
 
 A lot of magic is of course in the `bundle install` statement, where all gems from the [Gemfile](https://github.com/rubriks/r3pl4y/blob/master/Gemfile) will be installed, but apart from that, this small script contains everything that is needed for R3PL4Y to run.
 

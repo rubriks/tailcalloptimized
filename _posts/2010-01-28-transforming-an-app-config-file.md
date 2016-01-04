@@ -21,7 +21,7 @@ My problem is that I work with the same project on different computers, and I ha
 
 My App.config looks like this.
 
-<script src="https://gist.github.com/miklund/84a233900bb5d09171ca.js?file=App.config.xml"></script>
+{% gist miklund/84a233900bb5d09171ca App.config.xml %}
 
 And I create change files for each and every computer that I have. The name between App and config is the name of the environment, or rather the value of $(Computer) in MSBuild. If you have several environments on the same machine you might need to start using _Build Configurations_ in Visual Studio and select your configuration change file on that.
 
@@ -29,11 +29,11 @@ And I create change files for each and every computer that I have. The name betw
 
 Now, let's look at what that MAIA (my main developer machine) configuration looks like.
 
-<script src="https://gist.github.com/miklund/84a233900bb5d09171ca.js?file=App.MAIA.config.xml"></script>
+{% gist miklund/84a233900bb5d09171ca App.MAIA.config.xml %}
 
 The first part after the XML declaration means, _"match every node and attribute and apply a template that matches"_ which will be recursive since that template matches just about everything.  If you write another template matching something more precise like the connectionString configuration, that will override the base rule and let us change the contents of the node that we're matching.  This is now applied before every build I make. This is done by opening up the csproj-file (which is a msbuild script) and manually adding the following at the end.
 
-<script src="https://gist.github.com/miklund/84a233900bb5d09171ca.js?file=App.csproj.xml"></script>
+{% gist miklund/84a233900bb5d09171ca App.csproj.xml %}
 
 <p>The target BeforeBuild is by default run before any compilation and that is where we call our target that will apply the XSL on App.config. We store the result in a temporary file, because the XslTransformation does not like it when we try to overwrite the XML-file that we're reading from.  Now I can edit all configuration from one place and do not have to worry about manually merging between environments anymore. Sweet!
 

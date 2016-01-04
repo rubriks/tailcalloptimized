@@ -24,7 +24,7 @@ Spammers are lazy. If it takes too much effort to extract an e-mail they will sk
 
 Since spambots very seldom execute client side scripts on a page it would be safe to create a placeholder on the page and replace the contents with the e-mail. You could do it with javascript, or Flash, Silverlight if you want to make it even harder to parse out it with a bot.
 
-<script src="https://gist.github.com/miklund/58e74c10d022327776d5.js?file=document.html"></script>
+{% gist miklund/58e74c10d022327776d5 document.html %}
 
 ### Cons
 
@@ -34,7 +34,7 @@ Since spambots very seldom execute client side scripts on a page it would be saf
 
 Most of the bots are quite stupid. They download the html page and run a regex looking for e-mail addresses. If your e-mail address does not look like an e-mail address they will not find it. That's why you could convert every character in your e-mail address to ascii html literals.  Here's how to do the conversion in F#.
 
-<script src="https://gist.github.com/miklund/58e74c10d022327776d5.js?file=encode.fs"></script>
+{% gist miklund/58e74c10d022327776d5 encode.fs %}
 
 This is what my e-mail will look like after being rendered in a browser: spam@litemedia.se
 

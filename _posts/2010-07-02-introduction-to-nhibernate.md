@@ -27,17 +27,17 @@ As you can see I've created a namespace for our OR-mappings and the domain model
 
 We keep the domain simple for this example. Here's what the code looks like for these two domain classes. An important aspect here is to keep the properties virtual.</p>
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=Product.cs"></script>
+{% gist miklund/fe8f07ded665c02f4b5f Product.cs %}
 
 ## The object relational mapping
 
 You map the database tables to your entity object by writing hbm.xml-mapping files. There are [nicer ways to do the mapping through code](http://www.fluentnhibernate.org "Fluent NHibernate"), but I will go through the most common way of mappings here instead.
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=nhibernate.product.config.xml"></script>
+{% gist miklund/fe8f07ded665c02f4b5f nhibernate.product.config.xml %}
 
 Notice that the ID is specified to be generated as "identity". This means that ID is an identity column in the table, and that the SQL server will generate the value for us on insert.  You can also see how Product is related to Category with a many-to-one relationship. We specify the foreign key column name in the column attribute.
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=nhibernate.category.config.xml"></script>
+{% gist miklund/fe8f07ded665c02f4b5f nhibernate.category.config.xml %}
 
 Description does not need to specify column name, because it is the same as property name. This is one of the defaults of NHibernate.  You'll have to mark the hbm.xml-files as Embedded Resources for NHibernate to find them.
 
@@ -47,7 +47,7 @@ Description does not need to specify column name, because it is the same as prop
 
 The configuration for NHibernate specifies what database provider to use, SQL dialect and connection string to the database. If you want NHibernate to be verbose about it's SQL you can set show_sql to true.
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=nhibernate.config.xml"></script>
+{% gist miklund/fe8f07ded665c02f4b5f nhibernate.config.xml %}
 
 This xml should be placed in a hibernate.cfg.xml that should be placed in the root of your project. Make sure to mark it as **Copy to Output Directory: Copy Always**. This file must be present in the output bin directory, unless you choose to specify the path while building the SessionFactory
 
@@ -57,7 +57,7 @@ This xml should be placed in a hibernate.cfg.xml that should be placed in the ro
 
 If you're writing a web application, you might want to consider using one session for each and every request. You can read more about how to accomplish that [here](http://ryanlanciaux.com/post/nhibernate-session-per-request.aspx "One NHibernate session per request") and [here](http://blog.benday.com/archive/2005/03/16/198.aspx). In this simple example we will open one session for every database call. That should not be a problem since ISession is considered to be a lightweight object, in contrary to ISessionFactory that should be built only once per application.
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=SessionManager.cs"></script>
+{% gist miklund/fe8f07ded665c02f4b5f SessionManager.cs %}
 
 In CreateSessionFactory we do Configure() to load the hibernate.cfg.xml file, and AddAssembly will search for and load our Product.hbm.xml and Category.hbm.xml mapping files.
 
@@ -65,11 +65,11 @@ In CreateSessionFactory we do Configure() to load the hibernate.cfg.xml file, an
 
 Now when we easily can get an instance of ISession from our SessionManager, we can figure out how to do simple CRUD operations on our entities. For this we create a base class for our ProductRepository and CategoryRepository to derive from later.
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=RepositoryBase.cs"></script>
+{% gist miklund/fe8f07ded665c02f4b5f RepositoryBase.cs %}
 
 We need transactions for all operations that changes the datasource. That's because we can't know if our Insert operation will have to insert data into more than one table, and if it conflicts somewhere along the way we would like the operation to be atomic, and rollback to the state before we started our insert.  Here's how we implement ProductRepository and CategoryRepository now.
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=ProductRepository.cs"></script>
+{% gist miklund/fe8f07ded665c02f4b5f ProductRepository.cs %}
 
 I've also extended the ProductRepository with a database call to get all Products within a specfied category. A query that is specific for the Product entity and not part of the base repository.
 
@@ -77,6 +77,6 @@ I've also extended the ProductRepository with a database call to get all Product
 
 Here's an example of how we can use the framework.
 
-<script src="https://gist.github.com/miklund/fe8f07ded665c02f4b5f.js?file=Program.cs"></script>
+{% gist miklund/fe8f07ded665c02f4b5f Program.cs %}
 
 The whole example can be downloaded from [here](/assets/posts/2010-07-02-introduction-to-nhibernate/NHibernateExample.zip "NHibernate example solution visual studio 2008"). (Visual Studio 2008 solution)

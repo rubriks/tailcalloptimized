@@ -18,7 +18,7 @@ I've found four ways to populate an ASP.NET view with data.
 
 When I see this happening I automatically removes it and blame the developer who ever put it there. My Page\_Load should be as clean as possible. If there is a way to remove code from the Page\_Load I will attempt to do it.
 
-<script src="https://gist.github.com/miklund/c054453aba0a4bc406ba.js?file=ColorsDropDownList.aspx.cs"></script>
+{% gist miklund/c054453aba0a4bc406ba ColorsDropDownList.aspx.cs %}
 
 This is a big no no!
 
@@ -26,7 +26,7 @@ This is a big no no!
 
 There is a method where you use the OnLoad-event to databind the control. The good thing about this is a clear separation of concern between the control being databound and the data that is bound.
 
-<script src="https://gist.github.com/miklund/c054453aba0a4bc406ba.js?file=NamesDropDownList.aspx"></script>
+{% gist miklund/c054453aba0a4bc406ba NamesDropDownList.aspx %}
 
 I find this much neater. The method responsible for finding the data has no idea on what control is used for databinding.
 
@@ -34,7 +34,7 @@ I find this much neater. The method responsible for finding the data has no idea
 
 Here comes something similar to the previous example. We act at the event OnLoad and databind the control itself with a databoundexpression.
 
-<script src="https://gist.github.com/miklund/c054453aba0a4bc406ba.js?file=FlowersDropDownList.aspx"></script>
+{% gist miklund/c054453aba0a4bc406ba FlowersDropDownList.aspx %}
 
 In this example I would place the DataBind callback method in a common PageBase or UserControlBase where it could be reused all over the application.  The power of this method of databinding is reusing dataproviding method with only changing arguments to the method from markup. This is something that is not possible with our previous method of databinding. You should beware of putting logic in the databound expression since it is inline code in markup.
 
@@ -42,4 +42,4 @@ In this example I would place the DataBind callback method in a common PageBase 
 
 The most powerful method of databinding is implementing a DataSourceControl. This is useful when you have a common data store that you want to get data from, and use different views to display parts of that data. This is the most concern separated application here, but also the most time consuming and complex. Use this when you notice that you query the same data in more than three different ways or from three different places in your code.
 
-<script src="https://gist.github.com/miklund/c054453aba0a4bc406ba.js?file=CmsPages.aspx"></script>
+{% gist miklund/c054453aba0a4bc406ba CmsPages.aspx %}

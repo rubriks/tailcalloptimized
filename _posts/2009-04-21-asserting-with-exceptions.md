@@ -9,11 +9,11 @@ image:
 
 I attend a book circle reading Code Complete 2 by Steve McConnell, where the discussion about defensive programming and asserting came up. I told the group about [my assertion mechanisms with extension methods](http://mint.litemedia.se/2008/08/31/assert-that/) and it was all well recieved. On my way home, I started thinking about it and found a small danger about assertions.
 
-<script src="https://gist.github.com/miklund/7b6e7d39f2b29fa17a45.js?file=Reverse1.cs"></script>
+{% gist miklund/7b6e7d39f2b29fa17a45 Reverse1.cs %}
 
 What is wrong with this? An AssertException will be thrown if the argument passed to the method is null, where an ArgumentNullException would be much more appropriate.
 
-<script src="https://gist.github.com/miklund/7b6e7d39f2b29fa17a45.js?file=Reverse2.cs"></script>
+{% gist miklund/7b6e7d39f2b29fa17a45 Reverse2.cs %}
 
 Why on earth could this be important? Because you could be catching ArgumentNullException further up in the call stack. You won't be catching the AssertException, and why is that?
 
