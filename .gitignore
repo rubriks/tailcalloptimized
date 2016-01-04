@@ -6,3 +6,4 @@ node_modules
 s3_website.yml
 _site
 dist
+.jekyll-metadata
