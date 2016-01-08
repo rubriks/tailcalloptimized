@@ -4,7 +4,7 @@ description: Short stories about functional things, non-functional things, and t
 url: http://blog.mikaellundin.name
 markdown: redcarpet
 redcarpet:
-    extensions: ["tables"]
+    extensions: ["tables", "footnotes"]
 highligher: pygments
 permalink: /:year/:month/:day/:title.html
 google_analytics: UA-49087954-2
