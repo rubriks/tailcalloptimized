@@ -14,7 +14,7 @@ For the last 11 days I've been running a Twitter campaign on the sale going on w
 
 I set the campaign to start 28 December and run until 7 January. During this time Twitter was allowed to spend 45 SEK [^1] a day, and a total of 495 SEK [^2] for the entire period.
 
-![campaign start 28 december and end midnight 7 january](/assets/posts/2016-01-08-running-a-twitter-ad-campaign/title.jpg/time.png)
+![campaign start 28 december and end midnight 7 january](/assets/posts/2016-01-08-running-a-twitter-ad-campaign/time.png)
 
 ![allowed spending 45 SEK a day and total of 495 SEK](/assets/posts/2016-01-08-running-a-twitter-ad-campaign/budget.png)
 
