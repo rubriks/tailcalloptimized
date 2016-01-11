@@ -9,13 +9,13 @@ image:
 
 Here's my third blog post in my serie about higher order functions. Partition is one of those higher order functinos that I always forget about and unnecessarily reinvent the wheel.
 
-* [map](/2012/06/03/map-7-higher-order-functions)
-* [fold](/2012/06/06/fold-7-higher-order-functions)
-* [partition](/2012/06/10/partition-7-higher-order-functions)
-* [reduce](/2012/06/16/reduce-7-higher-order-functions)
-* [expand](/2012/06/19/expand-7-higher-order-functions)
-* [collect](/2012/06/21/collect-7-higher-order-functions)
-* [scan](/2012/06/23/scan-7-higher-order-functions)
+* [map](/2012/06/03/map-7-higher-order-functions.html)
+* [fold](/2012/06/06/fold-7-higher-order-functions.html)
+* [partition](/2012/06/10/partition-7-higher-order-functions.html)
+* [reduce](/2012/06/16/reduce-7-higher-order-functions.html)
+* [expand](/2012/06/19/expand-7-higher-order-functions.html)
+* [collect](/2012/06/21/collect-7-higher-order-functions.html)
+* [scan](/2012/06/23/scan-7-higher-order-functions.html)
 
 ## Partition
 

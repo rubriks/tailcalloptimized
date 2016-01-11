@@ -9,13 +9,13 @@ image:
 
 This is the first blog post in a series of posts that will talk about higher order functions. We'll start off easy with a function called Map that I hope everyone has encountered and are using regularly.
 
-* [map](/2012/06/03/map-7-higher-order-functions)
-* [fold](/2012/06/06/fold-7-higher-order-functions)
-* [partition](/2012/06/10/partition-7-higher-order-functions)
-* [reduce](/2012/06/16/reduce-7-higher-order-functions)
-* [expand](/2012/06/19/expand-7-higher-order-functions)
-* [collect](/2012/06/21/collect-7-higher-order-functions)
-* [scan](/2012/06/23/scan-7-higher-order-functions)
+* [map](/2012/06/03/map-7-higher-order-functions.html)
+* [fold](/2012/06/06/fold-7-higher-order-functions.html)
+* [partition](/2012/06/10/partition-7-higher-order-functions.html)
+* [reduce](/2012/06/16/reduce-7-higher-order-functions.html)
+* [expand](/2012/06/19/expand-7-higher-order-functions.html)
+* [collect](/2012/06/21/collect-7-higher-order-functions.html)
+* [scan](/2012/06/23/scan-7-higher-order-functions.html)
 
 ## Map
 
