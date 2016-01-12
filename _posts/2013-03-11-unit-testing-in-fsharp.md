@@ -7,16 +7,25 @@ assets: assets/posts/2013-03-11-unit-testing-in-fsharp
 image: 
 ---
 
-<p>I'm one really into testing. I love it. I love refactoring and I love the structure I get from testing. But always there's this wall between the tests and the reality. Most often it is the programming language that stands in your way, and you have to write test names like this.</p>
-<pre class="brush:csharp">public class GameOfLife
+I'm one really into testing. I love it. I love refactoring and I love the structure I get from testing. But always there's this wall between the tests and the reality. Most often it is the programming language that stands in your way, and you have to write test names like this.
+
+```csharp
+public class GameOfLife
 {
      public void CellsWithNoNeighboursShouldDie() { ... }
-}</pre>
-<p>The main problem here is readability. Language constructs (public class/void) and limitations (pascal case) stands in your way of readability. This is both in writing the test and reading the test output.</p>
-<p>What test output really should look like is this</p>
-<p><img src="/Media/Default/BlogPost/c8bv.png" alt="unit test output from fsunit" width="690" height="704" /></p>
-<p>You can accieve this by writing your tests in F#. I have done so here with the frameworks <a href="https://github.com/dmohl/FsUnit">FSUnit</a> and <a href="http://xunit.codeplex.com/">xUnit</a>. This is what the test code looks like.</p>
-<pre class="brush:fsharp">namespace GameOfLife
+}
+```
+
+The main problem here is readability. Language constructs (public class/void) and limitations (pascal case) stands in your way of readability. This is both in writing the test and reading the test output.
+
+What test output really should look like is this
+
+![unit test output from fsunit](/assets/posts/2013-03-11-unit-testing-in-fsharp/c8bv.png)
+
+You can accieve this by writing your tests in F#. I have done so here with the frameworks [FSUnit](https://github.com/dmohl/FsUnit) and [xUnit](http://xunit.codeplex.com/). This is what the test code looks like.
+
+```fsharp
+namespace GameOfLife
 
 module TestHelpers =
     open NHamcrest
@@ -214,5 +223,7 @@ namespace ``Examples: Spaceships``
         [<Fact>]
         let ``when fourth turn is run, the lightweight spaceship has moved 2 points to the right`` () =
             lwss |> Run.next |> Run.next |> Run.next |> Run.next |> List.sort
-            |> should equal (lwss |> List.map (fun (x, y) -> x + 2, y))</pre>
-<p>Pretty neat, huh!?</p>
+            |> should equal (lwss |> List.map (fun (x, y) -> x + 2, y))
+```
+
+Pretty neat, huh!?
