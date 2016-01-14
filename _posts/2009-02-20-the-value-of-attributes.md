@@ -8,72 +8,29 @@ assets: assets/posts/2009-02-20-the-value-of-attributes
 image: 
 ---
 
-<p>I often rediscover the value of Attributes in C#. Very often it is hard to find a situation where you have need of attributes, you may be thinking that it is only for meta coding like unit testing or dynamic code intepretation/serializing, but you're wrong. Attributes are useful every time you need to add meta data to a class, property or field. Let me give you the common example of adding label to an enum.</p>
-<blockquote>Problem: An enum defines genre in your music database. Now you want to display all available genres.</blockquote>
-<pre class="brush: csharp">[Flags]
-public enum Genre
-{
-    Other = 0,
-    AlternativeRock = 1,
-    HardRock = 2,
-    WorldMusic = 4,
-    Indie = 8,
-    PostRock = 16
-}</pre>
-<p>Start by defining the attribute Label.</p>
-<pre class="brush: csharp">public class LabelAttribute : Attribute
-{
-    public LabelAttribute(string text)
-    {
-        this.Text = text;
-    }
+I often rediscover the value of Attributes in C#. Very often it is hard to find a situation where you have need of attributes, you may be thinking that it is only for meta coding like unit testing or dynamic code intepretation/serializing, but you're wrong. Attributes are useful every time you need to add meta data to a class, property or field. Let me give you the common example of adding label to an enum.
 
-    public string Text { get; set; }
-}</pre>
-<p>Now you can add this to your genre values.</p>
-<pre class="brush: csharp">[Flags]
-public enum Genre
-{  
-    [Label("Other")]
-    Other = 0,
+> Problem: An enum defines genre in your music database. Now you want to display all available genres.
 
-    [Label("Alternative Rock")]
-    AlternativeRock = 1,
+{% gist miklund/2fdb10929f47f599da75 Genre1.cs %}
 
-    [Label("Hard rock")]
-    HardRock = 2,
+Start by defining the attribute Label.
 
-    [Label("World music")]
-    WorldMusic = 4,
+{% gist miklund/2fdb10929f47f599da75 LabelAttribute.cs %}
 
-    [Label("Indie")]
-    Indie = 8,
+Now you can add this to your genre values.
 
-    [Label("Post-rock")]
-    PostRock = 16
-}</pre>
-<p>With the simple use of an extension method you may accomplish alot.</p>
-<pre class="brush: csharp">public static class LabelAttributeHelper
-{
-    /// <summary>
-    /// Get label of an enum field
-    /// </summary>
-    public static string Label<T>(this T val)
-    {
-        if (!typeof(T).IsEnum)
-            throw new ArgumentException("T must be an Enum");
+{% gist miklund/2fdb10929f47f599da75 Genre2.cs %}
 
-        FieldInfo field = typeof(T).GetField(val.ToString());
-        LabelAttribute[] attributes = 
-            (LabelAttribute[])field.GetCustomAttributes(typeof(LabelAttribute), false);
+With the simple use of an extension method you may accomplish alot.
 
-        if (attributes.Length == 0)
-            throw new ArgumentOutOfRangeException("Enum value " + val.ToString() + " is missing Label attribute");
+{% gist miklund/2fdb10929f47f599da75 LabelAttributeHelper.cs %}
 
-        return attributes.First().Text;
-    }
-}</pre>
-<p>Now you may easily type out all available genres with a simple procedure.</p>
-<pre class="brush: csharp">foreach (Genre genre in Enum.GetValues(typeof(Genre)))
-    Console.WriteLine(genre.Label());</pre>
-<p>That's all for today. Have a nice weekend!</p>
+Now you may easily type out all available genres with a simple procedure.
+
+```csharp
+foreach (Genre genre in Enum.GetValues(typeof(Genre)))
+    Console.WriteLine(genre.Label());
+```
+
+That's all for today. Have a nice weekend!
