@@ -3,7 +3,7 @@ layout: post
 title: "Property-Based Testing with F#"
 description: Getting started with property-based testing using FsCheck and F# 
 date: 2015-06-04 10:27:16
-tags: fsharp testing
+tags: F#, testing, property-based testing
 assets: assets/posts/2015-06-04-property-based-testing-with-fsharp
 image: assets/posts/2015-06-04-property-based-testing-with-fsharp/title.jpg
 ---

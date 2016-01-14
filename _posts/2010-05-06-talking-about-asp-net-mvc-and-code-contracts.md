@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Talking about ASP.NET MVC and Code Contracts"
-description:
+description: Presentation about ASP.NET MVC and Code Contracts.
+tags: mvc, code contracts, presentation
 date: 2010-05-06 07:10:08
 assets: assets/posts/2010-05-06-talking-about-asp-net-mvc-and-code-contracts
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "When and how you should do acceptance testing"
-description:
+description: What is acceptance testing good for and how can we write good acceptance tests that provide lots of value? These are the question I will try to answer with this blog post.
+tags: acceptance testing, testing, regression, automated testing
 date: 2011-06-09 12:07:49
 assets: assets/posts/2011-06-09-when-and-how-you-should-do-acceptance-testing
 image: 

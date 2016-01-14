@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "NDepend - Woohoo!"
-description:
+description: I bought a license for NDepend and could never be happier. Now I can do all sorts of analysis of my code base and be a real smartass to my colleagues about it.
+tags: NDepend, code quality, technical dept
 date: 2009-09-24 05:32:14
 assets: assets/posts/2009-09-24-ndepend-woohoo
 image: 

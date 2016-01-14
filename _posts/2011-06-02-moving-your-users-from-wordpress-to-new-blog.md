@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Moving your users from Wordpress to new blog"
-description:
+description: After moving this whole blog from Wordpress to Orchard CMS it is also appropriate to redirect all old URLs to their respective new ones on the new blog.
+tags: redirect, soa, Orchard, CMS, Wordpress
 date: 2011-06-02 07:53:07
 assets: assets/posts/2011-06-02-moving-your-users-from-wordpress-to-new-blog
 image: 

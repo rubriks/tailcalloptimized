@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #020"
-description:
+description: Find the sum of the digits in the number 100!
+tags: project euler, dojo
 date: 2010-08-23 15:20:28
 assets: assets/posts/2010-08-23-project-euler-020
 image: 

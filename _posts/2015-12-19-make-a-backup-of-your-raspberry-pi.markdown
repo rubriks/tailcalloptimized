@@ -3,7 +3,7 @@ layout: post
 title: "Make a backup of your Raspberry Pi"
 description: This is a quick guide to creating a backup of your Raspberry Pi on Mac OS X.
 date: 2015-12-19 13:40:54
-tags: osx rpi
+tags: osx, rpi, raspberry pi
 assets: assets/posts/2015-12-19-make-a-backup-of-your-raspberry-pi
 image: assets/posts/2015-12-19-make-a-backup-of-your-raspberry-pi/title.png
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Book review: Code Complete 2nd edition"
-description:
+description: We had a book circle at work reading Code Complete by Steve McConnel. This is really not the book for me. I understand that Steve knows his shit, but almost every bit of advice in this book was obvious to me.
 date: 2009-06-28 19:26:18
 assets: assets/posts/2009-06-28-book-review-code-complete-2nd-edition
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #014"
-description:
+description: Which starting number, under 1000000 produces the longest chain?
+tags: project euler, dojo, F#
 date: 2010-08-18 15:09:36
 assets: assets/posts/2010-08-18-project-euler-014
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Unit testing to find bugs"
-description:
+description: Are we testing to find bugs or are we testing to prevent bugs from happening in the first place?
+tags: testing, tdd, bugs, defects
 date: 2009-09-20 08:20:21
 assets: assets/posts/2009-09-20-unit-testing-to-find-bugs
 image: 

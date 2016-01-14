@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Zune software is not launched. Retry after making sure that Zune software is launched"
-description:
+description: Dealing with the problem of Zune not starting when doing Windows Phone 7 development.
+tags: WP7, phone development, emulation
 date: 2011-04-01 09:58:32
 assets: assets/posts/2011-04-01-zune-software-is-not-launched-retry-after-making-sure-that-zune-software-is-launched
 image: 

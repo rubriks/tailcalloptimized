@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Dealing with dependencies in functional programming"
-description:
+description: In imperative programming we have tools like dependency injection and inversion of control. How does this work in functional programming?
+tags: functional programming, dependency injection, inversion of control
 date: 2011-06-15 05:46:49
 assets: assets/posts/2011-06-15-dealing-with-dependencies-in-functional-programming
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Assert That!"
-description:
+description: Defensive programming means that you check that the state of the system is in the state that you're expecting. When starting a method you validate the input arguments. When calling a method you validate the result you get back.
+tags: defensive programming, code contracts
 date: 2008-08-31 15:37:14
 assets: assets/posts/2008-08-31-assert-that
 image: 

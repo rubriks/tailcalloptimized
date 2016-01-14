@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "This recession will claim death to SEO companies"
-description:
+description: SEO companies will not survive. There are too many of them, doing to similiar things and providing services that we as a development firm already possess. Why would you bring in another partner when the partner you have already provides the service.
+tags: seo
 date: 2009-05-06 05:31:31
 assets: assets/posts/2009-05-06-death-to-seo-companies
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Integrating with Team System Build"
-description:
+description: How to integrate with the Team System Build API in order to get the build status of a particular build. You can use this to control an alarm when the build goes wrong.
+tags: TFS, C#, API, CI, build server, build monitor
 date: 2013-02-08 07:00:16
 assets: assets/posts/2013-02-08-integrating-with-team-system-build
 image: 

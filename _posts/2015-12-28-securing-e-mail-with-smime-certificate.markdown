@@ -3,7 +3,7 @@ layout: post
 title: "Securing e-mail with S/MIME certificate"
 description: I will never stop my efforts to make communication with me trustworthy and secure.
 date: 2015-12-28 18:49:44
-tags: 
+tags: security, secops, e-mail, smime
 assets: assets/posts/2015-12-28-securing-e-mail-with-smime-certificate
 image: assets/posts/2015-12-28-securing-e-mail-with-smime-certificate/title.jpg
 ---

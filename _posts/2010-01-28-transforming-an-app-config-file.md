@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Transforming an App.config file"
-description:
+description: If you're doing any serious enterprise work you have several different environments and they all have their own configuration. Here is a solution for handling different configuration files and transforming depending on the environment you're building for.
+tags: environment, xslt, transformation, xml, app.config, web.config
 date: 2010-01-28 22:12:42
 assets: assets/posts/2010-01-28-transforming-an-app-config-file
 image: 

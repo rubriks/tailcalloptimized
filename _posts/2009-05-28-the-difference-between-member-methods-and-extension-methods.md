@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The difference between member methods and extension methods"
-description:
+description: An extension method is not a member of the class it is extending. Instead it is just syntactic sugar that lets the compiler think it is calling a method on the class when it is really just calling a static function.
+tags: code, C#
 date: 2009-05-28 22:00:07
 assets: assets/posts/2009-05-28-the-difference-between-member-methods-and-extension-methods
 image: 

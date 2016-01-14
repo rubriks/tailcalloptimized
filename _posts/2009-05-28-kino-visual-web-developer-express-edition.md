@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Kino, Visual Web Developer Express Edition"
-description:
+description: I have created a version of Kino that is friendly to Visual Web Developer Express Edition.
+tags: Kino
 date: 2009-05-28 20:34:01
 assets: assets/posts/2009-05-28-kino-visual-web-developer-express-edition
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #010"
-description:
+description: Find the sum of all prime numbers below two million.
+tags: F#, project euler, dojo, primes
 date: 2010-08-12 17:59:51
 assets: assets/posts/2010-08-12-project-euler-010
 image: 

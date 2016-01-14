@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Citerus programming challenge"
-description:
+description: Citerus had a programming language in Java. This is my solution for their problem completed in F#.
+tags: F#, Citerus, dojo
 date: 2011-02-16 20:26:31
 assets: assets/posts/2011-02-16-citerus-programming-challenge
 image: 

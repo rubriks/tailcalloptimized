@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Part 1: Design and architecture"
-description:
+description: What architecture and design principles do I envision for the Kino project.
+tags: software architecture, software design
 date: 2009-05-23 22:00:21
 assets: assets/posts/2009-05-23-kino-design-and-architecture
 image: 

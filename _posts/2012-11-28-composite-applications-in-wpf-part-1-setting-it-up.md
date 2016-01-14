@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Composite applications in WPF: Part 1 - Setting it up"
-description:
+description: How to setup a composite application in WPF, including development with Prism MVVM framework and using Unity IoC container.
+tags: WPF, C#, Prism, MVVM, Unity
 date: 2012-11-28 19:30:12
 assets: assets/posts/2012-11-28-composite-applications-in-wpf-part-1---setting-it-up
 image: 

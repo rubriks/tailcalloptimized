@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Debug SOAP request and response in WCF"
-description:
+description: Here's how to turn on debug loggin in WCF and use Microsoft Services Trace Viewer to determine the problem with your SOAP calls, or just getting the complete SOAP envelope.
+tags: soap, wcf, debug
 date: 2011-11-02 11:11:42
 assets: assets/posts/2011-11-02-debug-soap-request-and-response-in-wcf
 image: 

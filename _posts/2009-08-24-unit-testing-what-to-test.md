@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Unit Testing - What to test"
-description:
+description: All code is not testable and all code should not be tested, however having that as a presumption might get you into trouble not testing things that are neccessary to test.
+tags: testing, unit testing, tdd
 date: 2009-08-24 19:16:23
 assets: assets/posts/2009-08-24-unit-testing-what-to-test
 image: 

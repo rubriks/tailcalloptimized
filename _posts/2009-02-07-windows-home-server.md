@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Windows Home Server"
-description:
+description: I bought a Windows Home Server from Fujitsu and this is my review.
+tags: home server, windows server 2003
 date: 2009-02-07 07:17:00
 assets: assets/posts/2009-02-06-windows-home-server
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Coverage is a broken metric"
-description:
+description: Coverage is not only a broken metric but also a dangerous one. 100% test coverage should not be a goal and not an achievement.
+tags: unit test, testing, coverage
 date: 2011-10-29 13:49:10
 assets: assets/posts/2011-10-29-coverage-is-a-broken-metric
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "AOP in .NET with Unity Interception Model"
-description:
+description: This is how you do aspect oriented programming with Unity inversion of control container.
+tags: aop, .NET, unity, IoC, DI
 date: 2009-10-30 06:39:57
 assets: assets/posts/2009-10-30-aop-in-net-with-unity-interception-model
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Conditional compilation"
-description:
+description: Conditional compilation might get you into tons of trouble, but it can be cool for some meta tasks.
+tags: debugging, logging, log4net, xslt, compile
 date: 2009-02-27 06:15:49
 assets: assets/posts/2009-02-27-conditional-compilation
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Clean up your Visual Studio Context Menus"
-description:
+description: There are many buttons in your IDE that you'll never use. Instead of having them clutter up your workspace you should remove them and in the process become much more efficient.
+tags: IDE, Visual Studio
 date: 2009-05-30 22:00:48
 assets: assets/posts/2009-05-30-clean-up-your-visual-studio-context-menus
 image: 

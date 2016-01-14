@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Functional Patterns in C#: MapWhile"
-description:
+description: The MapWhile pattern is a cool thing to do in F# but how can you write the same code in C#?
+tags: functional pattern, mapwhile, F#, C#, Project Euler
 date: 2011-01-13 15:02:02
 assets: assets/posts/2011-01-13-functional-patterns-in-c-mapwhile
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Base of operation"
-description:
+description: I have moved from Stockholm to Uppsala.
+tags: meta
 date: 2009-01-18 11:27:12
 assets: assets/posts/2009-01-18-base-of-operation
 image: 

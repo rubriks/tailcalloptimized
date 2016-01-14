@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "They are all routines"
-description:
+description: Code operates on data. Code is data. Data operates on data. We're all dealing with data operating on data.
+tags: code
 date: 2009-04-27 05:33:19
 assets: assets/posts/2009-04-27-they-are-all-routines
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Virtual Path Provider"
-description:
+description: By building a virtual path provider you can use the filesystem like normal but totally customize how files will be resolved or stored. This way you can store a file area directly into the database.
+tags: vpp, coding
 date: 2008-08-30 14:43:25
 assets: assets/posts/2008-08-30-virtual-path-provider
 image: 

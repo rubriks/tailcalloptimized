@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Orchard: Alternative content on start page"
-description:
+description: How to modify the start page to add alternative content compared to all other pages on the site.
+tags: Orchard, CMS, content management
 date: 2011-06-16 15:04:15
 assets: assets/posts/2011-06-16-orchard-alternative-content-on-homepage
 image: 

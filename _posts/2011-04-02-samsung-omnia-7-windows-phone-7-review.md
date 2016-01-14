@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Samsung Omnia 7 - Windows Phone 7 Review"
-description:
+description: A review of the Samsung Omnia 7 phone and its brand new operating system Windows Phone 7.
+tags: Samsung Omnia 7, Windows Phone 7, review, phones
 date: 2011-04-02 08:26:22
 assets: assets/posts/2011-04-02-samsung-omnia-7-windows-phone-7-review
 image: 

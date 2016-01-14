@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Game of Life"
-description:
+description: A comparison between a functional immutable implementation of Game of Life in F# and an Object Oriented mutable implementation in C#.
+tags: Game of life, f#, c#, object orientation, immutable
 date: 2013-03-12 17:39:37
 assets: assets/posts/2013-03-12-game-of-life
 image: 

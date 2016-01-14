@@ -2,6 +2,7 @@
 layout: post
 title: "Bugs and defects"
 description: "What are the different errors that might happen in software development"
+tags: bugs, defects, software quality, quality assurance
 date: 2014-04-25 07:20:30
 tags: bugs defects
 ---

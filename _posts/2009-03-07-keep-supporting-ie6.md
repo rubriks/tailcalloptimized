@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Keep supporting IE6"
-description:
+description: Everyone haste IE6, but truth be told, IE6 brought a lot of what we consider the modern web today and it did that at a cost of being non standardized.
+tags: IE6, compatability
 date: 2009-03-07 08:03:14
 assets: assets/posts/2009-03-07-keep-supporting-ie6
 image: 

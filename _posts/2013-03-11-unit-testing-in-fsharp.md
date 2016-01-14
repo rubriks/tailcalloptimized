@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Unit testing in F#"
-description:
+description: Writing tests in F# can support the behavior driven development test model by allowing much nicer naming conventions.
+tags: testing, bdd, tdd, F#
 date: 2013-03-11 05:23:47
 assets: assets/posts/2013-03-11-unit-testing-in-fsharp
 image: 

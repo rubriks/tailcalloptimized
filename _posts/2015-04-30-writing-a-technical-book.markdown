@@ -3,7 +3,7 @@ layout: post
 title: "Writing a Technical Book"
 description: Statistics and insights on writing a technical book for a publisher 
 date: 2015-04-30 22:53:48
-tags: book fsharp
+tags: book, F#, publishing
 assets: assets/posts/2015-04-30-writing-a-technical-book
 image: assets/posts/2015-04-30-writing-a-technical-book/title.jpg
 ---

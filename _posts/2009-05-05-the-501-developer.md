@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The 501 developer"
-description:
+description: Some developers live to code. Other developers code to live. Which one is you?
 date: 2009-05-05 06:00:54
 assets: assets/posts/2009-05-05-the-501-developer
 image: 

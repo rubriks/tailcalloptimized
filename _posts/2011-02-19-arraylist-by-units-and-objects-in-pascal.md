@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "ArrayList by units and objects in Pascal"
-description:
+description: How to create an array list of unit and object using records and pointers in Turbo Pascal.
+tags: ArrayList, turbo pascal, pascal
 date: 2011-02-19 11:54:21
 assets: assets/posts/2011-02-19-arraylist-by-units-and-objects-in-pascal
 image: 

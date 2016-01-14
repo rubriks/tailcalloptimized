@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Solution and Projects"
-description:
+description: Initial architecture and thoughts about the Mint project.
+tags: Visual Studio, C#, architecture, project organization
 date: 2008-08-30 20:55:34
 assets: assets/posts/2008-08-30-solution-and-projects
 image: 

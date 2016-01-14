@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Where do you want to goto today?"
-description:
+description: Goto is not evil. It is rather how you choose to use goto that is evil. There are situations when Goto is legitimate.
+tags: code, goto
 date: 2009-03-02 17:06:46
 assets: assets/posts/2009-03-02-where-do-you-want-to-goto-today
 image: 

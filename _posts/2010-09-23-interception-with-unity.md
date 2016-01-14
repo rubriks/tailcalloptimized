@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Interception with Unity"
-description:
+description: Unity is more than just an IoC container. It is also able to do method call interception.
+tags: unity, interception, di, ioc
 date: 2010-09-23 15:15:43
 assets: assets/posts/2010-09-23-interception-with-unity
 image: 

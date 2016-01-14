@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Expand - 7 higher order functions"
-description:
+description: Implementation and usage of the higher order function expand.
+tags: functional programming
 date: 2012-06-19 18:25:00
 assets: assets/posts/2012-06-19-expand-7-higher-order-functions
 image: 

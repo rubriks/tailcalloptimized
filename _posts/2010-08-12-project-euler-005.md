@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #005"
-description:
+description: What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+tags: F#, project euler, dojo
 date: 2010-08-12 11:11:57
 assets: assets/posts/2010-08-12-project-euler-005
 image: 

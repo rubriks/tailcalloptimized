@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "My history of computing"
-description:
+description: Here is how I got into computing, starting with my days with the Amiga and starting to program Turbo Pascal at the age of 12.
+tags: amiga, turbo pascal, php, lisp
 date: 2009-06-07 06:27:19
 assets: assets/posts/2009-06-07-my-history-of-computing
 image: 

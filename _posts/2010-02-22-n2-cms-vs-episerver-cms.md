@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "N2 CMS vs. EPiServer CMS"
-description:
+description: My client wanted to know why they should go with EPiServer CMS when there is this great looking N2 CMS which is free. I wrote a report on the subject and here is a summary of that report.
+tags: N2 CMS, EPiServer CMS, content management system
 date: 2010-02-22 20:11:24
 assets: assets/posts/2010-02-22-n2-cms-vs-episerver-cms
 image: 

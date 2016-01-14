@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Map - 7 higher order functions"
-description:
+description: Implementation and usage of the higher order function map.
+tags: F#, higher order function, map
 date: 2012-06-03 10:27:00
 assets: assets/posts/2012-06-03-map-7-higher-order-functions
 image: 

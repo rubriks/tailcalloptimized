@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Real world functional programming"
-description:
+description: Elaboration on functional programming from my seminar Real World Functional Programming that I did at Valtech Tech Day 2011.
+tags: presentation, functional programming, F#, valtech
 date: 2011-05-25 16:25:03
 assets: assets/posts/2011-05-25-real-world-functional-programming
 image: 

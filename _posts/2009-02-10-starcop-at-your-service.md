@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "[*Star]Cop at your service"
-description:
+title: "StarCop at your service"
+description: StarCop is a tool for validating the style of your code. This can be good when you're working in a team and you want everyone to write code with the same style.
+tags: stylecop, code style, style guidelines
 date: 2009-02-10 17:22:00
 assets: assets/posts/2009-02-10-starcop-at-your-service
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Merge assemblies with ILMerge"
-description:
+description: Lots of assemblies makes an application harder to deploy and longer time to startup. You can mitigate this by merging project assemblies together.
+tags: C#, ilmerge, .NET
 date: 2010-07-06 09:51:22
 assets: assets/posts/2010-07-06-merge-assemblies-with-ilmerge
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "CSS Naked Day"
-description:
+description: On css naked day you remove the CSS from your website and display that wonderful ubiquitous HTML that we all love. If your site no longer works without CSS, you might consider improving it.
+tags: ubiquitous html, css, semantic markup
 date: 2010-04-09 06:54:12
 assets: assets/posts/2010-04-09-css-naked-day
 image: 

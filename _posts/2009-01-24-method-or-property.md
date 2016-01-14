@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Method or Property"
-description:
+description: There are some confusion as to when a property should be used on a class and when there should be a method. Here are some guidelines that I use.
+tags: code guidelines
 date: 2009-01-24 09:04:34
 assets: assets/posts/2009-01-24-method-or-property
 image: 

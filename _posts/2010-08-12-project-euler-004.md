@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #004"
-description:
+description: Find the largest palindrome made from the product of two 3-digit numbers.
+tags: F#, project euler, dojo
 date: 2010-08-12 09:34:38
 assets: assets/posts/2010-08-12-project-euler-004
 image: 

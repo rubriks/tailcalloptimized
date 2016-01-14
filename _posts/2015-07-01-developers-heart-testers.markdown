@@ -3,7 +3,7 @@ layout: post
 title: "Developers Heart Testers"
 description: Where are all the testers? Have developer written automated tests really killed the testing role in agile projects? No! We need testers more than ever to know what to implement and how to do it right.
 date: 2015-07-01 10:00:00
-tags: testing
+tags: testing, qa, quality assurance
 assets: assets/posts/2015-07-01-developers-heart-testers
 image: assets/posts/2015-07-01-developers-heart-testers/developerlovestester.png
 ---

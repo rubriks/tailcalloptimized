@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Deploy to Azure with Powershell"
-description:
+description: An article on how to automate deployment to Azure using Powershell Cmdlets and psake build scripts.
+tags: Windows Azure, Powershell, Web Role, CmdLet, psake
 date: 2011-08-02 10:00:04
 assets: assets/posts/2011-08-02-deploy-to-azure-with-powershell
 image: 

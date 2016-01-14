@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Validate XHtml 1.0 Strict as part of your build process"
-description:
+description: If you're conforming to XHtml 1.0 strict, then your HTML is pure XML and can be validated with an XSD. Here's how you can do that W3C Validation on your build machine using unit testing frameworks.
+tags: W3C Validator, XSD, XHtml 1.0 Strict
 date: 2010-03-19 11:00:43
 assets: assets/posts/2010-03-19-validate-xhtml-1-0-strict-as-part-of-your-build-process
 image: 

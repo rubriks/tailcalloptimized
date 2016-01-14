@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Application logging for F#"
-description:
+description: Using log4net in F# can look pretty bad unless you do something about it and create nice wrapper functions.
+tags: F#, logging, log4net, ksprintf
 date: 2011-12-02 05:38:35
 assets: assets/posts/2011-12-02-application-logging-for-fsharp
 image: 

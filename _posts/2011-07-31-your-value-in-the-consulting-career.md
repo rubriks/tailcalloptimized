@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Your value in the consulting career"
-description:
+description: What kind of value do you bring to your company or to the community outside your company, and what does it matter? Here's how to work on your internal and external value.
+tags: personal branding
 date: 2011-07-31 07:10:46
 assets: assets/posts/2011-07-31-your-value-in-the-consulting-career
 image: 

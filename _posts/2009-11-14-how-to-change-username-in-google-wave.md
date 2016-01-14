@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to change username in Google Wave"
-description:
+description: Google Wave create a username for you when you sign up, and sometimes you're nog happy with that. This is how you can change that username.
+tags: google wave, google
 date: 2009-11-14 14:18:18
 assets: assets/posts/2009-11-14-how-to-change-username-in-google-wave
 image: 
@@ -13,7 +14,7 @@ This got me to research how to change the username that is given and I found the
 
 ## Edit your profile
 
-Go to your google profile and press <em>Edit Profile</em>. If you're not logged in you'll have to authenticate yourself.
+Go to your google profile and press _Edit Profile_. If you're not logged in you'll have to authenticate yourself.
 
 * [http://www.google.com/profiles/me](http://www.google.com/profiles/me)
 

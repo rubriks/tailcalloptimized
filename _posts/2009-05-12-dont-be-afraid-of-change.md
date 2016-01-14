@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Don't be afraid of change"
-description:
+description: We should not be afraid to change our code, because if we are, then we're creating a legacy system. When we realize that we've made a mistake we should refactor our code to fix that mistake and in that way battle technical debt.
+tags: technical debt
 date: 2009-05-12 20:40:12
 assets: assets/posts/2009-05-12-dont-be-afraid-of-change
 image: 

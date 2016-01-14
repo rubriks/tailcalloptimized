@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Dependency Injection in ASP.NET WebForms"
-description:
+description: How to do Dependency Injection with unity and ASP.NET WebForms in a non obtrusive way.
+tags: DI, Unity, ASP.NET WebForms, WebForms
 date: 2011-08-24 12:46:43
 assets: assets/posts/2011-08-24-dependency-injection-in-asp.net-webforms
 image: 

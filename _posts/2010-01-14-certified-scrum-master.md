@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Certified Scrum Master"
-description:
+description: Beginning of the new year, I took a 2 day course in order to become a certified scrum master.
+tags: scrum, scrum master, agile development
 date: 2010-01-14 21:13:30
 assets: assets/posts/2010-01-14-certified-scrum-master
 image: 

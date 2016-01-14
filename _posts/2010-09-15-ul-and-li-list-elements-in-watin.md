@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "UL and LI list elements in WatiN"
-description:
+description: WatiN is a splendid framework for running tests on HTML, but it is lacking in its API. Here's how to create support for a simple unordered list in Watin.
+tags: testing, web testing, acceptance testing, watin
 date: 2010-09-15 18:20:38
 assets: assets/posts/2010-09-15-ul-and-li-list-elements-in-watin
 image: 

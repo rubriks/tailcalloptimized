@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "56 useless buttons in your IDE"
-description:
+description: You could remove a lot of clutter from your IDE if you learned to use shortcuts instead of having buttons for everything. The standard Visual Studio setup holds 56 buttons. I'm sure we can remove some of them.
+tags: Visual Studio, IDE, programming environment
 date: 2011-03-23 08:33:10
 assets: assets/posts/2011-03-23-56-useless-buttons-in-your-ide
 image: 

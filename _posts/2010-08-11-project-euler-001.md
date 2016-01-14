@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #001"
-description:
+description: Find the sum of all the multiples of 3 or 5 below 1000.
+tags: project euler, F#, dojo
 date: 2010-08-11 20:20:03
 assets: assets/posts/2010-08-11-project-euler-001
 image: 

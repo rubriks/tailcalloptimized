@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #003"
-description:
+description: What is the largest prime factor of the number 600851475143?
+tags: prime, F#, project euler, dojo
 date: 2010-08-12 08:44:08
 assets: assets/posts/2010-08-12-project-euler-003
 image: 

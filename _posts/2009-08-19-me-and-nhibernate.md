@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Me and NHibernate"
-description:
+description: I'm fighting the good fight with NHibernate trying to get friends with it. Between configuration files and error messages, it it a very powerfull ORM framework.
+tags: NHibernate, fluentnhibernate, C#, ORM, data access
 date: 2009-08-19 20:01:28
 assets: assets/posts/2009-08-19-me-and-nhibernate
 image: 

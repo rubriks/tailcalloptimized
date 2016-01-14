@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "UTF8 encoding and Excel CSV"
-description:
+description: How to create an Excel CSV file with UTF8 encoding in order to support non english characters.
+tags: character encoding, csv, excel, utf
 date: 2011-04-20 15:24:13
 assets: assets/posts/2011-04-20-utf8-encoding-and-excel-csv
 image: 

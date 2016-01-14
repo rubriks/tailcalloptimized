@@ -3,7 +3,7 @@ layout: post
 title: "Deploying legacy Rails application on Raspberry Pi 2 with Docker"
 description: A long story on how I moved the rails application R3PL4Y from Heroku to running in Docker on an RPi2.
 date: 2015-12-11 10:00:46
-tags: rail rpi2 docker
+tags: rails, ruby, rpi2, raspberry pi, docker
 assets: assets/posts/2015-12-11-deploying-legacy-rails-application-on-raspberry-pi-2-with-docker
 image: assets/posts/2015-12-11-deploying-legacy-rails-application-on-raspberry-pi-2-with-docker/rpi2.jpg
 ---

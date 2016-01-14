@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Virtual is the new native"
-description:
+description: I have stopped configuring my main machine for development, because after a while it gets bogged down with the tools. Instead I create specialized virtual machines for development that I can throw away when I'm done with them.
+tags: virtual machine, software development, consultancy
 date: 2012-10-03 04:14:15
 assets: assets/posts/2012-10-03-virtual-is-the-new-native
 image: 

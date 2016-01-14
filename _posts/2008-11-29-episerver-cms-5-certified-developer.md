@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "EPiServer CMS 5 Certified Developer"
-description:
+description: I passed my certification exam and am now an EPiServer CMS 5 certified developer.
+tags: episerver, cms, certification
 date: 2008-11-29 09:50:51
 assets: assets/posts/2008-11-29-episerver-cms-5-certified-developer
 image: 

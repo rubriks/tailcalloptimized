@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Self documenting code is not code without comments"
-description:
+description: Code doesn't need any comments if you write clean code. What does clean code mean and how could code be self documenting?
+tags: clean code, C#, documentation
 date: 2009-10-22 19:32:50
 assets: assets/posts/2009-10-22-self-documenting-code-is-not-code-without-comments
 image: 

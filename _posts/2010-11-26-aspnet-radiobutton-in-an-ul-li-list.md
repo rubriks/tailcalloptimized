@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "ASP.NET RadioButtons in an UL/LI list"
-description:
+description: Having a RadioButton in a list is a classic ASP.NET WebForms problem. Here is my solution.
+tags: WebForms, dynamic
 date: 2010-11-26 18:23:00
 assets: assets/posts/2010-11-26-aspnet-radiobutton-in-an-ul-li-list
 image: 

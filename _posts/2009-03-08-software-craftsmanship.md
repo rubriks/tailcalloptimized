@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Software Craftsmanship"
-description:
+description: A software craftsman is someone that takes pride in their work and see code as a craft. Quality in software is today in a sorry state. We need more craftsmen that take pride in what they do.
+tags: craftsmanship, quality
 date: 2009-03-08 06:26:07
 assets: assets/posts/2009-03-08-software-craftsmanship
 image: 

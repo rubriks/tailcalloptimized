@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Testdriven development with JavaScript and QUnit"
-description:
+description: Testdriven development haven't reached the JavaScript community yet, but it will be. A few libraries are tested, and jQuery is one of them using QUnit for their tests.
+tags: jquery, qunit, javascript, tdd, testing
 date: 2010-02-07 10:10:54
 assets: assets/posts/2010-02-07-testdriven-development-with-javascript-and-qunit
 image: 

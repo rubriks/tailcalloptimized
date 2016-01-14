@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Data driven test cases in NUnit"
-description:
+description: How to use an external data source to feed your unit tests with test data.
+tags: unit testing, nunit, test data
 date: 2011-05-26 05:12:41
 assets: assets/posts/2011-05-26-data-driven-test-cases-in-nunit
 image: 

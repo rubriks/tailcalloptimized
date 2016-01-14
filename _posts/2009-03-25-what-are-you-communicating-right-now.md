@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "What are you communicating right now?"
-description:
+description: What are you saying and who is listening. In this time it is important to be, not how you dress or what you look like, but what you communicate.
+tags: communication
 date: 2009-03-25 17:44:44
 assets: assets/posts/2009-03-25-what-are-you-communicating-right-now
 image: 

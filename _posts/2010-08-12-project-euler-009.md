@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #009"
-description:
+description: For the pythagorean triplet with the sum of 1000, find the product of a b c.
+tags: F#, project euler, dojo
 date: 2010-08-12 15:24:58
 assets: assets/posts/2010-08-12-project-euler-009
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #019"
-description:
+description: How many sundays fell on the first of the month during the twentieth century?
+tags: project euler, dojo
 date: 2010-08-21 19:51:35
 assets: assets/posts/2010-08-21-project-euler-019
 image: 

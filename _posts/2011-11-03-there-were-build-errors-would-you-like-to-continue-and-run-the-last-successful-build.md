@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "There were build errors. Would you like to continue and run the last successful build?"
-description:
+description: A short guide to removing the irritating build message that appears when you try to run a project though you got build errors. Let's remove that question you never say Yes to.
+tags: Visual Studio
 date: 2011-11-03 16:58:22
 assets: assets/posts/2011-11-03-there-were-build-errors-would-you-like-to-continue-and-run-the-last-successful-build
 image: 

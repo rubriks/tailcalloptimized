@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CruiseControl with NAnt"
-description:
+description: CruiseControl is a tool for bringing in continuouos integration. This tool is able to run your tests, but it is better to define your build process in a build script like NAnt, only because you need the documentation.
 date: 2009-02-16 21:21:39
 assets: assets/posts/2009-02-16-cruisecontrol-with-nant
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Hand rolling your datalayer"
-description:
+description: Nobody is talking to the database anymore. You write code or a framework, that uses a framework that in the end results in some SQL sent over the wire. Here is how you hand roll that datalayer in order to understand how it works.
+tags: ADO.NET, data access, data layer, sql, ORM
 date: 2010-03-16 19:35:33
 assets: assets/posts/2010-03-16-hand-rolling-your-datalayer
 image: 

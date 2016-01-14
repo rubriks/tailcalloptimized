@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Database versioning updated"
-description:
+description: Adding a version number to the database change management script so that the whole database doesn't have to be rebuilt completely all the time.
+tags: database versioning, database change management
 date: 2011-12-03 11:30:13
 assets: assets/posts/2011-12-03-database-versioning-updated
 image: 

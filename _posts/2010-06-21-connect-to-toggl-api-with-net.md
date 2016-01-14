@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Connect to Toggl API with .NET"
-description:
+description: Here is how you can connect to the Toggl API in order to extract timesheet data.
+tags: Toggl, API, timesheet, integration
 date: 2010-06-21 20:04:17
 assets: assets/posts/2010-06-21-connect-to-toggl-api-with-net
 image: 

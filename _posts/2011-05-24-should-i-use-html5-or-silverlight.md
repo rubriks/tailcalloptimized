@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Should I use HTML5 or Silverlight?"
-description:
+description: If you need to do interactive content on a website, should you use HTML5 or Silverlight? This blog post will elaborate on what facts we have.
+tags: HTML5, Silverlight, Flash, Hanselman, semantics
 date: 2011-05-24 06:28:55
 assets: assets/posts/2011-05-24-should-i-use-html5-or-silverlight
 image: 

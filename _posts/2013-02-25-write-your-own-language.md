@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Write your own language"
-description:
+description: A guide to implementing your own Lisp dialect using FsYacc and FsLex.
+tags: fslex, fsyac, lisp, dsl
 date: 2013-02-25 20:31:14
 assets: assets/posts/2013-02-25-write-your-own-language
 image: 

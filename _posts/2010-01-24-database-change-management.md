@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Database change management"
-description:
+description: When we develop code we make sure that all code is version controlled. We can go back in history and see our changes. We can revert to an old version if needed be. Databases have not been handled this way. Here is a solution to database change management.
+tags: dbcm, database, sql server, tarantino, powershell
 date: 2010-01-24 21:50:26
 assets: assets/posts/2010-01-24-database-change-management
 image: 

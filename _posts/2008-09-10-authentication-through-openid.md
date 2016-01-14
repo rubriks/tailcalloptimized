@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Authentication through OpenID"
-description:
+description: As a website developer you would never want to deal with login information if you can. Instead you can defer the authentication to a third party.
+tags: openid, sso
 date: 2008-09-11 04:52:51
 assets: assets/posts/2008-09-11-authentication-through-openid
 image: 

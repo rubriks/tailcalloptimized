@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #006"
-description:
+description: Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+tags: F#, project euler, dojo
 date: 2010-08-12 11:33:26
 assets: assets/posts/2010-08-12-project-euler-006
 image: 

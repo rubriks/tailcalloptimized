@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The tip tip tappeti tap"
-description:
+description: Womens shoes. Womens SHOES! WOMENS SHOES!
+tags: womens shoes
 date: 2009-02-18 19:35:18
 assets: assets/posts/2009-02-18-the-tip-tip-tappeti-tap
 image: 

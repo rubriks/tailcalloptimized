@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #013"
-description:
+description: What is the sum of the following number?
+tags: F#, project euler, dojo
 date: 2010-08-18 05:36:51
 assets: assets/posts/2010-08-18-project-euler-013
 image: 

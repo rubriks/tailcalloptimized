@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "New ExpectedException model in NUnit 2.5"
-description:
+description: Out goes the old expecte exception attribute and in comes a delegate model. It becomes much more logic to test for exceptions.
+tags: nunit, exceptions, testing, unit testing
 date: 2009-05-29 22:00:07
 assets: assets/posts/2009-05-29-new-expectedexception-model-in-nunit-25
 image: 

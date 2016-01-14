@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Unit test XSL transformations"
-description:
+description: Did you know that you can unit test an xslt transformation? You do it by using XSD of course.
+tags: xsd, xslt, unit testing, nunit
 date: 2009-02-22 17:19:16
 assets: assets/posts/2009-02-22-unit-test-xsl-transformations
 image: 

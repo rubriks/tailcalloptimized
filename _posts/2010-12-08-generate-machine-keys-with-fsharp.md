@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Generate machine keys with F#"
-description:
+description: If you want to encrypt your configuration files you need to generate machine keys. Here's how you can do it with a few lines of F# code.
+tags: encrypt, machine keys, web.config, F#
 date: 2010-12-08 06:11:40
 assets: assets/posts/2010-12-08-generate-machine-keys-with-fsharp
 image: 

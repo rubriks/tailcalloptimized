@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #002"
-description:
+description: Find the sum of all the even-valued terms in the sequence which do not exceed four million.
+tags: project euler, F#, dojo
 date: 2010-08-12 07:02:08
 assets: assets/posts/2010-08-12-project-euler-002
 image: 

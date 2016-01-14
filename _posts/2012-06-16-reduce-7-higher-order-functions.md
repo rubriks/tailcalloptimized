@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Reduce - 7 higher order functions"
-description:
+description: Implementation and usage of a higher order function reduce
+tags: functional programming, reduce
 date: 2012-06-16 10:24:00
 assets: assets/posts/2012-06-16-reduce-7-higher-order-functions
 image: 

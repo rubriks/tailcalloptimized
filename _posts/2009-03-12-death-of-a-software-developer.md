@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Death of a software developer"
-description:
+description: You can't stay a software developer for ever. One day, reality will catch up and you are sadly outdated with no hopes of getting back on track. Where will you turn to? Management, testing?
+tags: software development, testing, architecture, management
 date: 2009-03-12 17:19:09
 assets: assets/posts/2009-03-12-death-of-a-software-developer
 image: 

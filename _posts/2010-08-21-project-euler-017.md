@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #017"
-description:
+description: If all the numbers from 1 to 1000 inclusive were written in words, how many letters would be used?
+tags: project euler, dojo
 date: 2010-08-21 11:57:04
 assets: assets/posts/2010-08-21-project-euler-017
 image: 

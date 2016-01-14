@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Beginners guide to Pascal"
-description:
+description: An introduction to Pascal for programming beginners. This is based on the book Turbovägen till Pascal written by Stefan Njord, which was my inspiration for becoming a programmer.
+tags: pascal, programmer novice, turbo pascal
 date: 2011-02-14 05:15:58
 assets: assets/posts/2011-02-14-beginners-guide-to-pascal
 image: 

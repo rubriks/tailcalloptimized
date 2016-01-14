@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Could not load file or assembly FSharp.Core, Version=4.0.0.0"
-description:
+description: How to solve a mixup of assembly versions in F# core.
+tags: F#
 date: 2013-02-16 05:58:00
 assets: assets/posts/2013-02-16-could-not-load-file-or-assembly-fsharp.core-version-4.0.0.0
 image: 

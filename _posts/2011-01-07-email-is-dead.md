@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Email is dead"
-description:
+description: Never again are we going to send e-mail to one another as Facebook is now fixing e-mail sending. All our communication will be owned by the larger corporations, or not.
+tags: facebook, e-mail
 date: 2011-01-07 17:00:55
 assets: assets/posts/2011-01-07-email-is-dead
 image: 

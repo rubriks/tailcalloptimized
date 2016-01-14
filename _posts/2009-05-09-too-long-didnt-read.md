@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Too long, didn't read"
-description:
+description: If you want to be read you need to keep it short and stick to the point. Otherwise people will get bored and stop reading.
+tags: blogging, meta
 date: 2009-05-09 07:28:39
 assets: assets/posts/2009-05-09-too-long-didnt-read
 image: 

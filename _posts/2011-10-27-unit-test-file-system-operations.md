@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Using TDD to test file system operations"
-description:
+description: How to use test driven development to test file system operations.
+tags: testing, unit test, tdd
 date: 2011-10-27 05:54:35
 assets: assets/posts/2011-10-27-unit-test-file-system-operations
 image: 

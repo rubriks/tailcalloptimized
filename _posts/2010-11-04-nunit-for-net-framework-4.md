@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "NUnit for .NET Framework 4"
-description:
+description: When you try to run your unit tests that are compiled with CLR4 you might run into an error. You fix this error simply by adding support for .NET Framework 4 in nunit config file.
+tags: troubleshooting, nunit, unit testing
 date: 2010-11-04 21:02:31
 assets: assets/posts/2010-11-04-nunit-for-net-framework-4
 image: 

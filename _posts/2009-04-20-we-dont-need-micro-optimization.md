@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "We don't need micro-optimization!"
-description:
+description: You should not start optimizing before you are aware there is a problem with performance, and you should not optimize tiny rutines before you've measure that rutine to be the problem.
+tags: optimization, C#
 date: 2009-04-20 15:31:08
 assets: assets/posts/2009-04-20-we-dont-need-micro-optimization
 image: 

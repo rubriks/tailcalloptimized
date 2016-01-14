@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #008"
-description:
+description: Find the greatest product of five consecutive digits in this 1000 digit number.
+tags: F#, project euler, dojo
 date: 2010-08-12 13:15:00
 assets: assets/posts/2010-08-12-project-euler-008
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "NCover 3 - Review"
-description:
+description: NCover is a wonderful piece of software that visualizes in a great way where my tests have coverage or no coverage. However, it could be discussed how much value the code coverage metric really brings to the table.
+tags: code coverage, code quality, ncover, technical debt, review
 date: 2009-06-14 15:39:20
 assets: assets/posts/2009-06-14-ncover-3-review
 image: 

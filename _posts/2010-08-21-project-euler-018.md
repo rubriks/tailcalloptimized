@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #018"
-description:
+description: Find the maximum total from top to bottom of the triangle below.
+tags: project euler, dojo
 date: 2010-08-21 16:47:13
 assets: assets/posts/2010-08-21-project-euler-018
 image: 

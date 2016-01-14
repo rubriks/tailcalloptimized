@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Coding as a lifestyle"
-description:
+description: Some live to code. Others code to live. Who are you?
 date: 2009-02-17 18:08:46
 assets: assets/posts/2009-02-17-coding-as-a-lifestyle
 image: 

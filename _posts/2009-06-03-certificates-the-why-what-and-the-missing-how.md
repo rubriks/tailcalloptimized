@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Certificates - the why, what and the missing how"
-description:
+description: How certificates work is a secret well kept by the central authorities in charge. They don't want you to know the ins and outs as it would become obvious that what they're selling for thousands of dollars is only trust and a tiny text file with random characters.
+tags: encrypt, ssl, certificates, ca
 date: 2009-06-03 15:38:59
 assets: assets/posts/2009-06-03-certificates-the-why-what-and-the-missing-how
 image: 

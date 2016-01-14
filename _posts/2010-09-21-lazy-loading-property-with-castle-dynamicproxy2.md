@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Lazy loading property with Castle.DynamicProxy2"
-description:
+description: Castle DynamicProxy is a library with the only task of doing interception. As for other interception technologies are often bound to an IoC container, Castle DynamicProxy is not.
+tags: interception, castle dynamicproxy, lazy loading
 date: 2010-09-21 06:02:04
 assets: assets/posts/2010-09-21-lazy-loading-property-with-castle-dynamicproxy2
 image: 

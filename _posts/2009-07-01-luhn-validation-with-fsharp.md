@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "LUHN validation with F#"
-description:
+description: I usually bring up LUHN validation when I want to try out a new language. Here is my LUHN algorithm implementation done in F#.
+tags: F#, luhn
 date: 2009-07-01 10:29:27
 assets: assets/posts/2009-07-01-luhn-validation-with-fsharp
 image: 

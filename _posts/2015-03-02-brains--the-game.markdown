@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Brains, The Game"
-description: Do you have the brains for this game? 
+description: Do you have the brains for this game? A game developed with only javascript and buttons.
 date: 2015-03-02 16:37:12
-tags: javascript
+tags: javascript, game development, puzzle game
 assets: assets/posts/2015-03-02-brains--the-game
 image: assets/posts/2015-03-02-brains--the-game/title.jpg
 ---

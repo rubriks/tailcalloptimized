@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Outsource your caching with memcached"
-description:
+description: Memcached is a NoSQL database based on key- value pairs, making it excellent for caching stuff. Here's a short article on how to get starting caching with memcached.
+tags: caching, nosql, memcached, northscale
 date: 2010-08-31 16:19:56
 assets: assets/posts/2010-08-31-outsource-your-caching-with-memcached
 image: 

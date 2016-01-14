@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Forwarding events in C#"
-description:
+description: A guide to how to forward an event that happens on an object to make sure that external components can listen to that event.
+tags: C#, event handling
 date: 2011-04-07 06:11:24
 assets: assets/posts/2011-04-07-forwarding-events-in-csharp
 image: 

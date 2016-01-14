@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Howto: Move table data between databases"
-description:
+description: Sometimes you need to move data from a database belonging to production environment to the stage or test environment. This is how you easily move data from one table to another.
+tags: sql, automation
 date: 2010-04-22 15:33:41
 assets: assets/posts/2010-04-22-howto-move-table-data-between-databases
 image: 

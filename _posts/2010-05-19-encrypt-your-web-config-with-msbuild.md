@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Encrypt your web.config with MSBuild"
-description:
+description: When you store sensitive information in your configuration files, like passwords or database connnection strings, you may want to encrypt that file on the production server. This is how you do it with built in ASP.NET functionality.
+tags: encrypt, configuration, configuration management
 date: 2010-05-19 05:30:15
 assets: assets/posts/2010-05-19-encrypt-your-web-config-with-msbuild
 image: 

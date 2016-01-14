@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The value of attributes"
-description:
+description: Attributes are useful for adding all kinds of meta data to your code.
+tags: attributes, c#, meta
 date: 2009-02-20 17:26:09
 assets: assets/posts/2009-02-20-the-value-of-attributes
 image: 

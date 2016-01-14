@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "TogglChart"
-description:
+description: You can use TogglChart to make an API call to Toggl and output a chart from the timesheet data.
+tags: Toggl, API, integration, charts
 date: 2010-07-04 15:40:00
 assets: assets/posts/2010-07-04-togglchart
 image: 

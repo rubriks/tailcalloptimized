@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Migrate blog from Wordpress to Orchard CMS"
-description:
+description: How to migrate the content of a Wordpress blog to an Orchard CMS website using XML and XSL.
+tags: Orchard, Wordpress, CMS, xml, xsd, import, export
 date: 2011-05-28 14:15:39
 assets: assets/posts/2011-05-28-migrate-blog-from-wordpress-to-orchard-cms
 image: 

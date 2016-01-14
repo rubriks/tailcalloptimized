@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Sharpen Your Saw"
-description:
+description: A dojo lunch on ceasar ciphers. Two assignment where in the first you shall write a simple decrypt algorithm and in the second assignment you shall break the crypto with unknown key.
+tags: encryption, dojo, F#
 date: 2012-11-12 19:46:16
 assets: assets/posts/2012-11-12-sharpen-your-saw
 image: 

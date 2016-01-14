@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Measure your goals"
-description:
+description: In order to improve you need to setup goals, and in order to know that you hit those goals you need to measure. Measuring might also provide a way to encurage you to meet your goals.
+tags: empowerment, self improvement
 date: 2011-01-04 18:22:28
 assets: assets/posts/2011-01-04-measure-your-goals
 image: 

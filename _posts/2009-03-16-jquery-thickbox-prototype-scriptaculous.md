@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "jQuery/Thickbox + Prototype/Scriptaculous = ?"
-description:
+description: When you run jQuery and Thickbox and try to integrate this with Prototype and Scriptacolous you will run into problems. You can actually make sure they don't conflict. Here's how.
+tags: jquery, thickbox, prototype, scriptaculous, conflict
 date: 2009-03-17 06:19:54
 assets: assets/posts/2009-03-17-jquery-thickbox-prototype-scriptaculous
 image: 

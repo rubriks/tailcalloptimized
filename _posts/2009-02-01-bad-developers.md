@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Bad developers"
-description:
+description: There are different kinds of bad developers. Some are lazy and ohters are inexperienced. They need to be tackled in different ways.
+tags: software development
 date: 2009-02-01 07:50:10
 assets: assets/posts/2009-02-01-bad-developers
 image: 

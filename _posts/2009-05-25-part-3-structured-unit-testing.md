@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Part 3: Structured unit testing"
-description:
+description: Selection of testing framework and mocking framework for a new solution is always an important choice.
+tags: xunit, nunit, mbunit, testing, kino
 date: 2009-05-25 22:00:47
 assets: assets/posts/2009-05-26-part-3-structured-unit-testing
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Refactor to simplify"
-description:
+description: No matter how intelligent you are, if you've written code that none but you could understand, then that code is not very good and needs to be refactored.
+tags: refactor, code quality, technical debt
 date: 2009-10-05 16:10:35
 assets: assets/posts/2009-10-05-refactor-to-simplify
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Is it secret? Is it safe?"
-description:
+description: You should make sure that your data always is protected. You can do this by encrypting your harddrive using a tool like TrueCrypt.
+tags: truecrypt, encrypt
 date: 2009-02-18 06:22:22
 assets: assets/posts/2009-02-18-is-it-secret-is-it-safe
 image: 

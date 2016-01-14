@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "StarCraft 2 crashes on Connect to Battle.net"
-description:
+description: StarCraft 2 was quite buggy when it was released. My version would crash as soon as it was connected to battlenet. Here's how I found the problem and managed to mitigate it.
+tags: starcraft, games, troubleshooting
 date: 2010-08-28 06:26:41
 assets: assets/posts/2010-08-28-starcraft-2-crashes-on-connect-to-battle-net
 image: 

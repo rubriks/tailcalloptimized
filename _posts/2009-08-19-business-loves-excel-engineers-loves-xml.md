@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Business loves Excel, Engineers loves XML"
-description:
+description: I love XML, but that is not the preferred language of business people. They usually want to have everything as Excel documents. Here's how you can transform that data to Excel spreadsheets.
+tags: excel, xml, linq to xml
 date: 2009-08-19 05:42:59
 assets: assets/posts/2009-08-19-business-loves-excel-engineers-loves-xml
 image: 

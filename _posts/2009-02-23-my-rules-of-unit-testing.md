@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "My rules of unit testing"
-description:
+description: The more you restrict unit testing, the easier it becomes to write a really good test suite. These are my commandments when it comes to testing.
+tags: testing, nunit, mocking, refactor
 date: 2009-02-23 06:32:14
 assets: assets/posts/2009-02-23-my-rules-of-unit-testing
 image: 

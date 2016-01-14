@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Custom ConfigurationSection from System.Configuration"
-description:
+description: How to write your own xml configuration sections within Web.config or App.config with no sweat.
+tags: configuration, xml, web.config, app.config, System.Configuration
 date: 2011-03-02 16:21:17
 assets: assets/posts/2011-03-02-custom-configurationsection-from-system-configuration
 image: 

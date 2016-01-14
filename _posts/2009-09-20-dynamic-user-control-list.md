@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Dynamic user control list"
-description:
+description: There are some things in ASP.NET WebForms that are hard to do. One of those is to have a UserControl that should be added dynamically and then repopulated at every postback. This is needed when you want the user to be able to add or remove things on a page.
+tags: webforms, dynamic, usercontrol, asp.net
 date: 2009-09-20 10:49:47
 assets: assets/posts/2009-09-20-dynamic-user-control-list
 image: 

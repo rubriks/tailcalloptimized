@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #015"
-description:
+description: Find the route through the grid.
+tags: project euler, dojo
 date: 2010-08-20 16:33:29
 assets: assets/posts/2010-08-20-project-euler-015
 image: 

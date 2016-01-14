@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "From list to delimited string"
-description:
+description: I wrote an algorithm to turn a list of values to a delimited string. This could be very useful when you need to create a comma separated file.
+tags: algorithm, delimited string, enumerableextensions
 date: 2009-06-12 05:28:30
 assets: assets/posts/2009-06-12-from-list-to-delimited-string
 image: 

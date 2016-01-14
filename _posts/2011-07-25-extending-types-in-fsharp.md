@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Extending types in F#"
-description:
+description: In C# you have extension methods to add a function as a method to a class. In F# you can extend whole classes with functionality in a similiar way.
+tags: F#, functional programming, type extensions
 date: 2011-07-25 05:08:43
 assets: assets/posts/2011-07-25-extending-types-in-fsharp
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Performance in C# recursion vs. F#"
-description:
+description: How does performance in F# measure to performance in C#? I will write the same code in F# as in C# and compare how the compiler optimizes the different solutions.
+tags: C#, F#, performance, Project Euler
 date: 2010-11-28 10:50:31
 assets: assets/posts/2010-11-28-performance-in-csharp-recursion-vs-fsharp
 image: 

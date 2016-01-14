@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Purpose of constructors"
-description:
+description: When we have object initializers, why would anyone care to use constructors? I will try to work out the differences in this article.
+tags: object initializers, constructors, coding guidelines
 date: 2008-12-20 07:48:39
 assets: assets/posts/2008-12-20-purpose-of-constructors
 image: 

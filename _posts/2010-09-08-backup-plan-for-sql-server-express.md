@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Backup plan for SQL Server Express"
-description:
+description: SQL Server is the SQL product that you should use if you're developing on Windows. Sadly the free Express version is missing some features like backup. Here's how you can setup backup yourself using some Windows trickery.
+tags: sql, backup, dba
 date: 2010-09-08 04:59:24
 assets: assets/posts/2010-09-08-backup-plan-for-sql-server-express
 image: 

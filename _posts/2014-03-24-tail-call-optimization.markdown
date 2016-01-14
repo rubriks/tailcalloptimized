@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "What is tail call optimization"
+description: When you write your recursions in F# with a tail call, the compiler will be able to optimize this into an interative loop, increasing performance and reducing function call nesting.
+tags: F#, msil, compiler optimizations
 date:   2014-03-24 08:08:00
 categories: fsharp msil
 ---

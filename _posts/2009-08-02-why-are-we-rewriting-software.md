@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Why are we rewriting software?"
-description:
+description: Every fifth year it seems like we're rewriting software, but why? Can't we write better software that will last much longer? Why do we feel the need to rewrite ever so often?
+tags: refactor, rebuild, recreate
 date: 2009-08-02 06:34:19
 assets: assets/posts/2009-08-02-why-are-we-rewriting-software
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Back on Azure"
-description:
+description: Moving the blog from the wardrobe server and onto Azure. Skipping Webrole and going for WebSite saves me money.
+tags: azure, hosting, wardrobe server
 date: 2013-06-10 04:57:38
 assets: assets/posts/2013-06-10-back-on-azure
 image: 

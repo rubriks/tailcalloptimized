@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "To test or not to test"
-description:
+description: What should be tested and how should it be tested? Do TDD really pay off and how do we know that we're not wasting our time?
+tags: tdd
 date: 2011-01-31 07:12:51
 assets: assets/posts/2011-01-31-to-test-or-not-to-test
 image: 

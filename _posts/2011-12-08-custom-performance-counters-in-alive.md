@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Custom Performance Counters in Alive"
-description:
+description: How to implement custom performance counters and have them monitored in Alive dashboard.
+tags: monitoring, alive, performance counters, perfmon
 date: 2011-12-08 16:41:04
 assets: assets/posts/2011-12-08-custom-performance-counters-in-alive
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "There is something fishy about project management"
-description: "A developer's perspective"
+description: A developer's perspective on project management and how PMs should be an asset to developers and not a control mechanism.
+tags: project management
 date: 2014-04-02 08:36:00
 tags: pm 
 assets: /assets/posts/2014-04-02-my-view-on-project-management

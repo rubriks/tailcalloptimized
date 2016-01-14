@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Failure of the dynamic keyword"
-description:
+description: What good is the dynamic keyword. Was it really a neccessary addition to C#? Here's an example of how you could use dynamic with regular expressions.
+tags: dynamic, C#, regular expression, regex
 date: 2011-12-18 10:44:39
 assets: assets/posts/2011-12-18-failure-of-the-dynamic-keyword
 image: 

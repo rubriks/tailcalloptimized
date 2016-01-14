@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Extending XSLT"
-description:
+description: XSLT is the coolest things but sometimes it is a clunky language for doing the most simple of things. Lucky us you can extend it by writing your extensions in whatever language you want.
+tags: xslt, xml, transform
 date: 2009-03-04 06:47:21
 assets: assets/posts/2009-03-04-extending-xslt
 image: 

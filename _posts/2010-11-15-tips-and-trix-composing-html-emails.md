@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Tips and trix composing HTML emails"
-description:
+description: Composing HTML e-mails is not as easy as it sounds like. You need to go back 20 years in HTML development and design with HTML3 and table layouts. Here are some tips and tricks.
+tags: HTML e-mail, HTML3, table layout
 date: 2010-11-15 20:58:20
 assets: assets/posts/2010-11-15-tips-and-trix-composing-html-emails
 image: 

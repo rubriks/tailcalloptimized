@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #012"
-description:
+description: What is the value of the first triangle number to have over 500 divisors?
+tags: F#, project euler, dojo
 date: 2010-08-18 05:07:16
 assets: assets/posts/2010-08-18-project-euler-012
 image: 

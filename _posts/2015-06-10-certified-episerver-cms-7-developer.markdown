@@ -3,7 +3,7 @@ layout: post
 title: "Certified EPiServer CMS 7 Developer"
 description: Things to study when you plan to become a certified EPiServer CMS developer.
 date: 2015-06-10 19:38:53
-tags: cms certification episerver
+tags: cms, certification, episerver
 assets: assets/posts/2015-06-10-certified-episerver-cms-7-developer
 image: 
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Interception with LinFu"
-description:
+description: When you want to do interception Linfu is a library that will provide a simple interface to accomplish what is somewhat complex doing with Castle DynamicProxy or Unity.
+tags: linfu, interception, meta programming
 date: 2010-09-26 15:03:08
 assets: assets/posts/2010-09-26-interception-with-linfu
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Model for bleeding a webserver cluster"
-description:
+description: This is a model for moving around users ona web farm when doing automated deployment rutine.
+tags: ci, automation, deployment, devops
 date: 2008-10-27 19:26:16
 assets: assets/posts/2008-10-27-model-for-bleeding-a-webserver-cluster
 image: 

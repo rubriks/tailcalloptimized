@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Xml, future of the past"
-description:
+description: XML had such promise when it was made public. We could have a clear separation in our browsers of data (xml) and ui (xsl). Why did it all go away?
+tags: xml, xsd, xsl
 date: 2008-12-15 15:20:53
 assets: assets/posts/2008-12-15-xml-future-of-the-past
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Tools that I use"
-description:
+description: I use lots of tools for my daily development. Here are some tools of my trade.
+tags: tools, libraries, frameworks
 date: 2008-09-01 20:41:23
 assets: assets/posts/2008-09-01-tools-that-i-use
 image: 

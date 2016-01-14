@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The co-worker's challenge"
-description:
+description: Write a LUHN validation algorithm in less than 2 lines of code.
+tags: F#, dojo
 date: 2010-08-13 17:39:43
 assets: assets/posts/2010-08-13-the-co-workers-challange
 image: 

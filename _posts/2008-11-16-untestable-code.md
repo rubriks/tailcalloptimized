@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Untestable code"
-description: testing
+description: How do you deal with untestable code? Is there any such thing as an untestable system?
+tags: testing, unit testing, nunit
 date: 2008-11-16 08:14:38
 assets: assets/posts/2008-11-16-untestable-code
 image: 

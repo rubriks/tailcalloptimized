@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Split a string on whole words"
-description:
+description: Joining strings together with separators is a simple enough task. Splitting a string into words is somewhat trickier. Here's an algorithm that will get it done.
 date: 2010-06-19 09:59:12
 assets: assets/posts/2010-06-19-split-a-string-on-whole-words
 image: 

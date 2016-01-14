@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Git productive in TFS"
-description:
+description: When stuck with TFS as a version control server, you could run Git locally and push to TFS in order to mitigate the pain of TFS.
+tags: git, vcs, tfs, version control, git-tf
 date: 2011-09-21 06:46:58
 assets: assets/posts/2011-09-21-git-productive-in-tfs
 image: 

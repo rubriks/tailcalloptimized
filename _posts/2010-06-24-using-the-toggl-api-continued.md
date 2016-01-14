@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Using the Toggl API continued..."
-description:
+description: Connecting to the Toggl API in order to extract timesheet data and create a graph.
+tags: Toggl, API, .NET, integration
 date: 2010-06-24 04:35:15
 assets: assets/posts/2010-06-24-using-the-toggl-api-continued
 image: 

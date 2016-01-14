@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Rock Paper Scissors"
-description:
+description: Writing a server that allows clients to play Rock Papers Scissors.
+tags: F#, Rock Paper Scissors, Client, Server
 date: 2013-02-18 16:20:27
 assets: assets/posts/2013-02-18-rock-paper-scissors
 image: 

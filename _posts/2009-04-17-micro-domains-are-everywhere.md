@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Micro domains are everywhere"
-description:
+description: People like to sit on their domain and not allowing anyone else to touch their stuff. This is very bad for a company and should be avoided at all costs. Work together and as a team, cross functional, and you will see efficency to go up, and problem going down.
+tags: crossfunctional teams
 date: 2009-04-17 15:35:09
 assets: assets/posts/2009-04-17-micro-domains-are-everywhere
 image: 

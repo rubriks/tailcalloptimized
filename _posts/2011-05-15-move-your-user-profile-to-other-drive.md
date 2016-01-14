@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Move your user profile to other drive"
-description:
+description: If you have a small systems drive it might be appropriate to store the user profile on a larger mechanical drive. Here's how to do it in Windows 7.
+tags: Windows 7, SSD, user profile
 date: 2011-05-15 05:32:28
 assets: assets/posts/2011-05-15-move-your-user-profile-to-other-drive
 image: 

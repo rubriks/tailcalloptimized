@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Every line, a point of failure"
-description:
+description: All code is not good code. Actually the fewer lines of code the better. Every line of code is a point of failure and the best situation is where we can solve a problem with no code at all.
 date: 2009-01-20 06:14:58
 assets: assets/posts/2009-01-20-every-line-a-point-of-failure
 image: 

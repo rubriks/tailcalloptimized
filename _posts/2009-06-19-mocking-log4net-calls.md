@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Mocking log4net calls"
-description:
+description: Log messages always have a way of filling up the code base with clutter. Here is how you can deal with mocking those away so you don't have to deal with logging when you're testing.
+tags: rhino mocks, nunit, unit tests, log4net
 date: 2009-06-19 18:39:41
 assets: assets/posts/2009-06-19-mocking-log4net-calls
 image: 

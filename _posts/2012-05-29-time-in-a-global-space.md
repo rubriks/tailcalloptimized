@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Time in a global space"
-description:
+description: How to deal with time when you have users from all over the world using the same system. Time is subjective to the person that is using your system right now.
+tags: ruby, r3pl4y, timeline, utc, coffee script
 date: 2012-05-29 09:20:00
 assets: assets/posts/2012-05-29-time-in-a-global-space
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Laptop vs. Desktop smackdown"
-description:
+description: I'm trying to rule out if laptop or desktop is better for software development. Having used both I'm sorting out the pros and cons in this article.
+tags: laptop, desktop, development environment
 date: 2011-02-26 11:27:41
 assets: assets/posts/2011-02-26-laptop-vs-desktop-smackdown
 image: 

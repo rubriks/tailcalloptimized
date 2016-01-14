@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to test e-mail sending"
-description:
+description: In this article I discribe how you can test e-mail sending through code with some integration testing.
+tags: integration test, acceptance test, e-mail, smtp
 date: 2011-02-09 06:45:01
 assets: assets/posts/2011-02-09-how-to-test-e-mail-sending
 image: 

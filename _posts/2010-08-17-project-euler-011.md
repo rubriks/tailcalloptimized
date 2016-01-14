@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #011"
-description:
+description: What is the greatest product of four adjacent numbers in any direction in the 20x20 grid?
+tags: F#, project euler, dojo
 date: 2010-08-17 06:00:23
 assets: assets/posts/2010-08-17-project-euler-011
 image: 

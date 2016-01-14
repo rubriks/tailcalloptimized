@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Mocking with Rhino Mocks 3.5"
-description:
+description: Mocking is a very useful tool when it comes to testing. Here is a short introduction to Rhino Mocks, my preferred mocking framework on the .NET stack.
+tags: rhino mocks, mocking, testing, nunit, unit testing
 date: 2008-12-06 15:50:29
 assets: assets/posts/2008-12-06-mocking-with-rhino-mocks
 image: 

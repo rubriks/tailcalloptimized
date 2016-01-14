@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "StarCraft II requires a patch. Would you like to download and install the patch now?"
-description:
+description: After buying StartCraft 2 it refused to start. Instead it got into a loop where it said there was a new patch to install over and over. Here's how I solved the problem.
+tags: games, starcraft, troubleshooting
 date: 2010-08-28 05:24:16
 assets: assets/posts/2010-08-28-starcraft-ii-requires-a-patch-would-you-like-to-download-and-install-the-patch-now
 image: 

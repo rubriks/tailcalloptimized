@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Deploy Orchard CMS to Azure"
-description:
+description: Another article on how to deploy Orchard CMS to Windows Azure.
+tags: Orchard, NuGet, Windows Azure, CMS
 date: 2011-05-01 10:52:23
 assets: assets/posts/2011-05-01-deploy-orchard-cms-to-azure
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "EPiServer CMS PageTypes T4-template"
-description:
+description: One problem with EPiServer CMS 5 is that page types are not strongly typed in the programming interface. You get property bags which are very error prone, where as you would like to work with strongly typed POCOs. Here's a T4 template which will connect to EPiServer database and generate POCOs that you can work with.
+tags: EPiServer, CMS, T4, PageTypes, Web Development
 date: 2010-05-31 19:05:47
 assets: assets/posts/2010-05-31-t4-pagetypes
 image: 

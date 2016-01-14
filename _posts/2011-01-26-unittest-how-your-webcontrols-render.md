@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "How to UnitTest your WebControls rendered HTML"
-description:
+description: In order to know that your WebControls are rendering the correct HTML you need to unit test it. Here's how you can manage to do this without breaking your neck.
+tags: webforms, unit testing, nunit, mocking
 date: 2011-01-26 17:20:28
 assets: assets/posts/2011-01-26-unittest-how-your-webcontrols-render
 image: 

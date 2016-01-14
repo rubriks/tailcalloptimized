@@ -3,7 +3,7 @@ layout: post
 title: "How to fix your Sony Pulse Headset"
 description: After having a broken Sony Pulse Headset for 1 year, this is how I fixed it.
 date: 2014-08-31 14:25:55
-tags: sony
+tags: sony, headset, firmware
 assets: assets/posts/2014-08-31-how-to-fix-your-sony-pulse-headset
 ---
 

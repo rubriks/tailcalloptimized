@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "In the mind of an architect"
-description:
+description: Who is an architect? What is an architect? What makes an architect? To me it seems like a self proclaimed title when you think you're better than everyone else.
+tags: architecture, software development
 date: 2008-12-03 20:54:40
 assets: assets/posts/2008-12-03-in-the-mind-of-an-architect
 image: 

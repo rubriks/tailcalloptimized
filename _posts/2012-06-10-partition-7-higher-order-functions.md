@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Partition - 7 higher order functions"
-description:
+description: Implementation and usage of the higher order function partition.
+tags: functional programming, partition
 date: 2012-06-10 12:20:00
 assets: assets/posts/2012-06-10-partition-7-higher-order-functions
 image: 

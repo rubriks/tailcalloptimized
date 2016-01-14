@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "WCF: The connection was closed unexpectedly"
-description:
+description: The connection was closed unexpectedly is a very generic error from WCF and could have several reasons.  You could use SVCTraceViewer in order to debug the error. I'll show you how.
+tags: svctraceviewer, wcf, troubleshoot
 date: 2010-01-20 17:01:23
 assets: assets/posts/2010-01-20-wcf-the-connection-was-closed-unexpectedly
 image: 

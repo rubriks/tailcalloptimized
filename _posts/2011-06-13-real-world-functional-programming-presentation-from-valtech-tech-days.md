@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Presentation from Valtech TECH Days"
-description:
+description: Here is my presentation form Valtech TECH Days where I talk about functional programming in a wide aspect.
+tags: presentation, functional programming
 date: 2011-06-13 09:28:07
 assets: assets/posts/2011-06-13-real-world-functional-programming-presentation-from-valtech-tech-days
 image: 

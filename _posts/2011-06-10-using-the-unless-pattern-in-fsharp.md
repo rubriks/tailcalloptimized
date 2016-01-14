@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Using the unless pattern in F#"
-description:
+description: An experiment on how to implement the unless pattern from Ruby in F#.
+tags: ruby, F#
 date: 2011-06-10 10:01:32
 assets: assets/posts/2011-06-10-using-the-unless-pattern-in-fsharp
 image: 

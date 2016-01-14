@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #007"
-description:
+description: What is the 10001st prime number?
+tags: F#, project euler, primes, dojo
 date: 2010-08-12 12:31:26
 assets: assets/posts/2010-08-12-project-euler-007
 image: 

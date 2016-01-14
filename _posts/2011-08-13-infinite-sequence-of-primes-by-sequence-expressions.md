@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Infinite sequence of primes"
-description:
+description: With the use of infinite sequences in F# you can quite easily create an infinite sequence of prime numbers. Here how to do it, with some recursion and caching magic.
+tags: prime numbers, F#, seq, sieve of eratosthenes
 date: 2011-08-13 16:39:16
 assets: assets/posts/2011-08-13-infinite-sequence-of-primes-by-sequence-expressions
 image: 

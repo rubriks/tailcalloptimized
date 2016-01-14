@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Secure your Alive Dashboard"
-description:
+description: How to make web.config so that your alive dashboard gets secured.
+tags: alive, performance counters, perfmon
 date: 2011-12-13 06:34:55
 assets: assets/posts/2011-12-13-secure-your-alive-dashboard
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Kino - Everything to RSS"
-description:
+description: Kino is a library that will turn everything into RSS if you feed it. This will appear as a blog series where you will be able to follow my development of Kino and the decisions I will make along the way.
+tags: kino
 date: 2009-05-22 22:00:35
 assets: assets/posts/2009-05-22-kino-everything-to-rss
 image: 

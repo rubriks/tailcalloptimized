@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "IPhone crashes Windows XP"
-description:
+description: Connecting your iPhone to the PC, your machine actually bluescreens. This is because the camera driver conflicts with some other imaging device on your system, a web camera or a printer perhaps.
+tags: iphone, troubleshoot
 date: 2008-09-06 15:43:26
 assets: assets/posts/2008-09-06-iphone-crashes-windows-xp
 image: 

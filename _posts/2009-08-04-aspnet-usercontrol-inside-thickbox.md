@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "ASP.NET UserControl inside Thickbox"
-description:
+description: When you place a UserControl inside a thickbox the events of that user control will stop triggering. Here's how you can fix that problem.
+tags: user control, asp.net, thickbox
 date: 2009-08-04 03:58:58
 assets: assets/posts/2009-08-04-aspnet-usercontrol-inside-thickbox
 image: 

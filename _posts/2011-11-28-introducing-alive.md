@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Introducing Alive"
-description:
+description: This is the introduction of a web performance counters dashboard called Alive. Written in F# and usable in IIS 6-7 and CLR 2a nd 4.
+tags: Alive, F#, performance counters, perfmon
 date: 2011-11-28 16:22:30
 assets: assets/posts/2011-11-28-introducing-alive
 image: 

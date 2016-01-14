@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "F-sharpen your saw"
-description:
+description: Summary of a presentation I did on the programming language F#.
+tags: F#, presentation
 date: 2011-03-22 08:56:00
 assets: assets/posts/2011-03-22-f-sharpen-your-saw
 image: 

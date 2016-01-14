@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Content Management with Umbraco CMS v4"
-description:
+description: Umbraco 4 is a wonderful CMS for the content editor, but it is a horrible mess for the developer and the developer team. Here are the good and bads of this CMS.
+tags: umbraco, cms
 date: 2009-07-19 18:14:38
 assets: assets/posts/2009-07-19-content-management-with-umbraco-cms-v4
 image: 

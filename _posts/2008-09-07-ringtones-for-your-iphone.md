@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "HOWTO: Ringtones for your IPhone"
-description:
+description: In every phone I've owned I have been able to set my own ringtone. Well, not on iPhone. Here is how you turn your own mp3 into your iPhone ringtone.
+tags: iphone, ringtone, guide
 date: 2008-09-07 06:47:20
 assets: assets/posts/2008-09-07-ringtones-for-your-iphone
 image: 

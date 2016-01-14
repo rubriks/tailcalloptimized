@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "New development machine"
-description:
+description: I built a new development machine, with a slight thought on gaming as well. Here's the components that I chose and why I chose precisely those components.
+tags: PC, homebrew
 date: 2010-02-27 20:58:19
 assets: assets/posts/2010-02-27-new-development-machine
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The gyroball code challenge"
-description:
+description: Another of those code challenges that i like so much. In this instance you're going to convert numbers in different number systems.
+tags: dojo, F#, C#
 date: 2010-08-31 22:00:15
 assets: assets/posts/2010-08-31-the-gyroball-code-challenge
 image: 

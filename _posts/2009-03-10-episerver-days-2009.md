@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "EPiServer days 2009"
-description:
+description: I was doing a presentation at EPiServer Days 2009 with Emil Birgersson about continuous integration.
+tags: ci, continuouos integration
 date: 2009-03-10 13:27:38
 assets: assets/posts/2009-03-10-episerver-days-2009
 image: 

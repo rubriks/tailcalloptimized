@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Introduction to NHibernate"
-description:
+description: NHibernate is an object relational mapper for .NET that is based on the Hibernate OR-mapper for Java. In this guide I will give an introduction to getting started with NHibernate.
+tags: beginners guide, NHibernate, ORM, OR-mapper, object relational mapper
 date: 2010-07-02 05:38:24
 assets: assets/posts/2010-07-02-introduction-to-nhibernate
 image: 

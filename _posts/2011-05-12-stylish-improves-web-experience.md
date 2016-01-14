@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Stylish improves web experience"
-description:
+description: Stylish is a web browser plugin that lets you add your own CSS to sites that you visit. This can substantially improve user experience of the sites you visit often.
+tags: css, web browser, ux, flashblock, ad block
 date: 2011-05-12 17:00:34
 assets: assets/posts/2011-05-12-stylish-improves-web-experience
 image: 

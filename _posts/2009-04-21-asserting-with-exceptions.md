@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Asserting with Exceptions"
-description:
+description: When writing a function you should always assert its input parameters, but how should you handle an error? Should you break the program and handle an exception, or should you simply warn and go on with it?
+tags: asserting, exceptions, C#
 date: 2009-04-21 19:21:55
 assets: assets/posts/2009-04-21-asserting-with-exceptions
 image: 

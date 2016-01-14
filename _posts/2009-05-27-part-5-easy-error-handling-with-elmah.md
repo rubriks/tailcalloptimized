@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Part 5: Easy error handling with ELMAH"
-description:
+description: Errors have a way of going into a logfile that is never opened. Elmah is a dashboard for errors happening in your ASP.NET application. It it a great tool when troubleshooting why errors happens on your website.
+tags: Elmah, exceptions, asp.net, error handling
 date: 2009-05-27 22:00:23
 assets: assets/posts/2009-05-27-part-5-easy-error-handling-with-elmah
 image: 

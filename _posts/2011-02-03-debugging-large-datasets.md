@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Debugging large datasets"
-description:
+description: When dealing with web services that return large amount of data it can be a trifle to debug that data and see that you get what you'd expect.
+tags: big data, wcf, web service, debugging
 date: 2011-02-03 07:40:47
 assets: assets/posts/2011-02-03-debugging-large-datasets
 image: 

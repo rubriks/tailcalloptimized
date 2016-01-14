@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Populate an ASP.NET view with data"
-description:
+description: This is an alternative to working with views, models and data in WebForms. I have found this separation to be much easier.
+tags: mvc, mvvm, asp.net, webforms, databinding
 date: 2009-09-09 20:26:44
 assets: assets/posts/2009-09-09-populate-an-aspnet-view-with-data
 image: 

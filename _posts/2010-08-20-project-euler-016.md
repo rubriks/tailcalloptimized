@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Project Euler #016"
-description:
+description: What is the sum of the digits of the number 2^1000?
+tags: project euler, dojo
 date: 2010-08-20 15:15:34
 assets: assets/posts/2010-08-20-project-euler-016
 image: 

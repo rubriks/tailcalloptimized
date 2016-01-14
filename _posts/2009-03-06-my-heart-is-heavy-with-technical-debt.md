@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "My heart is heavy with technical debt"
-description:
+description: Bad code and technical debt can weigh heavy on my concience. It makes me work extra hard in order to get free of its posession, but this is hard when you have a PM that won't let you.
+tags: technical debt
 date: 2009-03-06 18:35:40
 assets: assets/posts/2009-03-06-my-heart-is-heavy-with-technical-debt
 image: 

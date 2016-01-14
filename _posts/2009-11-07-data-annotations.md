@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Data Annotations"
-description:
+description: Data Annotations is a great way of adding meta data to your model classes. This can be done to help persisting the model in the database or serialize it for a SOAP envelope.
+tags: data annotations, C#
 date: 2009-11-07 11:57:49
 assets: assets/posts/2009-11-07-data-annotations
 image: 

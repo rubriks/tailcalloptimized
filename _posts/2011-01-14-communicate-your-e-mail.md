@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Communicate your e-mail"
-description:
+description: In order to get contacted you need to provide means for contacting you. Best is to output your e-mail on your website, but that will also ensure you to get spam.
+tags: spam prevention, e-mail
 date: 2011-01-14 06:49:56
 assets: assets/posts/2011-01-14-communicate-your-e-mail
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "The not so anonymous type"
-description:
+description: A little trickery with type inference will turn that anonymous type not so anonymous. Even though you can't return the anonymous type from a method other as object, you can cast it back to the strongly typed version.
+tags: C#, tips and tricks, anonymous types
 date: 2010-05-28 05:44:40
 assets: assets/posts/2010-05-28-the-not-so-anonymous-type
 image: 

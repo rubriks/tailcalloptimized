@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Book review: Being Geek by Michael Lopp"
-description:
+description: Book review of the book "Being Geek" written by Michael Lopp.
+tags: book review
 date: 2011-03-09 08:10:56
 assets: assets/posts/2011-03-09-book-review-being-geek-by-michael-lopp
 image: 

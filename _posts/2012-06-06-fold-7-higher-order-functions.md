@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Fold - 7 higher order functions"
-description:
+description: Implementation and usage of the higher order function fold.
+tags: functional programming, fold
 date: 2012-06-06 11:45:00
 assets: assets/posts/2012-06-06-fold-7-higher-order-functions
 image: 

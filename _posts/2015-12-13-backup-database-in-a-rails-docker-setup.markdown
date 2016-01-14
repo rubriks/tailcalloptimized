@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Backup database in a rails docker setup"
-description: 
+description: Here is how to setup a database backup of a rails application in a Docker setup. 
 date: 2015-12-13 04:55:36
 tags: rails docker postgres backup devops 
 assets: assets/posts/2015-12-13-backup-database-in-a-rails-docker-setup

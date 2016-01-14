@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Scan - 7 higher order functions"
-description:
+description: Implementation and usage of scan, a higher order function.
+tags: functional programming
 date: 2012-06-23 09:47:30
 assets: assets/posts/2012-06-23-scan-7-higher-order-functions
 image: 

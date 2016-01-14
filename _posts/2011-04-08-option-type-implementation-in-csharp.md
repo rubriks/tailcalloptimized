@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Option type implementation in C#"
-description:
+description: An implementation of the F# option type done in C# and a discussion on how this is relevant or null should be accepted as status quo.
+tags: null, option type, immutable, C#, F#
 date: 2011-04-08 05:50:35
 assets: assets/posts/2011-04-08-option-type-implementation-in-csharp
 image: 

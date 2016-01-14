@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Part 2: Dependency injection with Unity and XML configuration"
-description:
+description: I will use Unity for dependency injection with Unity and I will set it up with XML configuration.
+tags: unit, xml, di, ioc
 date: 2009-05-24 22:00:30
 assets: assets/posts/2009-05-24-part-2-dependency-injection-with-unity-and-xml-configuration
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Create your own custom NUnit build activity for Team Build 2010"
-description:
+description: Writing a custom NUnit build activity for Team Build 2010 can be tricky. Here's how to jump through all the hoops in order to run unit tests in your build process.
+tags: continuous integration, build process, TFS, Team Build, NUnit
 date: 2011-01-22 19:10:31
 assets: assets/posts/2011-01-22-create-your-own-custom-nunit-build-activity-for-team-build-2010
 image: 

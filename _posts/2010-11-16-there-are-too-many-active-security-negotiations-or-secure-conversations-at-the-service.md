@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "There are too many active security negotiations or secure conversations at the service."
-description:
+description: When you have screwed up with you WCF solution you might run into this problem. Here's how to debug it and find the problem in your code.
+tags: troubleshooting, WCF
 date: 2010-11-16 18:06:41
 assets: assets/posts/2010-11-16-there-are-too-many-active-security-negotiations-or-secure-conversations-at-the-service
 image: 

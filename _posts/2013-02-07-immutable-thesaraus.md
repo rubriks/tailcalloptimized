@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Immutable Thesaurus"
-description:
+description: I arranged a dojo lunch where the participants were given the assignments of creating a thesaraus that was thread safe. Here is my solution created in F#.
+tags: F#, sharpen your saw, dojo
 date: 2013-02-07 05:55:00
 assets: assets/posts/2013-02-07-immutable-thesaraus
 image: 

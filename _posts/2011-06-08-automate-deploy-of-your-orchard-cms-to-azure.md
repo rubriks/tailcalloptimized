@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Automate deploy of your Orchard CMS to Azure"
-description:
+description: How to do automated deploy of Orchard CMS to Azure using Powershell.
+tags: Orchard CMS, Azure, Powershell, devops, deployment
 date: 2011-06-08 17:18:41
 assets: assets/posts/2011-06-08-automate-deploy-of-your-orchard-cms-to-azure
 image: 

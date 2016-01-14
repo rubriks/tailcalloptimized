@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Crash course in regular expressions"
-description:
+description: Getting started with regular expressions with this guide to the most common patterns.
+tags: regex, beginners guide, regular expression
 date: 2011-02-12 12:00:17
 assets: assets/posts/2011-02-12-crash-course-in-regular-expressions
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Windows 7 installation hangs on Starting Windows"
-description:
+description: You buy a new computer and that Windows 7 installation just crashes. It took me 8 hours to find the culprit but at the end, it turned out to be my own fault.
+tags: windows 7, troubleshoot
 date: 2010-02-26 20:33:30
 assets: assets/posts/2010-02-26-windows-7-installation-hangs-on-starting-windows
 image: 

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Quality is a different matter"
-description:
+description: Quality does not come from developers, it does not come from process and it doesn't come from management. It comes from all parts of software development working well together to form a unity.
+tags: quality, technical debt
 date: 2009-05-11 05:29:43
 assets: assets/posts/2009-05-11-quality-is-a-different-matter
 image: 

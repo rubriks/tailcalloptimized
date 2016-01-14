@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Part 4: Keep yourself covered with NCover"
-description:
+description: Here is the strategy I have around testing of Kino and what kind of coverage I hope to achieve.
+tags: testing, coverage, nunit
 date: 2009-05-26 22:00:13
 assets: assets/posts/2009-05-26-part-4-keep-yourself-covered-with-ncover
 image: 
