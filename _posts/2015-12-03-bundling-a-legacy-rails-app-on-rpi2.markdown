@@ -3,7 +3,7 @@ layout: post
 title: "Bundling a legacy rails app on RPi2"
 description: How to get therubyracer 0.11 to work with libv8 on ARM processor architecture.
 date: 2015-12-03 07:06:56
-tags: ruby rail legacy rpi2 
+tags: ruby, rails, legacy, rpi2, raspberry pi 
 assets: assets/posts/2015-12-03-building-a-legacy-rails-app-on-rpi2
 image: assets/posts/2015-12-03-building-a-legacy-rails-app-on-rpi2/title.jpg
 ---

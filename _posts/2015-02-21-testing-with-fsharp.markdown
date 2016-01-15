@@ -3,7 +3,7 @@ layout: post
 title: "Testing with F#"
 description: My book, testing with F# has been published. 
 date: 2015-02-21 16:32:33
-tags: fsharp 
+tags: F#, testing, publishing, book, author
 assets: assets/posts/2015-02-21-testing-with-fsharp
 image: assets/posts/2015-02-21-testing-with-fsharp/title.jpg
 ---

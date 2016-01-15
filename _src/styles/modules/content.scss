@@ -25,6 +25,11 @@
         font-style: italic;
     }
 
+    sup {
+        font-size: smaller;
+        vertical-align: super;
+    }
+
     .published {
         font-size: $font-size-small;
         color: $gray;
@@ -40,6 +45,10 @@
         font-size: 12px;
         font-weight: 400;
         line-height: 16.8px;
+    }
+
+    mark {
+        background-color: yellow;
     }
     
     table {

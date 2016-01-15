@@ -10,6 +10,9 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 
+    <!-- Canonical, pages can be accessed with or without .html extension -->
+    <link rel="canonical" href="{{site.url}}{{ page.url | remove_first:'index.html' }}">
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@mikaellundin">
 
@@ -44,4 +47,7 @@
     <meta property="twitter:image:src" content="{{site.url}}/{{page.image}}">
     {% endif %}
 
+    {% if page.tags %}
+    <meta property="keywords" content="{{page.tags}}">
+    {% endif %}
 </head>

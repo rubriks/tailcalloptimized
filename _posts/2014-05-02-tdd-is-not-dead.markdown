@@ -3,7 +3,7 @@ layout: post
 title: "Specify, Design, Implement and Test"
 description: A comment on the dogmatic view of TDD today
 date: 2014-05-02 08:02:47
-tags: test tdd
+tags: test, tdd
 assets: assets/posts/2014-05-02-tdd-is-not-dead
 image: assets/posts/2014-05-02-tdd-is-not-dead/title.jpg
 ---

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
+<?xml-stylesheet type="text/xsl" href="bookstore.xsl"?>
+
+<!DOCTYPE bookstore SYSTEM 'bookstore.dtd'>
+
+<bookstore 	xmlns="http://mint.litemedia.se"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+					xsi:schemaLocation="http://mint.litemedia.se bookstore.xsd">
+
+	<authors>
+		<author id="janeausten">
+			<firstname>Jane</firstname>
+			<lastname>Austen</lastname>
+		</author>
+		<author id="charlottebronte">
+			<firstname>Charlotte</firstname>
+			<lastname>Brontë</lastname>
+		</author>
+	</authors>
+	<books>
+		<book isbn="ISBN-9781853260001">
+			<title>Pride and Prejudice</title>
+			<authors-ref values="janeausten" />
+			<price sek="79" />
+			<plot><![CDATA[Pride and Prejudice is the story of Mr and Mrs Bennet (minor gentry), their five daughters, and the various romantic adventures at their Hertfordshire residence of Longbourn....]]></plot>
+		</book>
+		<book isbn="ISBN-9780141439662">
+			<title>Sense and Sensibility</title>
+			<authors-ref values="janeausten" />
+			<price sek="89" />
+			<plot><![CDATA[The family of Dashwood had been long settled in Sussex.....]]></plot>
+		</book>
+		<book isbn="ISBN-9780141441146">
+			<title>Jane Eyre</title>
+			<authors-ref values="charlottebronte" />
+			<price sek="59" />
+			<plot><![CDATA[Jane Eyre is a young orphan being raised by Mrs. Reed, her cruel, wealthy aunt. A servant named Bessie provides Jane with some of the few kindnesses she receives, telling her stories and singing songs to her. One day, as punishment for fighting with her bullying cousin John Reed, Jane's aunt imprisons Jane in the red-room, the room in which Jane's Uncle Reed died...]]></plot>
+		</book>
+	</books>
+</bookstore>

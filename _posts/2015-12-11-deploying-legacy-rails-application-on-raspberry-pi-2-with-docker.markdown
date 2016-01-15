@@ -3,7 +3,7 @@ layout: post
 title: "Deploying legacy Rails application on Raspberry Pi 2 with Docker"
 description: A long story on how I moved the rails application R3PL4Y from Heroku to running in Docker on an RPi2.
 date: 2015-12-11 10:00:46
-tags: rail rpi2 docker
+tags: rails, ruby, rpi2, raspberry pi, docker
 assets: assets/posts/2015-12-11-deploying-legacy-rails-application-on-raspberry-pi-2-with-docker
 image: assets/posts/2015-12-11-deploying-legacy-rails-application-on-raspberry-pi-2-with-docker/rpi2.jpg
 ---
@@ -26,19 +26,19 @@ So, what I wanted to do is to take this site that was built for Heroku and make 
 
 So, the first thing I did was to create a Docker container for R3PL4Y on my desktop Linux machine, with a little caveat. Instead of creating the container by hand, I chose to script it all in a Dockerfile. Why I did that will become apparent.
 
-<script src="https://gist.github.com/miklund/e9754a246aed10ebb16a.js?file=Dockerfile"></script>
+{% gist miklund/e9754a246aed10ebb16a Dockerfile %}
 
 A lot of magic is of course in the `bundle install` statement, where all gems from the [Gemfile](https://github.com/rubriks/r3pl4y/blob/master/Gemfile) will be installed, but apart from that, this small script contains everything that is needed for R3PL4Y to run.
 
 Now, all you have to do to build a complete production image is running the following command.
 
-```shell
+```bash
 docker build -t replay-app .
 ```
 
 And after a while you have a new production environment image. With this you can start a container with the following command.
 
-```shell
+```bash
 docker run --name replay-app -d replay-app
 ```
 
@@ -52,19 +52,19 @@ Checkout the [postgres docker image at dockerhub](https://hub.docker.com/_/postg
 
 In order to build the database I started by download and install the official postgres docker image.
 
-```shell
+```bash
 docker pull postgres
 ```
 
 Then you need to create a container and boot it up.
 
-```shell
+```bash
 docker run --name postgres -e POSTGRES_PASSWORD=<obfuscated> -d postgres
 ```
 
 Open up a psql database client to this database.
 
-```shell
+```bash
 docker run -it --link postgres:postgres --rm zsoltm/postgresql-armhf sh -c 'exec psql -h "$POSTGRES_PORT_5432_TCP_ADDR" -p "$POSTGRES_PORT_5432_TCP_PORT" -U postgres'
 ```
 
@@ -76,7 +76,7 @@ CREATE DATABASE r3pl4y_production;
 
 Then all that was left to do was to restore a database dump file that I had saved from the time R3PL4Y was situated at Heroku.
 
-```shell
+```bash
 docker run -it --link postgres:postgres -v /tmp/db:/var/lib/postgresql/backup --rm postgres sh -c 'exec pg_restore --verbose --clean --no-acl --no-owner -h "$POSTGRES_PORT_5432_TCP_ADDR" -U postgres -d r3pl4y_production /var/lib/postgresql/backup/r3pl4y-201501270119.dump'
 ```
 
@@ -86,7 +86,7 @@ And in just a few moments the database was restored.
 
 In order to get the reolay-app container talk to the postgres container we need to link them together. This is simply done while starting the container.
 
-```shell
+```bash
 docker run --name replay-app -p 80:3000 --link postgres -v /var/log/www:/var/www/log -d replay-app
 ```
 

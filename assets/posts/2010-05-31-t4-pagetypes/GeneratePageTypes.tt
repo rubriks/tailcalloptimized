@@ -1,0 +1,221 @@
+﻿<#@ template language="C#v3.5" hostspecific="true" debug="True" #>
+<#@ output extension="cs" #>
+<#@ assembly name="System.Xml" #>
+<#@ assembly name="System.Data" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Xml" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Data" #>
+<#@ import namespace="System.Data.SqlClient" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+<#
+	var @namespace = GetRootNamespace();
+	
+	/*** GET CONNECTION STRING */
+	var connectionStringName = "EPiServerDB"; // Get this from web.config
+	var connectionString = FindConnectionString(connectionStringName);
+	
+	/* This might look strange, but we use this to define a "not so anonymous type"
+	 * where we would return anonymous type as an object from method and cast it 
+	 * to this schema type
+	 */
+	var pageTypeSchema = new { ID = 0, Name = string.Empty, Description = string.Empty };
+	var pageDefinitionSchema = new { PropertyName = string.Empty, Required = true, Caption = string.Empty, TypeName = string.Empty, FullTypeName = string.Empty };
+	
+#>
+namespace <#= @namespace #>
+{
+	using Boolean = EPiServer.Core.PropertyBoolean;
+	using Category = EPiServer.Core.PropertyCategory;
+	using Date = EPiServer.Core.PropertyDate;
+	using FloatNumber = EPiServer.Core.PropertyFloatNumber;
+	using LongString = EPiServer.Core.PropertyLongString;
+	using Number = EPiServer.Core.PropertyNumber;
+	using PageType = EPiServer.Core.PropertyPageType;
+	using PageReference = EPiServer.Core.PropertyPageReference;
+	using String = EPiServer.Core.PropertyString;
+	<# foreach (var item in GetPageTypes(connectionString)) { 
+		var pageType = Cast(item, pageTypeSchema);
+		var pageTypeName = FilterInvalidCharacters(pageType.Name);
+	#>
+	
+	/// <summary>
+	/// <#= pageType.Description #>
+	/// </summary>
+	public partial class <#= pageTypeName #> : EPiServer.Core.PageData, IShallowCopy
+	{
+		public <#= pageTypeName #>()
+			: base()
+		{
+		}
+	
+		<# foreach (var item2 in GetPageDefinitions(pageType.ID, connectionString)) {
+			var pageDefinition = Cast(item2, pageDefinitionSchema);
+		#>
+		
+		/// <summary>
+		/// <#= pageDefinition.Caption #>
+		/// </summary>
+		public virtual <#= pageDefinition.FullTypeName ?? pageDefinition.TypeName #> <#= FilterInvalidCharacters(pageDefinition.PropertyName) #>
+		{
+			get { return (<#= pageDefinition.FullTypeName ?? pageDefinition.TypeName #>) Property["<#= pageDefinition.PropertyName #>"]; }
+		}
+		
+		<# } #>
+		
+		public virtual void _ShallowCopy(EPiServer.Core.PageData page)
+		{
+			var fields = typeof (EPiServer.Core.PageData).GetFields(System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+
+            foreach (var field in fields)
+            {
+                field.SetValue(this, field.GetValue(page));
+            }
+		}
+	}
+	<# } #>
+	
+	public class TemplatePage<TPageType> : EPiServer.TemplatePage
+	 where TPageType: EPiServer.Core.PageData, new()
+	{	
+		public new TPageType CurrentPage 
+		{ 
+			get 
+			{ 
+				var result = new TPageType();
+				((IShallowCopy)result)._ShallowCopy(base.CurrentPage);
+				
+				return result;
+			}
+		}
+	}
+	
+	public static class DataFactoryExtensions
+	{
+		public static TPageType GetPage<TPageType>(this EPiServer.Core.IPageSource factory, EPiServer.Core.PageReference pageLink)
+			where TPageType: EPiServer.Core.PageData, new()
+		{
+			var result = new TPageType();
+			((IShallowCopy)result)._ShallowCopy(EPiServer.DataFactory.Instance.GetPage(pageLink));
+			
+			return result;			
+		}		
+	}
+	
+	public interface IShallowCopy
+	{
+		void _ShallowCopy(EPiServer.Core.PageData page);
+	}
+}
+
+<#+
+	string FindConnectionString(string connectionStringName)
+	{
+		var webConfig = new XmlDocument();
+		webConfig.Load(Host.ResolvePath("web.config"));
+		
+		var connectionStringNode = webConfig.SelectSingleNode("/configuration/connectionStrings");
+		if (connectionStringNode.Attributes["configSource"] != null)
+		{
+			/* ConnectionStrings are defined in another file */
+			var externalConfiguration = new XmlDocument();
+			externalConfiguration.Load(Host.ResolvePath(connectionStringNode.Attributes["configSource"].Value));
+			connectionStringNode = externalConfiguration.DocumentElement;
+		}
+		
+		var addNode = connectionStringNode.SelectSingleNode("//add[@name='" + connectionStringName + "']");
+		
+		if (addNode == null)
+		{
+			throw new Exception("Connection string not found");
+		}
+	
+		return addNode.Attributes["connectionString"].Value;			
+	}
+
+	string GetRootNamespace()
+	{
+		var projectFiles = Directory.GetFiles(Host.ResolvePath(string.Empty), "*.csproj");
+		if (projectFiles.Length == 0)
+		{
+			throw new Exception("Expected GeneratePageTypes.tt to be dropped in same directory as the web project file");
+		}
+		
+		var projectFile = new XmlDocument();
+		projectFile.Load(projectFiles[0]);
+		
+		XmlNamespaceManager nsmgr = new XmlNamespaceManager(projectFile.NameTable);
+		nsmgr.AddNamespace("ab", "http://schemas.microsoft.com/developer/msbuild/2003");
+		
+		var result = projectFile.SelectSingleNode("/ab:Project/ab:PropertyGroup/ab:RootNamespace", nsmgr).InnerXml;
+		return result;
+	}
+
+	IEnumerable<object> GetPageTypes(string connectionString)
+	{
+		var result = new List<object>();	
+		using (SqlConnection connection = new SqlConnection(connectionString))
+		using (SqlCommand command = new SqlCommand("SELECT [pkID],[Name],[Description] FROM tblPageType", connection))
+		{
+			connection.Open();
+			var reader = command.ExecuteReader();
+			
+			while (reader.Read())
+			{
+				result.Add(new
+				{
+					ID = (int)reader["pkID"],
+					Name = reader["Name"] as string,
+					Description = reader["Description"] as string,
+				});
+			}
+		}	
+		
+		return result;
+	}
+	
+	IEnumerable<object> GetPageDefinitions(int pageTypeID, string connectionString)
+	{
+		var result = new List<object>();
+		
+		using (SqlConnection connection = new SqlConnection(connectionString))
+		using (SqlCommand command = new SqlCommand("SELECT [Property].Name as PropertyName, [Property].[Required], [Property].EditCaption, [Type].Name as TypeName, [Type].TypeName as FullTypeName FROM tblPageDefinition [Property] INNER JOIN tblPageDefinitionType [Type] ON [Property].fkPageDefinitionTypeID = [Type].pkID WHERE fkPageTypeID = @typeID", connection))
+		{
+			connection.Open();
+			command.Parameters.Add("@typeID", SqlDbType.Int).Value = pageTypeID;
+			var reader = command.ExecuteReader();
+			
+			while (reader.Read())
+			{
+				result.Add(new
+				{
+					PropertyName = reader["PropertyName"] as string,
+					Required = (bool)reader["Required"],
+					Caption = reader["EditCaption"] as string,
+					TypeName = reader["TypeName"] as string,
+					FullTypeName = reader["FullTypeName"] as string,					
+				});
+			}
+		}
+		
+		return result;
+	}
+
+    // Cast method - thanks to type inference when calling methods it 
+	// is possible to cast object to type without knowing the type name
+	T Cast<T>(object obj, T type)
+	{
+	  return (T)obj;
+	}
+	
+	string FilterInvalidCharacters(string input)
+	{
+		if (input == null)
+			return null;
+			
+		Regex validCharacters = new Regex("[^A-Z,^a-z,^0-9]");
+		return validCharacters.Replace(input, string.Empty);
+	}
+#>

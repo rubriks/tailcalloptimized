@@ -1,13 +1,19 @@
 title: Mikael Lundin Weblog
 name: Mikael Lundin Weblog
 description: Short stories about functional things, non-functional things, and things that doesn't function.
-url: http://blog.mikaellundin.name
+url: http://localhost:4000
 markdown: redcarpet
 redcarpet:
     extensions: ["tables", "footnotes"]
 highligher: pygments
 permalink: /:year/:month/:day/:title.html
 google_analytics: UA-49087954-2
+
+gems:
+    - jekyll-gist
+
+gist:
+    noscript: true
 
 owner:
     name: Mikael Lundin

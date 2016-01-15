@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Backup database in a rails docker setup"
-description: 
+description: Here is how to setup a database backup of a rails application in a Docker setup. 
 date: 2015-12-13 04:55:36
 tags: rails docker postgres backup devops 
 assets: assets/posts/2015-12-13-backup-database-in-a-rails-docker-setup
@@ -41,17 +41,17 @@ As for the file system there is no state that is not part of the application. I'
 
 Here is the Dockerfile I came up with for replay-backup.
 
-<script src="https://gist.github.com/miklund/0d94b4a9c772a94c4e7b.js?file=Dockerfile"></script>
+{% gist miklund/0d94b4a9c772a94c4e7b Dockerfile %}
 
 This is very straight forward. There are two important files that are included in this container. First is the script that does the backup.
 
-<script src="https://gist.github.com/miklund/0d94b4a9c772a94c4e7b.js?file=backup-replay-database.sh"></script>
+{% gist miklund/0d94b4a9c772a94c4e7b backup-replay-database.sh %}
 
 This script dumps the database, removes old backups and then pushes to S3 bucket. It is heavily annotated because its output will be the only way to troubleshoot.
 
 Next is the scheduling which is done with cron by dumping the following script into `/etc/cron.d/`
 
-```shell
+```bash
 0 3 * * * root /backup-replay-database.sh >> /var/log/cron/backup-replay-database.log 2>&1
 ```
 
@@ -61,7 +61,7 @@ Every night 3am, root will run the script `backup-replay-database.sh` and append
 
 All that remains is to start up the container.
 
-```shell
+```bash
 docker run --name replay-backup -v /var/log/cron:/var/log/cron --link postgres -d replay-backup
 ```
 
