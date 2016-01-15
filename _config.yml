@@ -11,6 +11,7 @@ google_analytics: UA-49087954-2
 
 gems:
     - jekyll-gist
+    - jekyll-sitemap
 
 gist:
     noscript: true
