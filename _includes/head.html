@@ -43,4 +43,8 @@
     {% if page.image %}
     <meta property="twitter:image:src" content="{{site.url}}/{{page.image}}">
     {% endif %}
+
+    {% if page.tags %}
+    <meta property="keywords" content="{{page.tags}}">
+    {% endif %}
 </head>
