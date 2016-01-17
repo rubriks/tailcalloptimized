@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Exporting comments from Orchard CMS to import them into Disqus - Part 1"
-description: 
+description: After moving all blog posts from Orchard CMS to Jekyll/S3 there was a need to move all comments to Disqus. Dispite a lot of obstacles, here is how I managed to extract all the comments from the SDF database file to XML.
 date: 2016-01-17 13:17:48
-tags: 
+tags: Orchard, CMS, blogging, blog, Disqus, SDF, XMl, SQL Server Compact 4, SqlCe4, Azure
 assets: assets/posts/2016-01-17-exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-1
 image: assets/posts/2016-01-17-exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-1/title.png
 ---
