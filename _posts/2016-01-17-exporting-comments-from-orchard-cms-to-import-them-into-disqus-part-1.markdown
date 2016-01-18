@@ -62,7 +62,7 @@ There are a few XML serializers in .NET, but I choose to go with DataContractSer
 getData "Orchard.sdf" |> xmlSerialize "databaseComments.xml"
 ```
 
-Now it is just a matter of serializing the Comments and you will get the comments from the SqlCe4 database outputted in a XML format to disk. Note, that this is not the Disqus import format. This is just an arbitrary XML format that will make it easy for us to transform to the Disqus format. In the next post I will show you how to turn this XML format into the result format.
+Now it is just a matter of serializing the Comments and you will get the comments from the SqlCe4 database outputted in a XML format to disk. Note, that this is not the Disqus import format. This is just an arbitrary XML format that will make it easy for us to transform to the Disqus format. In the [next post](/2016/01/18/exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-2.html "Exporting comments from Orchard CMS to import them into Disqus - Part 2") I will show you how to turn this XML format into the result format.
 
 ---
 **Footnotes**
