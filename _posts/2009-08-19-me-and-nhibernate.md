@@ -6,6 +6,13 @@ tags: NHibernate, fluentnhibernate, C#, ORM, data access
 date: 2009-08-19 20:01:28
 assets: assets/posts/2009-08-19-me-and-nhibernate
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 > "If you hand roll your SQL statements you're stealing from your clients."

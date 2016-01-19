@@ -6,6 +6,13 @@ tags: Windows Azure, Powershell, Web Role, CmdLet, psake
 date: 2011-08-02 10:00:04
 assets: assets/posts/2011-08-02-deploy-to-azure-with-powershell
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 [Last time I wrote about this](/2011/06/08/automate-deploy-of-your-orchard-cms-to-azure.html "Automate deploy of Orchard CMS to Azure"), I had a very simple deploy scenario. Now I have updated my deployment workflow, which calls for an updated blog post.

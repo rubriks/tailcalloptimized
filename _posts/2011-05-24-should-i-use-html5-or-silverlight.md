@@ -6,6 +6,13 @@ tags: HTML5, Silverlight, Flash, Hanselman, semantics
 date: 2011-05-24 06:28:55
 assets: assets/posts/2011-05-24-should-i-use-html5-or-silverlight
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This is an answer to the [post of Scott Hanselman with the same title](http://www.hanselman.com/blog/ShouldIUseHTML5OrSilverlightOneMansOpinion.aspx "Should I use HTML5 or Silverlight"). The problem I have reading these kind of blog posts is that the author is always either a Microsoft/Adobe/Sun spokesman or an open standards zealot.

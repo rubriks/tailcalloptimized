@@ -6,6 +6,13 @@ tags: functional programming, partition
 date: 2012-06-10 12:20:00
 assets: assets/posts/2012-06-10-partition-7-higher-order-functions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Here's my third blog post in my serie about higher order functions. Partition is one of those higher order functinos that I always forget about and unnecessarily reinvent the wheel.

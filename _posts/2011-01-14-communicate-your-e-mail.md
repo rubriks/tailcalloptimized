@@ -6,6 +6,13 @@ tags: spam prevention, e-mail
 date: 2011-01-14 06:49:56
 assets: assets/posts/2011-01-14-communicate-your-e-mail
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 For anyone to contact you they need to know how. That's why you should display your e-mail everywhere. Except ... you will get a lot of spam because [e-mail is not secure by default](/2011/01/07/email-is-dead.html "Email is dead").  The e-mail protocols are flawed and that is why there are spammers, constantly scanning the web for new e-mail addresses for sending crap to.  What alternatives do you have communicating your e-mail address on the web, without handing it over to spammers framed in gold?

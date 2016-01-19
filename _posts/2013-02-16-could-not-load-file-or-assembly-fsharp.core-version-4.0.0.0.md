@@ -6,6 +6,13 @@ tags: F#
 date: 2013-02-16 05:58:00
 assets: assets/posts/2013-02-16-could-not-load-file-or-assembly-fsharp.core-version-4.0.0.0
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Trying to run a program that was compiled with an older version of the FSharp framework. In my case I had mixed versions of the FSharp.Core in my references. Well, this is easily fixed by adding the following to executing program's App.config.

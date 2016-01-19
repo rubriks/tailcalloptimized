@@ -6,6 +6,13 @@ tags: ubiquitous html, css, semantic markup
 date: 2010-04-09 06:54:12
 assets: assets/posts/2010-04-09-css-naked-day
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Today is CSS Naked Day and I celebrate this by stripping my blog from styles.

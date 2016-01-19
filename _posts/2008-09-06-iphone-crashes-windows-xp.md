@@ -6,6 +6,13 @@ tags: iphone, troubleshoot
 date: 2008-09-06 15:43:26
 assets: assets/posts/2008-09-06-iphone-crashes-windows-xp
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 So I finally got around and bought an IPhone. I tried to get one on the release day here in Sweden, but it was a hopeless mission. Then the store was going to phone me when they got one, but I ended up ordering one on the Internet instead.

@@ -6,6 +6,13 @@ tags: object initializers, constructors, coding guidelines
 date: 2008-12-20 07:48:39
 assets: assets/posts/2008-12-20-purpose-of-constructors
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 One of my colleagues comes to me, all excited about object initializers that were introduced in .NET 3.0 and I'm expected to be the critic. Probably because I always criticize bad use of new technology. However, this time the praises were justifiable. Not a surprise, he's a clever guy.  "Because it makes code readable when initializing a large data structure"

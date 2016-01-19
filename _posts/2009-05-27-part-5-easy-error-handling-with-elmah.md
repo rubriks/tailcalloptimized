@@ -6,6 +6,13 @@ tags: Elmah, exceptions, asp.net, error handling
 date: 2009-05-27 22:00:23
 assets: assets/posts/2009-05-27-part-5-easy-error-handling-with-elmah
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 This post will describe how error handling works within [Kino](/2009/05/23/kino-everything-to-rss.html). If you haven’t already you can download the source from [here](/kino/ "Kino"), play around and tell me what you think.  As a consultant, my job is often to produce as many functions as possible, in as little time as possible with as high quality as possible. We all know that this a a big lie and that you have to spend time on quality to save time. But we're also selling a service which is really about what the customer wants, and that we'll give them even if it is an impossible task. The result will vary on how well the developers can handle stress.

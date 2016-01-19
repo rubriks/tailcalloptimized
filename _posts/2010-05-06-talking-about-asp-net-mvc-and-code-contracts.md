@@ -6,6 +6,13 @@ tags: mvc, code contracts, presentation
 date: 2010-05-06 07:10:08
 assets: assets/posts/2010-05-06-talking-about-asp-net-mvc-and-code-contracts
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Today I'm having two talks at [Valtech .NET Days](http://www.valtech.se/valtechdays/).

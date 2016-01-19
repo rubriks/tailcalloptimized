@@ -6,6 +6,13 @@ tags: null, option type, immutable, C#, F#
 date: 2011-04-08 05:50:35
 assets: assets/posts/2011-04-08-option-type-implementation-in-csharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 F# has this clever functionality called Option&lt;'a&gt;. This means that, instead of returning _null_ from a function, you return an option. This option could have the value Some x or None, where x is the value you want to return, clearly indicating that this method could return a value or not.

@@ -6,6 +6,13 @@ tags: visual studio, team foundation server, windows live messenger
 date: 2009-09-03 20:12:37
 assets: assets/posts/2009-09-03-tfs-weirdness
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Please tell me how this is wired up!

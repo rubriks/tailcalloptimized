@@ -5,6 +5,13 @@ description: Find the greatest product of five consecutive digits in this 1000 d
 tags: F#, project euler, dojo
 date: 2010-08-12 13:15:00
 assets: assets/posts/2010-08-12-project-euler-008
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 image: 
 ---
 

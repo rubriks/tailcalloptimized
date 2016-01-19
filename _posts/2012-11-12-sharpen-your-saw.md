@@ -6,6 +6,13 @@ tags: encryption, dojo, F#
 date: 2012-11-12 19:46:16
 assets: assets/posts/2012-11-12-sharpen-your-saw
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've been hosting a lunch event three times this year called 'Sharpen Your Saw' where we tackle a programming problem in pairs. The purpose is to work with tools you haven't before, testing out new techniques and having fun. It is also a social event where you pair up with people you haven't worked with before.

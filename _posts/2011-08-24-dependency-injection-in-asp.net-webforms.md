@@ -6,6 +6,13 @@ tags: DI, Unity, ASP.NET WebForms, WebForms
 date: 2011-08-24 12:46:43
 assets: assets/posts/2011-08-24-dependency-injection-in-asp.net-webforms
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 To me, any webforms solution is legacy code. Sadly, most of my consultancy happens to be maintenance of these webforms behemoths. Even so, that doesn't stop me from trying to improve my own work process and the applications that I'm working with.

@@ -6,6 +6,13 @@ tags: linfu, interception, meta programming
 date: 2010-09-26 15:03:08
 assets: assets/posts/2010-09-26-interception-with-linfu
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I have previously showed you how you can do interception with both [Castle DynamicProxy](/2010/09/21/lazy-loading-property-with-castle-dynamicproxy2.html "Lazy loading property with castle DynamicProxy 2") and with [Unity](/2010/09/23/interception-with-unity.html "Interception with Unity"). Now it is time to do the same with LinFu, which is suprisingly easy if you have done it with the previous two.

@@ -5,6 +5,13 @@ description: Some live to code. Others code to live. Who are you?
 date: 2009-02-17 18:08:46
 assets: assets/posts/2009-02-17-coding-as-a-lifestyle
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 For me, coding is a lifestyle. I think about it in the morning when I wake up, and I code on the train going to work. I spend the whole day working with code, and when I get home, I think about the code. When I go to sleep I dream and solve those problems I couldn't find a solution for during the day.

@@ -6,6 +6,13 @@ tags: quality, technical debt
 date: 2009-05-11 05:29:43
 assets: assets/posts/2009-05-11-quality-is-a-different-matter
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 > Quality, well that's the developers problem.

@@ -6,6 +6,13 @@ date: 2015-05-11 21:12:21
 tags: gaming, rpi, retropi
 assets: assets/posts/2015-05-11-building-a-super-nintendo-emulator-with-raspberry-pi
 image: assets/posts/2015-05-11-building-a-super-nintendo-emulator-with-raspberry-pi/title.png
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'm an old gamer.

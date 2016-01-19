@@ -6,6 +6,13 @@ tags: css, web browser, ux, flashblock, ad block
 date: 2011-05-12 17:00:34
 assets: assets/posts/2011-05-12-stylish-improves-web-experience
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I hate advertisement. I would never ever dream about putting advertisement on this blog. I hate it with all my soul, so much that I pay extra for some services just to get rid of the advertisement. I don't look at commercial TV and I get bored at podradios pausing for a message from sponsors. Ye, I guess that you need sponsors because it is expensive to host a podcast, but I would rather pay 3$ per show just to not listen to your intro, outro or sponsor messages. Pure content - that's the melody!

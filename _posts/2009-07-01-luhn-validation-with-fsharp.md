@@ -6,6 +6,13 @@ tags: F#, luhn
 date: 2009-07-01 10:29:27
 assets: assets/posts/2009-07-01-luhn-validation-with-fsharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'm on vacation, and since I'm a nerd I take that amount of spare time and use it to learn a new language. This year I decided to learn F#. I've been working with Lisp before, so the concept of functional oriented langauges is not new to me. The syntax however is.  After a couple of hours with the book [Foundations of F# (Robert Pickering)](http://www.amazon.com/Foundations-F-Experts-Voice-Net/dp/1590597575). I've already written my first program. It is a LUHN10 validator.  Every Swedish citizen has a personal identity number (almost like social security number) that uniquely identifies that person. The format of this number looks like this

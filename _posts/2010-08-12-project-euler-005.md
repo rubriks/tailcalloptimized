@@ -5,6 +5,13 @@ description: What is the smallest positive number that is evenly divisible by al
 tags: F#, project euler, dojo
 date: 2010-08-12 11:11:57
 assets: assets/posts/2010-08-12-project-euler-005
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 image: 
 ---
 

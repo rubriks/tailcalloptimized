@@ -6,6 +6,13 @@ tags: data annotations, C#
 date: 2009-11-07 11:57:49
 assets: assets/posts/2009-11-07-data-annotations
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've recently discovered the System.ComponentModel.DataAnnotations namespace. This is a collection of Attributes you can use to markup your data objects with conditions, like the following.

@@ -6,6 +6,13 @@ tags: code guidelines
 date: 2009-01-24 09:04:34
 assets: assets/posts/2009-01-24-method-or-property
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 In .NET development this one question often reappears.

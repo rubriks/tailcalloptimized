@@ -6,6 +6,13 @@ tags: Game of life, f#, c#, object orientation, immutable
 date: 2013-03-12 17:39:37
 assets: assets/posts/2013-03-12-game-of-life
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I told you yesterday [what a test suite in F# could look like](/2013/03/11/unit-testing-in-fsharp.html). Today I will show you the difference between immutable solution of Game of Life in F# and an imperative mutable solution in C#.

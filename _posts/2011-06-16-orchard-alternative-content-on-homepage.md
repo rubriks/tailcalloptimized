@@ -6,6 +6,13 @@ tags: Orchard, CMS, content management
 date: 2011-06-16 15:04:15
 assets: assets/posts/2011-06-16-orchard-alternative-content-on-homepage
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 It took me a lot of time to figure out how to tell Orchard to render something different on the start page. One way is to define a layout that is specific for the start page url.

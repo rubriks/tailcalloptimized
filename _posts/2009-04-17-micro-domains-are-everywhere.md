@@ -6,6 +6,13 @@ tags: crossfunctional teams
 date: 2009-04-17 15:35:09
 assets: assets/posts/2009-04-17-micro-domains-are-everywhere
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 A micro domain is a single responsibility of a task, piece of code, or anything at all. It was suggested to me that micro domains is a good thing and you can use it to ensure productivity. These were the reasons to incorporate micro domains in your company.

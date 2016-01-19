@@ -6,6 +6,13 @@ tags: excel, xml, linq to xml
 date: 2009-08-19 05:42:59
 assets: assets/posts/2009-08-19-business-loves-excel-engineers-loves-xml
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 In the middle of my project, the client sends me this excel file that I should validate user input against.  I asked around among my colleagues to get their opinion of what I should do with this treacherous thing. Their answers were any of

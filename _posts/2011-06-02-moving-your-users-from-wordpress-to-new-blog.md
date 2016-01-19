@@ -6,6 +6,13 @@ tags: redirect, soa, Orchard, CMS, Wordpress
 date: 2011-06-02 07:53:07
 assets: assets/posts/2011-06-02-moving-your-users-from-wordpress-to-new-blog
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I have earlier spoken to you about [how to move your content from Wordpress to Orchard CMS](/2011/05/28/migrate-blog-from-wordpress-to-orchard-cms.html). Now we're facing a problem. Your users are still going to the old Orchard blog, even though you've told them that every new blog post could be read at the new site. You also have the problem that Google will hate you for presenting the same content on two different URLs.

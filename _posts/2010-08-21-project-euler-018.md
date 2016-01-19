@@ -6,6 +6,13 @@ tags: project euler, dojo
 date: 2010-08-21 16:47:13
 assets: assets/posts/2010-08-21-project-euler-018
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 By starting at the top of the triangle below and moving to adjacent numbers on the row below, the maximum total from top to bottom is 23. *3 7* 4 2 *4* 6 8 5 *9* 3  That is, 3 + 7 + 4 + 9 = 23.  Find the maximum total from top to bottom of the triangle below

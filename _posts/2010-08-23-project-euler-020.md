@@ -6,6 +6,13 @@ tags: project euler, dojo
 date: 2010-08-23 15:20:28
 assets: assets/posts/2010-08-23-project-euler-020
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 > <var>n</var>! means <var>n</var> &times; (<var>n</var> &minus; 1) &times; &hellip; &times; 3 &times; 2 &times; 1  

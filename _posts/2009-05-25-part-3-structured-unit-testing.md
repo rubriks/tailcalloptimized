@@ -6,6 +6,13 @@ tags: xunit, nunit, mbunit, testing, kino
 date: 2009-05-25 22:00:47
 assets: assets/posts/2009-05-26-part-3-structured-unit-testing
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 This post will describe how tests are setup within [Kino](/2009/05/23/kino-everything-to-rss/). If you haven’t already you can download the source from [here](/kino/), play around and tell me what you think.

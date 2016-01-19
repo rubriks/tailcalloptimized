@@ -6,6 +6,13 @@ tags: truecrypt, encrypt
 date: 2009-02-18 06:22:22
 assets: assets/posts/2009-02-18-is-it-secret-is-it-safe
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 ![Gandalf, the one ring](/assets/posts/2009-02-18-is-it-secret-is-it-safe/gandalf4.jpg)

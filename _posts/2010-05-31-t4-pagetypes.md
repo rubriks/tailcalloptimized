@@ -6,6 +6,13 @@ tags: EPiServer, CMS, T4, PageTypes, Web Development
 date: 2010-05-31 19:05:47
 assets: assets/posts/2010-05-31-t4-pagetypes
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 _If you're starting a new project, you should consider using the [EPiServer CMS Page Type Builder](http://pagetypebuilder.codeplex.com/)_. This project is most useful when you have a legacy EPiServer project, that is not worth the time or effort to convert to EPiServer CMS Page Type Builder, but you really would like those strongly typed PageType helpers.

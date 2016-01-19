@@ -5,6 +5,13 @@ description: CruiseControl is a tool for bringing in continuouos integration. Th
 date: 2009-02-16 21:21:39
 assets: assets/posts/2009-02-16-cruisecontrol-with-nant
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I thought my latest post was on the more creative criticism verge, but proved to be more of a brain fart. My apologies to those that find themselves offended. At least it seemed to get some balls running and we're bringing in quality for open discussion again.

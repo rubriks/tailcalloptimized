@@ -6,6 +6,13 @@ date: 2015-07-01 10:00:00
 tags: testing, qa, quality assurance
 assets: assets/posts/2015-07-01-developers-heart-testers
 image: assets/posts/2015-07-01-developers-heart-testers/developerlovestester.png
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 The process of testing used to be easy. A tester would take the requirements and the specification and write a test script. When the functionality was completed the tester would execute the test script and provide feedback based on the output.

@@ -6,6 +6,13 @@ tags: F#, project euler, dojo, primes
 date: 2010-08-12 17:59:51
 assets: assets/posts/2010-08-12-project-euler-010
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.  Find the sum of all the primes below two million.

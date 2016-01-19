@@ -6,6 +6,13 @@ date: 2015-03-02 16:37:12
 tags: javascript, game development, puzzle game
 assets: assets/posts/2015-03-02-brains--the-game
 image: assets/posts/2015-03-02-brains--the-game/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 In my book, [Testing with F#](http://www.amazon.com/Testing-F-Mikael-Lundin/dp/1784391239/), I work out an example on model-based testing using a game called Brains.

@@ -6,6 +6,13 @@ tags: alive, performance counters, perfmon
 date: 2011-12-13 06:34:55
 assets: assets/posts/2011-12-13-secure-your-alive-dashboard
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 > -What kind of security is implemented in Alive?  

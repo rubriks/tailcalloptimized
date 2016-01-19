@@ -6,6 +6,13 @@ date: 2015-12-19 13:40:54
 tags: osx, rpi, raspberry pi
 assets: assets/posts/2015-12-19-make-a-backup-of-your-raspberry-pi
 image: assets/posts/2015-12-19-make-a-backup-of-your-raspberry-pi/title.png
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 It's always these small menial tasks that you do once and a while that costs so much time, because you can't remember how to do it and you run into the same culprits time and again.

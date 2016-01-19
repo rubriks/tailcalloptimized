@@ -6,6 +6,13 @@ tags: algorithm, delimited string, enumerableextensions
 date: 2009-06-12 05:28:30
 assets: assets/posts/2009-06-12-from-list-to-delimited-string
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I just read [a blog post](http://labs.episerver.com/en/Blogs/Johano/Dates/2009/6/Joining-strings/) from Johan Olofsson where he describes how he uses a extension method to create a string representation of any list. I found it very interesting since I've written something very similar.  I wanted to share my own version here, last modified 2008-06-28, almost a year from now,  if we should trust the date stamp.

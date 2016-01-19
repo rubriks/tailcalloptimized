@@ -6,6 +6,13 @@ tags: integration test, acceptance test, e-mail, smtp
 date: 2011-02-09 06:45:01
 assets: assets/posts/2011-02-09-how-to-test-e-mail-sending
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 How do you test e-mail sending with System.net? This is actually quite trivial. You should start by creating a wrapper for the System.Net.Mail.SmtpClient to make DI and testing easier. It should look like this.

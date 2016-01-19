@@ -6,6 +6,13 @@ tags: Visual Studio, C#, architecture, project organization
 date: 2008-08-30 20:55:34
 assets: assets/posts/2008-08-30-solution-and-projects
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I've set up the Visual Studio solution and started to write some of the Virtual Path Provider code. It is now, at the beginning of the project all the important decisions are made. "Should I unittest?", "Are there any need for continuous integration?", "Do I have to use Subversion when I'm the only programmer?"  I will get back to those questions regarding tools in a later post. Right now I will focus on the solution.

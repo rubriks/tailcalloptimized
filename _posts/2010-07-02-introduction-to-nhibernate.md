@@ -6,6 +6,13 @@ tags: beginners guide, NHibernate, ORM, OR-mapper, object relational mapper
 date: 2010-07-02 05:38:24
 assets: assets/posts/2010-07-02-introduction-to-nhibernate
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I held this introduction to NHibernate yesterday and thought it might be nice to share this with you. It is just a basic NHibernate application without any fancy schmancy, to familiarize yourself with the concepts.

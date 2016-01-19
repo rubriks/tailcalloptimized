@@ -6,6 +6,13 @@ tags: EPiServer, troubleshooting
 date: 2008-11-20 20:21:46
 assets: assets/posts/2008-11-20-episerver-page-not-found
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 In the latest version of EPiServer CMS 5 R2 they released not only a bunch of new stuff, but also changes in the already established interfaces. As an EPiServer consultant that works with both developing websites and also extending the CMS with my own extensions, this made me cry.  One of the more brutal changes for my extensions were that IPageStore was deleted and replaced with the more minimalistic IPageSource. Since almost all my functionality was working with IPageStore, I had to recreate the whole thing now with IPageSource in mind.  Another thing that me and a fellow developer noticed were the change of behaviour in DataFactory.GetPage(). Previously you would get null if you tried to call GetPage() with ID of a page that didn't exist in the system. Now they've changed it to throwing PageNotFoundException. Not a small change, since GetPage() is probably the most used method in the whole framework.  I see where they're going with it. "They ask for a specific page, with a specific ID. If it is not found in the system, an exception has occured!" But then, I would expect to have a PageExists() method, so I could query the framework if the page exists before I try to get it with GetPage(), but no.  This leads you to implement rubbish extension methods like this

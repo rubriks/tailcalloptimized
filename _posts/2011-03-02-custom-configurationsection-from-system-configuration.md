@@ -6,6 +6,13 @@ tags: configuration, xml, web.config, app.config, System.Configuration
 date: 2011-03-02 16:21:17
 assets: assets/posts/2011-03-02-custom-configurationsection-from-system-configuration
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Sometimes we forget about System.Configuration. This is plain when you find a project with its custom configuration xml parsing techniques. Maybe we all need to be reminded about System.Configuration.  Say you want configuration that looks like this.

@@ -6,6 +6,13 @@ tags: defensive programming, code contracts
 date: 2008-08-31 15:37:14
 assets: assets/posts/2008-08-31-assert-that
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 A common problem with writing software is the complexity. It doesn't matter how much abstraction you can do, you will always end up in situation where you have to take certain things for granted: "an argument is not null", "the control has been properly initialized", etc. When these assumptions are broken a number of things might happen. If you're lucky an exception will be thrown, and if you're not so lucky, you will suffer the consequences of the randomness in **invalid states**.  This was bothering me for quite some time and I didn't really think there would be a solution until I listened to a [podcast](http://www.hanselminutes.com/default.aspx?showID=128 "Scott Hanselmans podcast about spec#") about the [Spec# project](http://research.microsoft.com/SpecSharp/ "The Spec# project homepage"). They are trying to implement [design by contract](http://en.wikipedia.org/wiki/Design_by_contract "Design by Contract on Wikipedia") in a .NET environment which is very cool.  In their language you can specify both preconditions and postconditions for your methods, and you can put conditions on you classes that always must be true. Example: An arraylist must always have the private field count larger than -1.  So, this podcast really blew my mind, but I guess that we will sadly have to wait before it is implemented in C# (if it ever is going to be). But, with the latest additions to the language (C# 3.0) you can apply something similar, if not so powerful, a substitute. Take a minute and reflect on the following code:

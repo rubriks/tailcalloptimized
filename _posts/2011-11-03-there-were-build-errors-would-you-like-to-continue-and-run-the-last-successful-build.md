@@ -6,6 +6,13 @@ tags: Visual Studio
 date: 2011-11-03 16:58:22
 assets: assets/posts/2011-11-03-there-were-build-errors-would-you-like-to-continue-and-run-the-last-successful-build
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 ![There were build errors. Would you like to continue and run the last successful build?](/assets/posts/2011-11-03-there-were-build-errors-would-you-like-to-continue-and-run-the-last-successful-build/dialog.png "Visual Studio error dialog")

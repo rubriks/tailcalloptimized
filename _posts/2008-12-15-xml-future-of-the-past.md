@@ -6,6 +6,13 @@ tags: xml, xsd, xsl
 date: 2008-12-15 15:20:53
 assets: assets/posts/2008-12-15-xml-future-of-the-past
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Xml is another fantastic overlooked technology. Not because it's one of the most used data formats in the world, but because almost all of those applications only use a tiny bit of the whole xml technology. It is really fantastic and it features some functionality that no other data format does.

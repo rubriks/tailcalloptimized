@@ -6,6 +6,13 @@ tags: ruby, F#
 date: 2011-06-10 10:01:32
 assets: assets/posts/2011-06-10-using-the-unless-pattern-in-fsharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Functional programming is wonderful. It really tries to encourage you to step away from your if-then-else and find alternative means of controlling flow. But sometimes you need to execute a function, only when a specific condition is valid. How can we manage to do this in an expressive way and not by imperative control flow?

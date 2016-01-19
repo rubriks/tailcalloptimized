@@ -6,6 +6,13 @@ tags: jquery, thickbox, prototype, scriptaculous, conflict
 date: 2009-03-17 06:19:54
 assets: assets/posts/2009-03-17-jquery-thickbox-prototype-scriptaculous
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 So, I wanted to implement [jQuery](http://jquery.com/)/[Thickbox](http://jquery.com/demo/thickbox/) in an environment that already were using [Prototype](http://www.prototypejs.org/)/[Scriptaculous](http://script.aculo.us/). The problem you see here is that both jQuery and Prototype use the same $ syntax. Lucky me there's a solution to this problem.

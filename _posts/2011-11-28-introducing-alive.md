@@ -6,6 +6,13 @@ tags: Alive, F#, performance counters, perfmon
 date: 2011-11-28 16:22:30
 assets: assets/posts/2011-11-28-introducing-alive
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Alive is a performance counter monitor for ASP.NET. You install it in an IIS application and can view it from anywhere. It's free, it's open source and it's happy pappy.

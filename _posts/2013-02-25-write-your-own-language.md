@@ -6,6 +6,13 @@ tags: fslex, fsyac, lisp, dsl
 date: 2013-02-25 20:31:14
 assets: assets/posts/2013-02-25-write-your-own-language
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I held a lunch seminar about writing your own Lisp language, called [Write your own language](http://lang.litemedia.se). Here I'd like to summerize it for you.

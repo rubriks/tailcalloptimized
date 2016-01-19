@@ -5,6 +5,13 @@ description: "What are the different errors that might happen in software develo
 tags: bugs, defects, software quality, quality assurance
 date: 2014-04-25 07:20:30
 tags: bugs defects
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 ![I like that there is only two options for your code; either it works or it wont. it usually are one of those](/assets/posts/2014-04-25-bugs-and-defects/bugs_and_defects.png)

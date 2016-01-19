@@ -6,6 +6,13 @@ tags: NDepend, code quality, technical dept
 date: 2009-09-24 05:32:14
 assets: assets/posts/2009-09-24-ndepend-woohoo
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I finally got around and bought my private copy of [NDepend](http://www.ndepend.com/). 299€ is an ok price for this kind of software, but taxes adds this up to 400€ and my wallet feels a bit lighter. My heart is also a bit lighter and my brain is estatic.

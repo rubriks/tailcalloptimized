@@ -6,6 +6,13 @@ tags: scrum, scrum master, agile development
 date: 2010-01-14 21:13:30
 assets: assets/posts/2010-01-14-certified-scrum-master
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Today I became a certified scrum master. That's really nothing to brag about. You have to participate in two days of training and come out as certified scrum master. I don't really like titles that doesn't mean anything.

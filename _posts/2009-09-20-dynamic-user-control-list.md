@@ -6,6 +6,13 @@ tags: webforms, dynamic, usercontrol, asp.net
 date: 2009-09-20 10:49:47
 assets: assets/posts/2009-09-20-dynamic-user-control-list
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 How do you add and remove user controls dynamically on an ASP.NET page?

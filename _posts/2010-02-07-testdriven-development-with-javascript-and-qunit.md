@@ -6,6 +6,13 @@ tags: jquery, qunit, javascript, tdd, testing
 date: 2010-02-07 10:10:54
 assets: assets/posts/2010-02-07-testdriven-development-with-javascript-and-qunit
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've always had problems with JavaScript, because the lack of tooling, no good source for documentation and the most advanced way of debugging being **alert**. It has become easier over the years with jQuery and Firebug, but being used to C# I'm still a bit lost when it comes to JavaScript.  I was recently required to write some validation logic in JavaScript, and to make sure that I was on track the whole time, I adopted TDD in JavaScript with [QUnit](http://docs.jquery.com/QUnit).

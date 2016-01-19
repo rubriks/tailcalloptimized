@@ -6,6 +6,13 @@ tags: continuous integration, build process, TFS, Team Build, NUnit
 date: 2011-01-22 19:10:31
 assets: assets/posts/2011-01-22-create-your-own-custom-nunit-build-activity-for-team-build-2010
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 There was an awkward moment when I realized that TFS 2010 does not support proj build files anymore. Now you're supposed to use Workflow Foundation for managing Team Build. Sadly, we have a quite big and complex build setup that we had to convert.  Setting up such a build is not easy, and writing your own custom build activities (previously known as build tasks) is not trivial. That's why I would like to guide you through how it's done.

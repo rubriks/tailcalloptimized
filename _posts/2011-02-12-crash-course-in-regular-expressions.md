@@ -6,6 +6,13 @@ tags: regex, beginners guide, regular expression
 date: 2011-02-12 12:00:17
 assets: assets/posts/2011-02-12-crash-course-in-regular-expressions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 <p>So we were discussing regular expressions and how it can be completely unreadable, but I really love this language. Mostly because it is a one purpose language, string matching, and it serves that purpose extremly well.  Here's a crash course in regular expressions.</p>

@@ -6,6 +6,13 @@ tags: code
 date: 2009-04-27 05:33:19
 assets: assets/posts/2009-04-27-they-are-all-routines
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 While talking about cohesion with a fellow colleague I noticed that there were some confusion about the differences between routines, functions, procedures and methods. Please let me clear this out.

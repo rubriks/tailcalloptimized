@@ -6,6 +6,13 @@ tags: xslt, xml, transform
 date: 2009-03-04 06:47:21
 assets: assets/posts/2009-03-04-extending-xslt
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 One thing that I never seem to remember is how to extend my XSLT with extensions. How to include your own namespace and let the transformation engine call my own methods written in C#. It might be hard to remember because I do it once every year, at the most. Now I will write down the procedure here, so that when I google this a year from now, I will find my own blog post. ;)  First, write a class that you want to use in your XSLT. Keep the class public and your methods also.

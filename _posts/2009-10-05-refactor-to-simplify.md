@@ -6,6 +6,13 @@ tags: refactor, code quality, technical debt
 date: 2009-10-05 16:10:35
 assets: assets/posts/2009-10-05-refactor-to-simplify
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 ```csharp

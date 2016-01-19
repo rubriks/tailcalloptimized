@@ -6,6 +6,13 @@ tags: unity, interception, di, ioc
 date: 2010-09-23 15:15:43
 assets: assets/posts/2010-09-23-interception-with-unity
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've already written about this [here](/2009/10/30/aop-in-net-with-unity-interception-model.html "AOP in .NET with Unity Interception Model") but this is such a obscure topic that it really doesn't hurt with some more examples.  In this example we have a bookstore with two repositories defined as below.

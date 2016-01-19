@@ -6,6 +6,13 @@ tags: dynamic, C#, regular expression, regex
 date: 2011-12-18 10:44:39
 assets: assets/posts/2011-12-18-failure-of-the-dynamic-keyword
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I would consider the dynamic keyword that was introduced in C# 4, a failure. It was really a hack to integrate dynamic languages with the CLR, a venture that Microsoft seems to have abondoned. The only two uses I know of it today is in Razor View Engine and Massive ORM.

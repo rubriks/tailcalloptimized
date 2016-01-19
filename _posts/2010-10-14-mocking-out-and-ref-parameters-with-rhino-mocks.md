@@ -6,6 +6,13 @@ tags: unit testing, nunit, Rhino Mocks, mocking, tdd
 date: 2010-10-14 20:29:19
 assets: assets/posts/2010-10-14-mocking-out-and-ref-parameters-with-rhino-mocks
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Today I learned that you can mock out and ref parameters with the following syntax in Rhino Mocks.

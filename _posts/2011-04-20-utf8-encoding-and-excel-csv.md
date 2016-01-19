@@ -6,6 +6,13 @@ tags: character encoding, csv, excel, utf
 date: 2011-04-20 15:24:13
 assets: assets/posts/2011-04-20-utf8-encoding-and-excel-csv
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Working with WebForms I often use ASHX handlers for generating stuff. It can be anything from XML to CSV.

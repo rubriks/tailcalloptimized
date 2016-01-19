@@ -6,6 +6,13 @@ tags: software architecture, software design
 date: 2009-05-23 22:00:21
 assets: assets/posts/2009-05-23-kino-design-and-architecture
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 <p><img class="alignright size-full wp-image-329" style="float: right;" title="kino" src="http://litemedia.info/media/Default/Mint/kino.jpg" alt="kino" width="182" height="184" /><span style="font-weight: normal;"> This post will describe the architecture and overall design of <a href="http://mint.litemedia.se/2009/05/23/kino-everything-to-rss/">Kino</a>. If you haven't already you can download the source from <a title="Kino source code" href="http://mint.litemedia.se/kino/">here</a>, play around and tell me what you think.</span></p>

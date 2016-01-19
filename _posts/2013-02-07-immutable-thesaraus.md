@@ -6,6 +6,13 @@ tags: F#, sharpen your saw, dojo
 date: 2013-02-07 05:55:00
 assets: assets/posts/2013-02-07-immutable-thesaraus
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I was [arranging a dojo lunch](http://sys4.litemedia.se) where the participants where given the assignment of creating a thesaraus that was completely thread safe. In my own solution I first gave C# a go, but ended up doing it in F#. The only way to really know that you're thread safe is to go immutable all the way.

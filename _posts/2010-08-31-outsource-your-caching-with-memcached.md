@@ -6,6 +6,13 @@ tags: caching, nosql, memcached, northscale
 date: 2010-08-31 16:19:56
 assets: assets/posts/2010-08-31-outsource-your-caching-with-memcached
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'm currently working on a large business system for a client where there are several caching situations, because the service that delivers the data is too slow, the database is too slow or we don't want to hit the source for the data all too often.  I've been hand rolling most of these cache layers myself. I don't like the idea of using ASP.NET caching for non ASP.NET applications.

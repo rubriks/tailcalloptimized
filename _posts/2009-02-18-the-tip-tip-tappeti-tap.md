@@ -6,6 +6,13 @@ tags: womens shoes
 date: 2009-02-18 19:35:18
 assets: assets/posts/2009-02-18-the-tip-tip-tappeti-tap
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Now when I got your attention, I will tell you about the tip-tip-tappeti-tap.

@@ -6,6 +6,13 @@ date: 2016-01-17 13:17:48
 tags: Orchard, CMS, blogging, blog, Disqus, SDF, XMl, SQL Server Compact 4, SqlCe4, Azure
 assets: assets/posts/2016-01-17-exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-1
 image: assets/posts/2016-01-17-exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-1/title.png
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I have during the span of a month been working on migrating my old blog posts from LiteMedia.info to this blog, and I have succeeded. Over 200 blog posts have been manually translated from HTML to Markdown. I have verified every link, moved every image and am forwarding all requests to old URLs to the new blog. All is done, except comments.

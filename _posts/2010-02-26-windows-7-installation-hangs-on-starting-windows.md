@@ -6,6 +6,13 @@ tags: windows 7, troubleshoot
 date: 2010-02-26 20:33:30
 assets: assets/posts/2010-02-26-windows-7-installation-hangs-on-starting-windows
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 ![starting windows](/assets/posts/2010-02-26-windows-7-installation-hangs-on-starting-windows/startingwindows.jpg)

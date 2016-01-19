@@ -6,6 +6,13 @@ tags: episerver, cms, certification
 date: 2008-11-29 09:50:51
 assets: assets/posts/2008-11-29-episerver-cms-5-certified-developer
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Yesterday I was over at Cornerstone for EPiServer certification. It involves taking a test proving that you know everything about EPiServer that there is to know. The test was one of those standard badly written education applications with a web interface, option questions where one or several answers could be correct. Mostly like the driving license theory exam we have here in Sweden.

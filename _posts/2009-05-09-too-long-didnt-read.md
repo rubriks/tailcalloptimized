@@ -6,6 +6,13 @@ tags: blogging, meta
 date: 2009-05-09 07:28:39
 assets: assets/posts/2009-05-09-too-long-didnt-read
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 The most immediate response to [my previous post](/2009/05/06/death-to-seo-companies.html "This recession will claim death to SEO companies") was, "too long, didn't read". The post was obviously not interesting enough to make up for its length. Every piece of text is a mountain that has to be conquered.  People don't read as they used to. A long time ago, before Internet, people read books where the amount of text were nothing but staggering, but it still didn't hinder them to finish book after book. Today we google for everything we want to know, read a paragraph and let the rest go. We are also spoiled with nicely formatted texts, clear headlines, paragraphing and good line spacing.

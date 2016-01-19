@@ -6,6 +6,13 @@ tags: Visual Studio, IDE, programming environment
 date: 2011-03-23 08:33:10
 assets: assets/posts/2011-03-23-56-useless-buttons-in-your-ide
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 When did you last click a button in those toolbars in Visual Studio? Been a while, huh? Isn't it time to give that space over to more code screen space?

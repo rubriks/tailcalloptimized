@@ -6,6 +6,13 @@ tags: database versioning, database change management
 date: 2011-12-03 11:30:13
 assets: assets/posts/2011-12-03-database-versioning-updated
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I have been getting some feedback on my blog post about [database change management](/2010/01/24/database-change-management.html), and I thought it was about time to make some updates to the database change management powershell script that I posted there. Let's go through this, step by step.

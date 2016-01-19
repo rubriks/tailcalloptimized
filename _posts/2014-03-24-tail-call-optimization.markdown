@@ -5,6 +5,13 @@ description: When you write your recursions in F# with a tail call, the compiler
 tags: F#, msil, compiler optimizations
 date:   2014-03-24 08:08:00
 categories: fsharp msil
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 One of the most basic concepts of functional programming is the recursive call chain. Instead of iterating through a data source, you recurse through it. Compare the following

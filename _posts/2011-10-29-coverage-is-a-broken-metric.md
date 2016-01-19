@@ -6,6 +6,13 @@ tags: unit test, testing, coverage
 date: 2011-10-29 13:49:10
 assets: assets/posts/2011-10-29-coverage-is-a-broken-metric
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 In the backwaters of previous blog entry, [Using TDD to test file system operations](/2011/10/27/unit-test-file-system-operations.html), I've been thinking alot about test coverage. This is the metric you use to measure how many lines of code % you traverse with your tests.

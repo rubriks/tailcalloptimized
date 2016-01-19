@@ -6,6 +6,13 @@ tags: F#, project euler, dojo
 date: 2010-08-12 15:24:58
 assets: assets/posts/2010-08-12-project-euler-009
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 A Pythagorean triplet is a set of three natural numbers, a &lt; b &lt; c, for which, a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>

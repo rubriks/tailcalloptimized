@@ -6,6 +6,13 @@ tags: amiga, turbo pascal, php, lisp
 date: 2009-06-07 06:27:19
 assets: assets/posts/2009-06-07-my-history-of-computing
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 My family bought a computer for the first time in 1988. I was six years old, home alone with my mom and I badly wanted to play those funny games that I were playing the day before. Though, my mom did not know how to operate the computer and I was not allowed, the urge got too much and I decided to give it a try. I had seen the procedure before and I knew what to do. I had just never done it myself.  So, I flipped the power switch and waited for the screen to show

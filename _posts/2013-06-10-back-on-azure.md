@@ -6,6 +6,13 @@ tags: azure, hosting, wardrobe server
 date: 2013-06-10 04:57:38
 assets: assets/posts/2013-06-10-back-on-azure
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I did build this blog to run on Azure, but at the time when my trial subscription ran out, I concluded that it was way to expensive to run a private blog in the cloud. I moved the whole thing to my wardrobe server.

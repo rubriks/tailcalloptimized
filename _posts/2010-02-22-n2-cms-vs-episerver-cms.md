@@ -6,6 +6,13 @@ tags: N2 CMS, EPiServer CMS, content management system
 date: 2010-02-22 20:11:24
 assets: assets/posts/2010-02-22-n2-cms-vs-episerver-cms
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'll write this post to clear out the differences of these two CMSes. Note that these are my viewpoints and not the ones of my employer.

@@ -6,6 +6,13 @@ date: 2015-06-10 19:38:53
 tags: cms, certification, episerver
 assets: assets/posts/2015-06-10-certified-episerver-cms-7-developer
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Monday, 8th June 2015, I passed the test to become a certified developer on EPiServer CMS 7. (there is not test for 8 yet) I was quite confident that I would make it as I've been developing on EPiServer on and off since 2008, and I've passed certification for EPiServer CMS 5 before.

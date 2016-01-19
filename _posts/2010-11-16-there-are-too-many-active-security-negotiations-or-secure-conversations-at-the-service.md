@@ -6,6 +6,13 @@ tags: troubleshooting, WCF
 date: 2010-11-16 18:06:41
 assets: assets/posts/2010-11-16-there-are-too-many-active-security-negotiations-or-secure-conversations-at-the-service
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I was fighting an error today. It might show itself as

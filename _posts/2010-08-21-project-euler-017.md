@@ -6,6 +6,13 @@ tags: project euler, dojo
 date: 2010-08-21 11:57:04
 assets: assets/posts/2010-08-21-project-euler-017
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.  If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?

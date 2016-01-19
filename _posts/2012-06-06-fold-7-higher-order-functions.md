@@ -6,6 +6,13 @@ tags: functional programming, fold
 date: 2012-06-06 11:45:00
 assets: assets/posts/2012-06-06-fold-7-higher-order-functions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This is the second blog post in a series about higher order functions. Fold is one of my most commonly used higher order function.

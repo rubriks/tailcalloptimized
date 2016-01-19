@@ -6,6 +6,14 @@ date: 2016-01-18 10:37:36
 tags: xml, xsl, wxr, Disqus, Orchard, CMS
 assets: assets/posts/2016-01-18-exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-2
 image: assets/posts/2016-01-18-exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-2/title.png
+
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 In my [previous post](/2016/01/17/exporting-comments-from-orchard-cms-to-import-them-into-disqus-part-1.html "Exporting comments from Orchard CMS to import them into Disqus - Part 1") we took a look at exporting comments from the Ochard CMS database when the export functionality is out of order. It had some nifty tricks to extract XML from an SDF[^1] file and resulted in an XML file looking like this.

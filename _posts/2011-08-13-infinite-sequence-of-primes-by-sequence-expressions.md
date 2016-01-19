@@ -6,6 +6,13 @@ tags: prime numbers, F#, seq, sieve of eratosthenes
 date: 2011-08-13 16:39:16
 assets: assets/posts/2011-08-13-infinite-sequence-of-primes-by-sequence-expressions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've been writing algorithms for calculating primes since high school. Most of those algorithms have looked the same, but in different languages with that language's specific quirks. It was when I read up on F# sequence expressions that my mind was blown, and I went **holy bananas** as I could see the solution to a prime calculation problem I've had since I started.

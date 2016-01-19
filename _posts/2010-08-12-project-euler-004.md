@@ -6,6 +6,13 @@ tags: F#, project euler, dojo
 date: 2010-08-12 09:34:38
 assets: assets/posts/2010-08-12-project-euler-004
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91  99.  Find the largest palindrome made from the product of two 3-digit numbers.

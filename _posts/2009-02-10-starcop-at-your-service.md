@@ -6,6 +6,13 @@ tags: stylecop, code style, style guidelines
 date: 2009-02-10 17:22:00
 assets: assets/posts/2009-02-10-starcop-at-your-service
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Have you ever run a tool like [StyleCop](http://code.msdn.microsoft.com/sourceanalysis) or [FxCop](http://msdn.microsoft.com/en-us/library/bb429476(VS.80).aspx) on your source code and gotten something like this?

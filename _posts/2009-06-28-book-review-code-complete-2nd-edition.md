@@ -5,6 +5,13 @@ description: We had a book circle at work reading Code Complete by Steve McConne
 date: 2009-06-28 19:26:18
 assets: assets/posts/2009-06-28-book-review-code-complete-2nd-edition
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 ![Code Complete 2nd edition](/assets/posts/2009-06-28-book-review-code-complete-2nd-edition/cc2e-cover-small.gif)

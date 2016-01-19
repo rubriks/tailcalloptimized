@@ -6,6 +6,13 @@ date: 2015-12-03 07:06:56
 tags: ruby, rails, legacy, rpi2, raspberry pi 
 assets: assets/posts/2015-12-03-building-a-legacy-rails-app-on-rpi2
 image: assets/posts/2015-12-03-building-a-legacy-rails-app-on-rpi2/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 If you don't care how I solved this, but only want a libv8 with version 3.11.7.12 compiled for ARMv7, scroll to the bottom of this article and download it from there.

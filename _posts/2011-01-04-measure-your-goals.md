@@ -6,6 +6,13 @@ tags: empowerment, self improvement
 date: 2011-01-04 18:22:28
 assets: assets/posts/2011-01-04-measure-your-goals
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 In my [last blog post I told you about my goals for 2011](/2011/01/03/my-plan-for-2011.html "My plan for 2011"). How will I ensure that I make my best effort to achieve those goals? As in agile methologies we measure it and make progress easy to follow.

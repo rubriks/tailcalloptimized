@@ -6,6 +6,13 @@ tags: encrypt, ssl, certificates, ca
 date: 2009-06-03 15:38:59
 assets: assets/posts/2009-06-03-certificates-the-why-what-and-the-missing-how
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 These last couple of weeks I've been working a lot with certificates and secure web solutions. I've never had to learn these things before, but now I really had to know **how** it works, and not only **that** it works. There is a huge difference there, because it is very easy to understand **why** it has to work and it is also very easy to understand **what** a certificate is. Let me give you a couple of examples

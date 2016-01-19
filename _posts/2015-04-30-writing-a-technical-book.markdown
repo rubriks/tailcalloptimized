@@ -6,6 +6,13 @@ date: 2015-04-30 22:53:48
 tags: book, F#, publishing
 assets: assets/posts/2015-04-30-writing-a-technical-book
 image: assets/posts/2015-04-30-writing-a-technical-book/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I don't believe it has escaped anyone that follows me that I've written a book called [Testing with F#](http://www.amazon.com/Testing-F-Mikael-Lundin/dp/1784391239/). In this post I will give my accounts on the process of writing a book.

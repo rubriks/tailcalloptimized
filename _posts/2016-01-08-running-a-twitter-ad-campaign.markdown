@@ -6,6 +6,13 @@ date: 2016-01-08 13:01:06
 tags: twitter, campaign, advertisement, book, fsharp
 assets: assets/posts/2016-01-08-running-a-twitter-ad-campaign
 image: assets/posts/2016-01-08-running-a-twitter-ad-campaign/title.png
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 For the last 11 days I've been running a Twitter campaign on the sale going on with my book, [Testing with F#](https://www.packtpub.com/application-development/testing-f). The discounted price has been only $5 for almost a month and that is now at an end. I've not been running the campaign in order to sell a large quantity of books, but more so to get a grasp on how this Twitter ADs works. I will summerize it here for you.

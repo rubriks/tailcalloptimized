@@ -6,6 +6,13 @@ tags: functional programming
 date: 2012-06-19 18:25:00
 assets: assets/posts/2012-06-19-expand-7-higher-order-functions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This is my fifth post in a series about higher order functions and I'm starting to see the end of it. This one was the hardest to write, because I didn't have any good material or practical experience, but I think that it went decent anyway.

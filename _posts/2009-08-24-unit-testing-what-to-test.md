@@ -6,6 +6,13 @@ tags: testing, unit testing, tdd
 date: 2009-08-24 19:16:23
 assets: assets/posts/2009-08-24-unit-testing-what-to-test
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This is a follow up on a post from [Typemock Insider](http://blog.typemock.com/), [Unit Testing - What not to test...](http://blog.typemock.com/2009/08/unit-testing-what-not-to-test.html)

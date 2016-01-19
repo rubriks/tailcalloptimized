@@ -6,6 +6,13 @@ tags: xsd, xslt, unit testing, nunit
 date: 2009-02-22 17:19:16
 assets: assets/posts/2009-02-22-unit-test-xsl-transformations
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Mint will be a very XSL transformation heavy application. That is why I've been thinking alot about how to manage all the transformation code. Well let's start off with unit testing.

@@ -6,6 +6,13 @@ tags: IDE, Visual Studio
 date: 2009-05-30 22:00:48
 assets: assets/posts/2009-05-30-clean-up-your-visual-studio-context-menus
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Does your right click context menu look as messy as mine?

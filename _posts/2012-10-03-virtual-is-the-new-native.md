@@ -6,6 +6,13 @@ tags: virtual machine, software development, consultancy
 date: 2012-10-03 04:14:15
 assets: assets/posts/2012-10-03-virtual-is-the-new-native
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 About a month ago, I was getting a new development rig, since my previous one had run its course. That machine was in a very bad shape after 3 years of heavy development. Sure, I upgraded it to Windows 7 but that really didn't help much. My work days would consist mostly of typing a line of code and then waiting for it to appear on the screen. Compiling was a thing you did only when you where sure, you got it right.

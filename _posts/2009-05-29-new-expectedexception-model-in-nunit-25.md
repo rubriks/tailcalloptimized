@@ -6,6 +6,13 @@ tags: nunit, exceptions, testing, unit testing
 date: 2009-05-29 22:00:07
 assets: assets/posts/2009-05-29-new-expectedexception-model-in-nunit-25
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 A new version of NUnit is released and there is a new way to handle expected exceptions. Until recently NUnit did this by putting an attribute on your test method, very much how MsTest still works.

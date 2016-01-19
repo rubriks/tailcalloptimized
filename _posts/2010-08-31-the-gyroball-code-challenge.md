@@ -6,6 +6,13 @@ tags: dojo, F#, C#
 date: 2010-08-31 22:00:15
 assets: assets/posts/2010-08-31-the-gyroball-code-challenge
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 [Thycotic](http://www.thycotic.com/) presented a [code challenge where you could win a gyroball here](http://thycoticsolutionsblog.wordpress.com/2010/08/12/code-challenge-win-a-gyroball/). Since I live in Sweden, I'm not eligible to win this challenge but I thought it would be fun to solve the problem.

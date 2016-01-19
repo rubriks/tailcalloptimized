@@ -6,6 +6,13 @@ tags: aop, .NET, unity, IoC, DI
 date: 2009-10-30 06:39:57
 assets: assets/posts/2009-10-30-aop-in-net-with-unity-interception-model
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 AOP is a buzzword or acronym from a couple of years back, that never really took wind in the world of .NET or statically typed languages. It is a programming model where you try to move out all infrastructure logic from the main flow of the program into aspects that should be deployed solution wide.  This is very hard to accomplish in a statically typed language and that is the main reason for its failure, but the theory of AOP has lived on through academics and professional technologists.  When Microsoft released version 1.2 of its dependency injection framework Unity, they also supplied support for AOP and they called it Policy Injection, in Enterprise Library 4, or plainly "interception" as a standalone Unity extension.

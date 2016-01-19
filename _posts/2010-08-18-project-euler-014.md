@@ -6,6 +6,13 @@ tags: project euler, dojo, F#
 date: 2010-08-18 15:09:36
 assets: assets/posts/2010-08-18-project-euler-014
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 The following iterative sequence is defined for the set of positive integers: <var>n</var> &rarr; <var>n</var>/2 (<var>n</var> is even) <var>n</var> &rarr; 3<var>n</var> + 1 (<var>n</var> is odd)  Using the rule above and starting with 13, we generate the following sequence:  13 &rarr; 40 &rarr; 20 &rar; 10 &rarr; 5 &rarr; 16 &rarr; 8 &rarr; 4 &rarr; 2 &rarr; 1

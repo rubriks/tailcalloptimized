@@ -6,6 +6,13 @@ tags: asserting, exceptions, C#
 date: 2009-04-21 19:21:55
 assets: assets/posts/2009-04-21-asserting-with-exceptions
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I attend a book circle reading Code Complete 2 by Steve McConnell, where the discussion about defensive programming and asserting came up. I told the group about [my assertion mechanisms with extension methods](http://mint.litemedia.se/2008/08/31/assert-that/) and it was all well recieved. On my way home, I started thinking about it and found a small danger about assertions.

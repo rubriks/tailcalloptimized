@@ -6,6 +6,13 @@ date: 2015-12-13 04:55:36
 tags: rails docker postgres backup devops 
 assets: assets/posts/2015-12-13-backup-database-in-a-rails-docker-setup
 image: assets/posts/2015-12-13-backup-database-in-a-rails-docker-setup/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Now after I've moved my [R3PL4Y application off Heroku and onto my Raspberry Pi](/2015/12/11/deploying-legacy-rails-application-on-raspberry-pi-2-with-docker.html), there are some things that no longer comes for free. Backup of database is one of those.

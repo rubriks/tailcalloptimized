@@ -6,6 +6,13 @@ tags: tdd
 date: 2011-01-31 07:12:51
 assets: assets/posts/2011-01-31-to-test-or-not-to-test
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I seem to answer this question over and over.

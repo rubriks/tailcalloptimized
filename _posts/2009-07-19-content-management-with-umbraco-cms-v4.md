@@ -6,6 +6,13 @@ tags: umbraco, cms
 date: 2009-07-19 18:14:38
 assets: assets/posts/2009-07-19-content-management-with-umbraco-cms-v4
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've been having a couple of weeks vacation and been quite slow on blogging. But that will change now when I start working again. Strangely I thought I would blog every day on my vacation due to lack of things to do.

@@ -6,6 +6,13 @@ tags: iphone, ringtone, guide
 date: 2008-09-07 06:47:20
 assets: assets/posts/2008-09-07-ringtones-for-your-iphone
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 This is a small guide explaining how to create IPhone ringtones from your mp3's. It is all made in a matter of four steps.

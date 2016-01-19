@@ -6,6 +6,13 @@ tags: testing, tdd, bugs, defects
 date: 2009-09-20 08:20:21
 assets: assets/posts/2009-09-20-unit-testing-to-find-bugs
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 > If you're unit testing to find bugs, you're doing it wrong.

@@ -5,6 +5,13 @@ description:
 date: 2009-05-17 20:32:18
 assets: assets/posts/2009-05-17-my-first-resharper
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 

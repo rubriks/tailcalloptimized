@@ -6,6 +6,13 @@ tags: functional programming, reduce
 date: 2012-06-16 10:24:00
 assets: assets/posts/2012-06-16-reduce-7-higher-order-functions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Fourth blog post in this series is about Reduce, a pattern I heard of first with Map/Reduce, that I will be revisiting later  on. At the moment let's focus on Reduce. What is it?

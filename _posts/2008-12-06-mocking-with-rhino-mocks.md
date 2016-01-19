@@ -6,6 +6,13 @@ tags: rhino mocks, mocking, testing, nunit, unit testing
 date: 2008-12-06 15:50:29
 assets: assets/posts/2008-12-06-mocking-with-rhino-mocks
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Yesterday I held a one hour seminar about unit testing with [Rhino Mocks](http://ayende.com/projects/rhino-mocks.aspx "Ayende Rahien: Rhino Mocks"). It was the last in a series of seminars about unit testing that I've been having in order to get everyone up to date. Today I've been preparing this blog post about that seminar, but as I was reading through articles on Rhino Mocks I found an alternative syntax that was made available in version 3.5.  In unit testing you most often test state or return values, because this is the easiest thing to do. You test if a function returns the expected value or if a property was set to the value you anticipated. However, sometimes you're more interested the behaviour of a function than the state it delivers.  Study the following SUT

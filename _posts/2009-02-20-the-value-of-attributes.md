@@ -6,6 +6,13 @@ tags: attributes, c#, meta
 date: 2009-02-20 17:26:09
 assets: assets/posts/2009-02-20-the-value-of-attributes
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I often rediscover the value of Attributes in C#. Very often it is hard to find a situation where you have need of attributes, you may be thinking that it is only for meta coding like unit testing or dynamic code intepretation/serializing, but you're wrong. Attributes are useful every time you need to add meta data to a class, property or field. Let me give you the common example of adding label to an enum.

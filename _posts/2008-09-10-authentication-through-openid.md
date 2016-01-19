@@ -6,6 +6,13 @@ tags: openid, sso
 date: 2008-09-11 04:52:51
 assets: assets/posts/2008-09-11-authentication-through-openid
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I hate to register as soon as I want to try something out or download a piece of code. It is a real drag to find a new login, since your usual crap-site-login has already been taken. Then the next time you get to the site you problably have forgot that you're already registered, and sign up with another account.  Why does it work like this? Does it have to? In Mint I will try to reduce the amount of registration a user have to do by three reasons.

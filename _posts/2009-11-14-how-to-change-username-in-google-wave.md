@@ -6,6 +6,13 @@ tags: google wave, google
 date: 2009-11-14 14:18:18
 assets: assets/posts/2009-11-14-how-to-change-username-in-google-wave
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 When I was invited to Google Wave a horrible user name was created for me, because I once choose to sign up for an gmail address with that name just to test GMail spam filter against some subscription functionality I was currently developing.

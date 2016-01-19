@@ -6,6 +6,13 @@ date: 2015-12-11 10:00:46
 tags: rails, ruby, rpi2, raspberry pi, docker
 assets: assets/posts/2015-12-11-deploying-legacy-rails-application-on-raspberry-pi-2-with-docker
 image: assets/posts/2015-12-11-deploying-legacy-rails-application-on-raspberry-pi-2-with-docker/rpi2.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 When the Raspberry Pi 2 came out I was quick to order one. As I am lazy I actually ordered a complete package with SD card, power cord and a casing all in one. Then I never unpackaged it. It stayed in its boxing for neary a year before I figured out what to do with it.

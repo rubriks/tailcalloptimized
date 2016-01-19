@@ -6,6 +6,13 @@ tags: environment, xslt, transformation, xml, app.config, web.config
 date: 2010-01-28 22:12:42
 assets: assets/posts/2010-01-28-transforming-an-app-config-file
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 The first thing you'll notice as you start working with ASP.NET 4, is that they've finally solved the problem with deploying web.config files. This is a major time sink in our team as we spend hours every sprint updating configuration files on our environments. Not anymore, right!?  Wrong!  They only solved the problem for web.config. There's still no way to do the same thing (that I've found) for other XML-based configuration files. If you're like me, you probably like to extract configuration from web.config into other files (like log4net.config) to make it more manageable. These do however not work under the .NET 4 [Web Deployment Tool](http://www.iis.net/expand/WebDeploymentTool).

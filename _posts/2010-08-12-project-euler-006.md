@@ -6,6 +6,13 @@ tags: F#, project euler, dojo
 date: 2010-08-12 11:33:26
 assets: assets/posts/2010-08-12-project-euler-006
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 The sum of the squares of the first ten natural numbers is

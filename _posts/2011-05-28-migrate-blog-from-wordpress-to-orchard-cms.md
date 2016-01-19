@@ -6,6 +6,13 @@ tags: Orchard, Wordpress, CMS, xml, xsd, import, export
 date: 2011-05-28 14:15:39
 assets: assets/posts/2011-05-28-migrate-blog-from-wordpress-to-orchard-cms
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 As I mentioned before, I'm working on a replacement for this blog. I'm going to migrate to Orchard CMS, mostly to learn that content management system. This has been a pleasant experience so far.  Before I can release my new blog I need to move all my content from Wordpress to Orchard CMS. Someone (not me) should really think about writing a module to make this a pleasant journey. I did this manually, because I only expect to do it once.

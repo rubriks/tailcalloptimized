@@ -6,6 +6,13 @@ tags: troubleshooting, nunit, unit testing
 date: 2010-11-04 21:02:31
 assets: assets/posts/2010-11-04-nunit-for-net-framework-4
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 One thing that hits me over and over again is running NUnit or Xunit on libraries built on .NET Framework 4. The fix is very easy but never appears on top results when googling for it.

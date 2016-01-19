@@ -6,6 +6,13 @@ tags: starcraft, games, troubleshooting
 date: 2010-08-28 06:26:41
 assets: assets/posts/2010-08-28-starcraft-2-crashes-on-connect-to-battle-net
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I told you about [my problems with the StarCraft II Loader](/2010/08/28/starcraft-ii-requires-a-patch-would-you-like-to-download-and-install-the-patch-now.html "StarCraft II requires a patch. Would you like to download and install the patch now?") recently. After solving that problem I didn't get very far, until I reached next one.  The game will crash pressing the connect button.

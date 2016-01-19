@@ -6,6 +6,13 @@ tags: software development
 date: 2009-02-01 07:50:10
 assets: assets/posts/2009-02-01-bad-developers
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 There are good and there are bad developers. No, let me correct that. There are only developers. You can't really say that a developer is bad. What you can say is that he is one of the following

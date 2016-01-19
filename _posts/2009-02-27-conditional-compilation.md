@@ -6,6 +6,13 @@ tags: debugging, logging, log4net, xslt, compile
 date: 2009-02-27 06:15:49
 assets: assets/posts/2009-02-27-conditional-compilation
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 This is a feature that has been available to programmers since the dawn of compilers. It means that you may control what code is going to be included in the compilation on compile time. Let me give you an example:

@@ -6,6 +6,13 @@ tags: svctraceviewer, wcf, troubleshoot
 date: 2010-01-20 17:01:23
 assets: assets/posts/2010-01-20-wcf-the-connection-was-closed-unexpectedly
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Have you ever gotten the following error working with WCF services?

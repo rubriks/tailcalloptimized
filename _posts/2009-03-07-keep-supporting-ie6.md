@@ -6,6 +6,13 @@ tags: IE6, compatability
 date: 2009-03-07 08:03:14
 assets: assets/posts/2009-03-07-keep-supporting-ie6
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I just checked the IE6 usage on my blog and it's about 4,3% which is incredibly low. Mostly because it's only tech people reading my blog. Any other normal Swedish site would have IE6 usage at about 25%. (some higher, and some lower depending on the user base)

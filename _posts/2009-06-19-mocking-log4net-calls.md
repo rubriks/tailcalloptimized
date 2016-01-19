@@ -6,6 +6,13 @@ tags: rhino mocks, nunit, unit tests, log4net
 date: 2009-06-19 18:39:41
 assets: assets/posts/2009-06-19-mocking-log4net-calls
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 For the first time ever, I found the need to test logging calls. Normally I would call that stupid but I had a situation that looked very much like this. (don't ask why)

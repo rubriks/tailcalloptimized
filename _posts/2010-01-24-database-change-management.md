@@ -6,6 +6,13 @@ tags: dbcm, database, sql server, tarantino, powershell
 date: 2010-01-24 21:50:26
 assets: assets/posts/2010-01-24-database-change-management
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I thought I would get started with database change management and [Tarantino](http://code.google.com/p/tarantino/wiki/DatabaseChangeManagement), but after spending a day trying to figure it out, I eventually decided that it would go much faster to just roll my own.

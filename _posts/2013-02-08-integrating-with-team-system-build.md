@@ -6,6 +6,13 @@ tags: TFS, C#, API, CI, build server, build monitor
 date: 2013-02-08 07:00:16
 assets: assets/posts/2013-02-08-integrating-with-team-system-build
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 TFS as in Team Foundation Server and I have a hate/love relationship. It has the most aweful source control manager I've come across since the days of Visual Source Safe, and the build manager beats nothing in clumpsyness.

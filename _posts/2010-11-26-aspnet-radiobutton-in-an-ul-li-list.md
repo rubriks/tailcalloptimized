@@ -6,6 +6,13 @@ tags: WebForms, dynamic
 date: 2010-11-26 18:23:00
 assets: assets/posts/2010-11-26-aspnet-radiobutton-in-an-ul-li-list
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 When you would like to generate a list of radio buttons in ASP.NET you will run into a problem

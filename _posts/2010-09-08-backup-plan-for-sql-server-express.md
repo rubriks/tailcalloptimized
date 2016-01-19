@@ -6,6 +6,13 @@ tags: sql, backup, dba
 date: 2010-09-08 04:59:24
 assets: assets/posts/2010-09-08-backup-plan-for-sql-server-express
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'm using SQL Express for a lot of my projects. Both my private projects and when the customer does not see the need of investing in a SQL Server license.  Unfortunatly there are some missing features in Express, to make you want to buy that license. The backup scheduler is one of them. But don't dispair, all the functionality for creating a backup is there. You just have to do it in another way.

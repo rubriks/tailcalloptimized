@@ -6,6 +6,13 @@ tags: monitoring, alive, performance counters, perfmon
 date: 2011-12-08 16:41:04
 assets: assets/posts/2011-12-08-custom-performance-counters-in-alive
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 If you've missed previous posts about Alive, you can read more about it at

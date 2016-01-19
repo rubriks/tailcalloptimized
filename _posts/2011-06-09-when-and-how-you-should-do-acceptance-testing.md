@@ -6,6 +6,13 @@ tags: acceptance testing, testing, regression, automated testing
 date: 2011-06-09 12:07:49
 assets: assets/posts/2011-06-09-when-and-how-you-should-do-acceptance-testing
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I attended a lunch seminar at [Valtech](http://www.valtech.se) today listening to [Brian Marick](http://www.exampler.com/blog) talking about agile testing. He emphasized that you should not do acceptance testing unless absolutely neccessary. In fact, he said that the value of acceptance tests does not meet the cost of writing them. This is because they do not drive the design of your code, so writing the test has little value, and the cost of the test is higher than that of unit tests, due to the brittleness of acceptance tests.

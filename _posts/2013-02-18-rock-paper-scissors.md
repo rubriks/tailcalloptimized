@@ -6,6 +6,13 @@ tags: F#, Rock Paper Scissors, Client, Server
 date: 2013-02-18 16:20:27
 assets: assets/posts/2013-02-18-rock-paper-scissors
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This time at [sharpen your saw](http://sys5.litemedia.se), I had prepared a server that would accept players, playing "Rock Paper Scissors" over TCP sockets. The task was to create a client that would play rock paper scissors and win as many of played matches as possible.

@@ -15,15 +15,22 @@ layout: default
     <!-- END: META -->
 
     <header class="meta col-lg-3" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <img class="profile-image" src="//www.gravatar.com/avatar/f46a41ae19f35713a65841f144491a72?s=100" alt="Mikael Lundin" itemprop="image" />
+        <img class="profile-image" src="{{ page.author.email | to_gravatar }}" alt="{{ page.author.name }}" itemprop="image" />
         <div class="author-info">
-            <a class="author-name" href="http://mikaellundin.name" itemprop="url">
-                <span itemprop="name">Mikael Lundin</span>
-            </a>
+            <span class="author-name" itemprop="name">{{ page.author.name }}</span>
             <div class="social-media-icons">
-                <a href="//twitter.com/mikaellundin" title="Mikael Lundin on Twitter"><i class="fa fa-twitter"></i></a>
-                <a href="//github.com/miklund" title="Mikael Lundin on GitHub"><i class="fa fa-github"></i></a>
-                <a href="//linkedin.com/in/miklund" title="Mikael Lundin on LinkedIn"><i class="fa fa-linkedin"></i></a>
+                {% if page.author.web %}
+                <a itemprop="url" href="{{ page.author.web }}" title="Homepage of {{ page.author.name }}"><i class="fa fa-home"></i></a>
+                {% endif %}
+                {% if page.author.twitter %}
+                <a href="//twitter.com/{{ page.author.twitter }}" title="{{ page.author.name }} on Twitter"><i class="fa fa-twitter"></i></a>
+                {% endif %}
+                {% if page.author.github %}
+                <a href="//github.com/{{ page.author.github }}" title="{{ page.author.name }} on GitHub"><i class="fa fa-github"></i></a>
+                {% endif %}
+                {% if page.author.linkedin %}
+                <a href="//linkedin.com/in/{{ page.author.linkedin }}" title="{{ page.author.name }} on LinkedIn"><i class="fa fa-linkedin"></i></a>
+                {% endif %}
             </div>
         </div>
     </header>

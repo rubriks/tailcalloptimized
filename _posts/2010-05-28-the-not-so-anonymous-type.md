@@ -6,6 +6,13 @@ tags: C#, tips and tricks, anonymous types
 date: 2010-05-28 05:44:40
 assets: assets/posts/2010-05-28-the-not-so-anonymous-type
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 You can actually return an anonymous type from a method. Consider the following.

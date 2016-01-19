@@ -5,6 +5,13 @@ description: Some developers live to code. Other developers code to live. Which 
 date: 2009-05-05 06:00:54
 assets: assets/posts/2009-05-05-the-501-developer
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 The [501 developer](http://www.azamsharp.com/Posts/222_501_Developers_.aspx) is a person who goes home at 5.01 pm everyday and does not care squat about software development outside work time. I think that is quite a healthy habit and I wish that I could do the same.

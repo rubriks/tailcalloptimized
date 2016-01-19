@@ -6,6 +6,13 @@ tags: testing, nunit, mocking, refactor
 date: 2009-02-23 06:32:14
 assets: assets/posts/2009-02-23-my-rules-of-unit-testing
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 In able to ensure the quality of my unit tests, I enforce a couple of rules that each and every test should conform to. Here are some of my rules, and why they're so important.

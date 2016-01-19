@@ -6,6 +6,13 @@ date: 2015-12-28 18:49:44
 tags: security, secops, e-mail, smime
 assets: assets/posts/2015-12-28-securing-e-mail-with-smime-certificate
 image: assets/posts/2015-12-28-securing-e-mail-with-smime-certificate/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 E-mail is a mess. It is strange that our main tool of communication on Internet is in such mess and that we let it stay that way. Nobody cares, and lots of big actors make a living of the mess e-mail is in.

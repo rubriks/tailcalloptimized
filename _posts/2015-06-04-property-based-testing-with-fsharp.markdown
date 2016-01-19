@@ -6,6 +6,13 @@ date: 2015-06-04 10:27:16
 tags: F#, testing, property-based testing
 assets: assets/posts/2015-06-04-property-based-testing-with-fsharp
 image: assets/posts/2015-06-04-property-based-testing-with-fsharp/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This post is based on a [talk I did at Valtech Tech Day](http://livestream.com/accounts/5134007/events/4101632/videos/89811125 "Property-Based Testing in F# on LiveStream"), 4 June 2015. You can find the [slides for this talk here]("/assets/posts/2015-06-04-property-based-testing-with-fsharp/VTD15 - Property-Based Testing with F#.pdf" "Slides for Property-Based Testing with F#, Valtech Tech Day 2015") and the code examples in a [zip archive here]("/assets/posts/2015-06-04-property-based-testing-with-fsharp/PropertyBasedTesting.zip" "Code Samples for Property-Based Testing with F#, Valtech Tech Day 2015").

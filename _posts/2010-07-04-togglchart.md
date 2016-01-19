@@ -6,6 +6,13 @@ tags: Toggl, API, integration, charts
 date: 2010-07-04 15:40:00
 assets: assets/posts/2010-07-04-togglchart
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've studied before how to connect to the [Toggl API](http://www.toggl.com/public/api) both [here](/2010/06/21/connect-to-toggl-api-with-net.html "Connect to Toggl API with .NET") and [here](/2010/06/24/using-the-toggl-api-continued.html "Using the Toggl API continued"). [Toggl](http://www.toggl.com) is a tool for easily tracking time put in a project. This is necessary for billing customers, but also useful for tracking your own effort to a project. I've written a command line tool that will extract data from Toggl API and create a chart that will show amount of hours spent per week. A chart can look like this.

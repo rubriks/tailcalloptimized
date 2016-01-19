@@ -6,6 +6,13 @@ tags: mvc, mvvm, asp.net, webforms, databinding
 date: 2009-09-09 20:26:44
 assets: assets/posts/2009-09-09-populate-an-aspnet-view-with-data
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've found four ways to populate an ASP.NET view with data.

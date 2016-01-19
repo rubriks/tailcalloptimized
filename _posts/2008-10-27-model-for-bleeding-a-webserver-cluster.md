@@ -6,6 +6,13 @@ tags: ci, automation, deployment, devops
 date: 2008-10-27 19:26:16
 assets: assets/posts/2008-10-27-model-for-bleeding-a-webserver-cluster
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Today on the subway I thought about server bleeding, and when I got to work I took a moment and wrote down my thoughts in the subject. How would one perform a server bleeding for a simple load balanced environment? You can see this as a model if you'd like, for server bleeding in a simple scenario.

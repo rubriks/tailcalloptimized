@@ -6,6 +6,13 @@ tags: F#, presentation
 date: 2011-03-22 08:56:00
 assets: assets/posts/2011-03-22-f-sharpen-your-saw
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 * [F-Sharpen Your Saw Slide Deck](http://fsharp.litemedia.se)

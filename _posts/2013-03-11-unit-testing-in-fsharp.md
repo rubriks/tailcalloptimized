@@ -6,6 +6,13 @@ tags: testing, bdd, tdd, F#
 date: 2013-03-11 05:23:47
 assets: assets/posts/2013-03-11-unit-testing-in-fsharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'm one really into testing. I love it. I love refactoring and I love the structure I get from testing. But always there's this wall between the tests and the reality. Most often it is the programming language that stands in your way, and you have to write test names like this.

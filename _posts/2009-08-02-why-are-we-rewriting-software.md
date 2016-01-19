@@ -6,6 +6,13 @@ tags: refactor, rebuild, recreate
 date: 2009-08-02 06:34:19
 assets: assets/posts/2009-08-02-why-are-we-rewriting-software
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Fifteen years has passed on the Internet.  I started out using the Internet 1994 when it was hard to get your own e-mail address and the most popular website in Sweden was the [Aftonbladet](http://www.aftonbladet.se/) (newspaper) chat room. It was a time of Internet Explorer 3.01 and Netscape Gold, the better browser that lost the war.  Interestingly enough, this was the time when every company recognized that they got to be on this new thing, called the Internet. When I look at my clients today they are on their third generation of websites, which means that they have rewritten their website every fifth year.

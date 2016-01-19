@@ -5,6 +5,13 @@ description: What is the largest prime factor of the number 600851475143?
 tags: prime, F#, project euler, dojo
 date: 2010-08-12 08:44:08
 assets: assets/posts/2010-08-12-project-euler-003
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 image: 
 ---
 

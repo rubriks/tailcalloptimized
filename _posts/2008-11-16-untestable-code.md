@@ -6,6 +6,13 @@ tags: testing, unit testing, nunit
 date: 2008-11-16 08:14:38
 assets: assets/posts/2008-11-16-untestable-code
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 ![Testing](/assets/posts/2008-11-16-untestable-code/sw_testing.jpg)

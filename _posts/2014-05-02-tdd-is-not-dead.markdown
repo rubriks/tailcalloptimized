@@ -6,6 +6,13 @@ date: 2014-05-02 08:02:47
 tags: test, tdd
 assets: assets/posts/2014-05-02-tdd-is-not-dead
 image: assets/posts/2014-05-02-tdd-is-not-dead/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Posts like this makes me irritated.

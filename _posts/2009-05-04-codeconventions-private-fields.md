@@ -6,6 +6,13 @@ tags: coding style, C#, code formatting
 date: 2009-05-04 05:27:37
 assets: assets/posts/2009-05-04-codeconventions-private-fields
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Why would you put underscore on private fields in a class?

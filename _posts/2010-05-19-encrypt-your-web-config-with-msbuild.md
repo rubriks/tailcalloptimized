@@ -5,6 +5,13 @@ description: When you store sensitive information in your configuration files, l
 tags: encrypt, configuration, configuration management
 date: 2010-05-19 05:30:15
 assets: assets/posts/2010-05-19-encrypt-your-web-config-with-msbuild
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 image: 
 ---
 

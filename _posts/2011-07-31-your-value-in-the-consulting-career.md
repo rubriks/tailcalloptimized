@@ -6,6 +6,13 @@ tags: personal branding
 date: 2011-07-31 07:10:46
 assets: assets/posts/2011-07-31-your-value-in-the-consulting-career
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 My every day job is to solve business problems with IT, creating as much value for my customer as possible. But what about me, how do I make myself more valuable?

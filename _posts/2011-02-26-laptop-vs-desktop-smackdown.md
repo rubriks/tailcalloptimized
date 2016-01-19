@@ -6,6 +6,13 @@ tags: laptop, desktop, development environment
 date: 2011-02-26 11:27:41
 assets: assets/posts/2011-02-26-laptop-vs-desktop-smackdown
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Since the prices on RAM is all time low I seized the moment and doubled the amount in my developer machine from 4Gb to 8Gb. Let's just say that 8Gb is the new 4Gb now.

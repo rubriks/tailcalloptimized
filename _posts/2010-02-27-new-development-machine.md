@@ -6,6 +6,13 @@ tags: PC, homebrew
 date: 2010-02-27 20:58:19
 assets: assets/posts/2010-02-27-new-development-machine
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've spent some time and money on a development rig for home, and I ended up with te following experience numbers.

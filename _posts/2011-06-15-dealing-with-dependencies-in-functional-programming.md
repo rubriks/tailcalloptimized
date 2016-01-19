@@ -6,6 +6,13 @@ tags: functional programming, dependency injection, inversion of control
 date: 2011-06-15 05:46:49
 assets: assets/posts/2011-06-15-dealing-with-dependencies-in-functional-programming
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 What is a dependency?

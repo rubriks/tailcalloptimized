@@ -6,6 +6,13 @@ tags: book review, javascript, software patterns
 date: 2011-04-22 10:42:09
 assets: assets/posts/2011-04-22-discovering-javascript-patterns
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 ![JavaScript Patterns by Stoyan Stefanov](/assets/posts/2011-04-22-discovering-javascript-patterns/javascript-patterns.png)

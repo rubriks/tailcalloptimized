@@ -6,6 +6,13 @@ tags: HTML e-mail, HTML3, table layout
 date: 2010-11-15 20:58:20
 assets: assets/posts/2010-11-15-tips-and-trix-composing-html-emails
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 So you need to create an HTML e-mail and you don't want it to be caught in every spam filter of the web. You also would like if it looked almost the same in different readers. Here's some stuff I've learned.

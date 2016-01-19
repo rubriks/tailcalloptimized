@@ -6,6 +6,13 @@ tags: unit, xml, di, ioc
 date: 2009-05-24 22:00:30
 assets: assets/posts/2009-05-24-part-2-dependency-injection-with-unity-and-xml-configuration
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 This is the second part of the article series about [Kino](/2009/05/23/kino-everything-to-rss.html). Please note that you can download the [full source here](/kino/).

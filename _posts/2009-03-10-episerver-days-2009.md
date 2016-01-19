@@ -6,6 +6,13 @@ tags: ci, continuouos integration
 date: 2009-03-10 13:27:38
 assets: assets/posts/2009-03-10-episerver-days-2009
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 Me and Emil Birgersson held a seminar at EPiServer-days about continuous integration. It was fun, I've never held a seminar in English before, so it was a new experience.

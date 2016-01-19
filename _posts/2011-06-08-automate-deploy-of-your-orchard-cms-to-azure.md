@@ -6,6 +6,13 @@ tags: Orchard CMS, Azure, Powershell, devops, deployment
 date: 2011-06-08 17:18:41
 assets: assets/posts/2011-06-08-automate-deploy-of-your-orchard-cms-to-azure
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Automation when it comes to deploying web applications is very important. Automation when it comes to Azure, is an absolute neccesity. You can't live without it. What you need is one click deploy of your latest changes or you will have **deploy hell** every time you want to release a bug fix.

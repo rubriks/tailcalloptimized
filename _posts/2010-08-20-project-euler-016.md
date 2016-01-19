@@ -6,6 +6,13 @@ tags: project euler, dojo
 date: 2010-08-20 15:15:34
 assets: assets/posts/2010-08-20-project-euler-016
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 2<sup>15</sup> = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.  What is the sum of the digits of the number 2<sup>1000</sup>?

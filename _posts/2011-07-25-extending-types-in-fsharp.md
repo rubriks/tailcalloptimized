@@ -6,6 +6,13 @@ tags: F#, functional programming, type extensions
 date: 2011-07-25 05:08:43
 assets: assets/posts/2011-07-25-extending-types-in-fsharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Just as you can extend existing types in C# with extension methods you can do the same in F# with [type extensions](http://msdn.microsoft.com/en-us/library/dd233211.aspx "MSDN Type Extensions (F#)"). The difference is that extending types in F# helps you work in a functional matter with object orientation. Consider the following discriminated union that could be used for a card game.

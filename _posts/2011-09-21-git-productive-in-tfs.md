@@ -6,6 +6,13 @@ tags: git, vcs, tfs, version control, git-tf
 date: 2011-09-21 06:46:58
 assets: assets/posts/2011-09-21-git-productive-in-tfs
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Have you ever used TFS (Microsoft Team Foundation System) in a day to day basis? I'm sure its all fine and dandy for managers, but as a developer the revision control system of TFS gives me headaches. One or two reasons for this are...

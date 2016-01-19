@@ -6,6 +6,13 @@ tags: testing, web testing, acceptance testing, watin
 date: 2010-09-15 18:20:38
 assets: assets/posts/2010-09-15-ul-and-li-list-elements-in-watin
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 > Update 2011-02-16: This is no longer needed as of [Watin 2.0 Final Release](http://watin.org/documentation/release-2-0-50-11579/).

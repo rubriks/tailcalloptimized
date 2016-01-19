@@ -6,6 +6,13 @@ tags: C#, ilmerge, .NET
 date: 2010-07-06 09:51:22
 assets: assets/posts/2010-07-06-merge-assemblies-with-ilmerge
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 <p><a href="http://www.microsoft.com/downloads/details.aspx?FamilyID=22914587-b4ad-4eae-87cf-b14ae6a939b0">ILMerge</a> is a tool for merging assemblies together, which is very useful for easy deployments. Instead of deploying 10 dlls you can deploy one. When distributing applications out to customers you really want to make the application as simple as possible, and the most simple application is one that consist of only one exe.</p>

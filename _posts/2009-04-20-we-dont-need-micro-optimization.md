@@ -6,6 +6,13 @@ tags: optimization, C#
 date: 2009-04-20 15:31:08
 assets: assets/posts/2009-04-20-we-dont-need-micro-optimization
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 With the word micro-optimization I'm referring to changing units of code so that it performs better and contributes to the main performance of the application.

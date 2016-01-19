@@ -6,6 +6,13 @@ date: 2015-03-09 15:47:47
 tags: social media, google, facebook
 assets: assets/posts/2015-03-09-shutting-out-those-prying-eyes
 image: assets/posts/2015-03-09-shutting-out-those-prying-eyes/title.png
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Are you using GMail? What if google were to inject your e-mails with advertisement. Would you be ok with that?

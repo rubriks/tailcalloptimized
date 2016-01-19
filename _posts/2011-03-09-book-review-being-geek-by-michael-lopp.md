@@ -6,6 +6,13 @@ tags: book review
 date: 2011-03-09 08:10:56
 assets: assets/posts/2011-03-09-book-review-being-geek-by-michael-lopp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 ![Being Geek by Michael Lopp](/assets/posts/2011-03-09-book-review-being-geek-by-michael-lopp/beinggeek.jpg)

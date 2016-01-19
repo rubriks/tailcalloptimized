@@ -6,6 +6,13 @@ tags: code, goto
 date: 2009-03-02 17:06:46
 assets: assets/posts/2009-03-02-where-do-you-want-to-goto-today
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 It's been a while since goto was a valid statement in code and I am proud to say that I seldom ever see it being used anywhere. I haven't even used it myself except for some very unusual cases.  Why is this? How come goto is such an evil statement? How would you write the following code?

@@ -6,6 +6,13 @@ tags: seo
 date: 2009-05-06 05:31:31
 assets: assets/posts/2009-05-06-death-to-seo-companies
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I predict the financial crisis to hit hard on SEO companies all around the world. I base this on the thesis of clients no longer can afford spending money on buzzwords, and instead have to find investments that pay off, investments that give immediate and measurable results.

@@ -6,6 +6,13 @@ tags: unit testing, nunit, test data
 date: 2011-05-26 05:12:41
 assets: assets/posts/2011-05-26-data-driven-test-cases-in-nunit
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 When you want to create thousands of test cases you don't use the [TestCase] attribute in NUnit. :) But did you know that there is a "TestCaseSource" attribute that specifies a method that will generate test case data? Look at this.

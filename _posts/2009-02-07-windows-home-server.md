@@ -6,6 +6,13 @@ tags: home server, windows server 2003
 date: 2009-02-07 07:17:00
 assets: assets/posts/2009-02-06-windows-home-server
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 ![Fujitsu-Siemens 2205-WHS](/assets/posts/2009-02-06-windows-home-server/405637.jpg)

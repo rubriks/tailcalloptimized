@@ -6,6 +6,13 @@ tags: functional programming
 date: 2012-06-23 09:47:30
 assets: assets/posts/2012-06-23-scan-7-higher-order-functions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This is the last function in the blog series about higher order functions. I hope that you've enjoyed it so far.

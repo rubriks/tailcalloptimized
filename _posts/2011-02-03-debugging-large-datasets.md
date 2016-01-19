@@ -6,6 +6,13 @@ tags: big data, wcf, web service, debugging
 date: 2011-02-03 07:40:47
 assets: assets/posts/2011-02-03-debugging-large-datasets
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 You call a webservice and get back a datastructure that is ~1 mb. How do you in a debug session make sure that it contains the data you expect?

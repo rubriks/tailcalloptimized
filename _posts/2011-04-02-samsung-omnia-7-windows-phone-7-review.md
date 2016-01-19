@@ -6,6 +6,13 @@ tags: Samsung Omnia 7, Windows Phone 7, review, phones
 date: 2011-04-02 08:26:22
 assets: assets/posts/2011-04-02-samsung-omnia-7-windows-phone-7-review
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I've had my Samsung Omnia 7 WP7 mobile phone now for some days and here's what I think of it. I will compare it to two other smart phones that I've been in contact with, my previous iPhone 3G and my wife's HTC Desire HD.

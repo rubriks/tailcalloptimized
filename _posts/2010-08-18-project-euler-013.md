@@ -6,6 +6,13 @@ tags: F#, project euler, dojo
 date: 2010-08-18 05:36:51
 assets: assets/posts/2010-08-18-project-euler-013
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.

@@ -6,6 +6,13 @@ tags: project euler, dojo
 date: 2010-08-21 19:51:35
 assets: assets/posts/2010-08-21-project-euler-019
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 You are given the following information, but you may prefer to do some research for yourself.

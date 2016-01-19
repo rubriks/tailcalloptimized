@@ -6,6 +6,13 @@ tags: pascal, programmer novice, turbo pascal
 date: 2011-02-14 05:15:58
 assets: assets/posts/2011-02-14-beginners-guide-to-pascal
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 One of the strangest things is that most common search term for this blog is Turbo Pascal, that I've mentioned once (now twice) in [my personal history of computing](/2009/06/07/my-history-of-computing.html). I will attempt to honor that by posting a small beginners guide to Pascal.  All code presented here should be available for download at [this link](https://bitbucket.org/bokmal/litemedia.pascal "Pascal repository at Bitbucket Mikael Lundin").

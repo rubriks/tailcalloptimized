@@ -6,6 +6,13 @@ tags: F#, dojo
 date: 2010-08-13 17:39:43
 assets: assets/posts/2010-08-13-the-co-workers-challange
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 > -When I took a LISP course at university, there was this guy who wrote a luhn validation algorithm in just two lines of code.  

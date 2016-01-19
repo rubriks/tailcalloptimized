@@ -6,6 +6,13 @@ tags: project euler, dojo
 date: 2010-08-20 16:33:29
 assets: assets/posts/2010-08-20-project-euler-015
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Starting in the top left corner of a 2 &times; 2 grid, there are 6 routes (without backtracking) to the bottom right corner.

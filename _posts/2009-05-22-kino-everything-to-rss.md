@@ -6,6 +6,13 @@ tags: kino
 date: 2009-05-22 22:00:35
 assets: assets/posts/2009-05-22-kino-everything-to-rss
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I have a file sharing service up and running for my friends. It is nothing fancier than a windows share with a web interface tied to it. When I would like to share a new file, I just drop it in the shared directory and it will be available to everyone that has login credentials to that share. Cool and easy, works like a charm. - Almost.  How should my friends know that I've dropped a new file or directory into the share? Of course I could send them an e-mail, but that does not seem very convenient. They would get spammed and I would have to do manual labour.  From the title you've already guessed that I would use RSS. Let's write an application that would monitor the share and publish any additional files as items in an RSS feed. This would only require my friends to subscribe to an RSS channel, if they're interested in what's new.

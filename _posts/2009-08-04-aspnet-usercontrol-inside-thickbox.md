@@ -6,6 +6,13 @@ tags: user control, asp.net, thickbox
 date: 2009-08-04 03:58:58
 assets: assets/posts/2009-08-04-aspnet-usercontrol-inside-thickbox
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I love the [Thickbox](http://jquery.com/demo/thickbox/). It's fast, easy to use and I've not had any problems with it, until today.

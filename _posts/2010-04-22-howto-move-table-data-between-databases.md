@@ -6,6 +6,13 @@ tags: sql, automation
 date: 2010-04-22 15:33:41
 assets: assets/posts/2010-04-22-howto-move-table-data-between-databases
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Working in different environments - development, test, staging, production often makes you create data in one database and have the need to move it to another. This is actually quite easy to do with T-SQL.

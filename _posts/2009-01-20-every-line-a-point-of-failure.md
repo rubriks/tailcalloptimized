@@ -5,6 +5,13 @@ description: All code is not good code. Actually the fewer lines of code the bet
 date: 2009-01-20 06:14:58
 assets: assets/posts/2009-01-20-every-line-a-point-of-failure
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 No matter how much I love to write code, there is nothing as satisfactory as removing code. Perfection is recieved when there is nothing more to take away.

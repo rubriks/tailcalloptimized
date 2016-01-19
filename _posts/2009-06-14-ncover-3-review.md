@@ -6,6 +6,13 @@ tags: code coverage, code quality, ncover, technical debt, review
 date: 2009-06-14 15:39:20
 assets: assets/posts/2009-06-14-ncover-3-review
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 I've promised to review this software that I've been using intensly for the last month. So, here goes.

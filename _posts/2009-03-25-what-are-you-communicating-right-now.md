@@ -6,6 +6,13 @@ tags: communication
 date: 2009-03-25 17:44:44
 assets: assets/posts/2009-03-25-what-are-you-communicating-right-now
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 ![twitter bird](http://litemedia.info/media/Default/Mint/twitter-bird.gif)

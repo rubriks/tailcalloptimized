@@ -6,6 +6,13 @@ tags: encrypt, machine keys, web.config, F#
 date: 2010-12-08 06:11:40
 assets: assets/posts/2010-12-08-generate-machine-keys-with-fsharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 If you want to release software often, as scrum advises, you need to take special care about those releases. I had recently a problem where releasing changes to an ASP.NET website would cause it to generate new machine key and invalidating ViewState for all visitors that were using some sort of form on the website.  The solution to that is of course [specifying the machine key in web.config](http://http://msdn.microsoft.com/en-us/library/ff649308.aspx) to make sure that it doesn't change when the application pool refreshes.</p>

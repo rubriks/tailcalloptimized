@@ -7,6 +7,13 @@ date: 2014-04-02 08:36:00
 tags: pm 
 assets: /assets/posts/2014-04-02-my-view-on-project-management
 image: /assets/posts/2014-04-02-my-view-on-project-management/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 Sorry for balking in. I'm just a developer with strong opinions.
 

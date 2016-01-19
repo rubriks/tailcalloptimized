@@ -6,6 +6,13 @@ tags: architecture, software development
 date: 2008-12-03 20:54:40
 assets: assets/posts/2008-12-03-in-the-mind-of-an-architect
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 There are not many job titles in this line of business if you start sorting out the fake ones. We have our project managers and developers. Apart from that most positions in the development team are developers with different set of skills. A tester is a developer with testing skills. An art director is a developer with a pen and paper, and a user experience expert is also a wierd kind of developer. A developer is simply someone with a craft that will result in a system. All those in the development team are craftsmen at their line of work and also developers (except the project manager who is only shouting for status every 15 minutes, but doesn't really contribute to the actual crafting - no hard feelings, we love you anyway).

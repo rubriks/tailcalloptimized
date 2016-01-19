@@ -6,6 +6,13 @@ tags: ruby, r3pl4y, timeline, utc, coffee script
 date: 2012-05-29 09:20:00
 assets: assets/posts/2012-05-29-time-in-a-global-space
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 > What time is it?

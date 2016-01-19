@@ -6,6 +6,13 @@ tags: Windows 7, SSD, user profile
 date: 2011-05-15 05:32:28
 assets: assets/posts/2011-05-15-move-your-user-profile-to-other-drive
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Windows has this great functionality that lets you move parts of your user profile to another drive.

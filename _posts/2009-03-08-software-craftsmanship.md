@@ -6,6 +6,13 @@ tags: craftsmanship, quality
 date: 2009-03-08 06:26:07
 assets: assets/posts/2009-03-08-software-craftsmanship
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 > When I say quality is dead, I don’t mean that it’s dying, or that it’s under threat. What I mean is that we have collectively– and rationally– ceased to expect that software normally works well, even under normal conditions.

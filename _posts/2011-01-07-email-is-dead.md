@@ -6,6 +6,13 @@ tags: facebook, e-mail
 date: 2011-01-07 17:00:55
 assets: assets/posts/2011-01-07-email-is-dead
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 As much as I would hope above statement to be true, E-mail technology is not as dead as I would hope it to be. Mark Zuckerberg hopes to replace SMTP with Facebook which is preposterous as such basic Internet functionality must be completely open and not owned by some company.

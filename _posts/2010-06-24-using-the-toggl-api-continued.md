@@ -6,6 +6,13 @@ tags: Toggl, API, .NET, integration
 date: 2010-06-24 04:35:15
 assets: assets/posts/2010-06-24-using-the-toggl-api-continued
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This is a follow up on [my previous post](/2010/06/21/connect-to-toggl-api-with-net.html) where I showed you how to connect to Toggl API with .NET and extract registered tasks.

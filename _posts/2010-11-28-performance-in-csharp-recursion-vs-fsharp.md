@@ -6,6 +6,13 @@ tags: C#, F#, performance, Project Euler
 date: 2010-11-28 10:50:31
 assets: assets/posts/2010-11-28-performance-in-csharp-recursion-vs-fsharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I did know that the F# compiler pulls some magic tricks with recursion, but I didn't know that it could affect performance like I've recently discovered. Me and my friend where discussing [Project Euler #16](http://projecteuler.net/index.php?section=problems&id=16), and where he did an [iterative C# solution manipulating strings](https://bitbucket.org/Whettingstone/project-euler/src/0510e7d8b3a0/ProjectEuler/Problems11to20/Problem16.cs), I went for a [recursive list mangling solution in F#](https://bitbucket.org/bokmal/projecteuler/src/364346926915/ProjectEuler.Exercises/E016.fs).

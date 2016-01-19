@@ -6,6 +6,13 @@ tags: technical debt
 date: 2009-05-12 20:40:12
 assets: assets/posts/2009-05-12-dont-be-afraid-of-change
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 > Let's hand code the data access layer so we keep full control of how it works.

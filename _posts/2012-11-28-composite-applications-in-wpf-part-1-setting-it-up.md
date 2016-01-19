@@ -6,6 +6,13 @@ tags: WPF, C#, Prism, MVVM, Unity
 date: 2012-11-28 19:30:12
 assets: assets/posts/2012-11-28-composite-applications-in-wpf-part-1---setting-it-up
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'm mainly a web and integration kind of developer. I work with HTML, databases, services and getting it all fit together. Next year 2013, I will need to be up to date on WPF and that is why I decided to run a short blog series about building composite applications in WPF.

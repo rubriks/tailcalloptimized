@@ -6,6 +6,13 @@ date: 2015-02-21 16:32:33
 tags: F#, testing, publishing, book, author
 assets: assets/posts/2015-02-21-testing-with-fsharp
 image: assets/posts/2015-02-21-testing-with-fsharp/title.jpg
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 In July 2014 I was contacted by PACKT Publishing if I was interested in writing a title for them about [Testing with F#](https://www.packtpub.com/application-development/testing-f). I did some serious thinking and came to the conclusion that, yes I have the knowledge to write that book and, yes I want to write that book.

@@ -6,6 +6,13 @@ tags: tools, libraries, frameworks
 date: 2008-09-01 20:41:23
 assets: assets/posts/2008-09-01-tools-that-i-use
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 A good developer is the one that finds the right tool for the right job. This is what my professor said to me on my third year. I guess he's right. My last year of studying was mostly about tools. In every situation we were forced to choose the right tool for the job. Let it be [Mathematica](http://www.wolfram.com/ "Mathematica home page") for solving complex equations or [PHP](http://www.php.net "Poor mans home page") for producing a guestbook in 10 minutes. What tools you use, mostly define you as a programmer.

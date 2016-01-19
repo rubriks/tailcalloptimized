@@ -6,6 +6,13 @@ tags: functional pattern, mapwhile, F#, C#, Project Euler
 date: 2011-01-13 15:02:02
 assets: assets/posts/2011-01-13-functional-patterns-in-c-mapwhile
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I had already solved [Project Euler 23](http://projecteuler.net/index.php?section=problems&id=23) in F# but wanted to translate my solution to C# for a friend. Those translations always tend to become very functional.  This time around I needed a MapWhile method. This method should take a list and map a function over all elements as long as the while condition is true. This is actually very simple to implement, if you know how.

@@ -6,6 +6,13 @@ tags: functional programming
 date: 2012-06-21 17:36:00
 assets: assets/posts/2012-06-21-collect-7-higher-order-functions
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 This is my sixth post in a series about higher order functions in C#. Here are the other ones.

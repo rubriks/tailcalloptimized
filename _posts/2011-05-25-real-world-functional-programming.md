@@ -6,6 +6,13 @@ tags: presentation, functional programming, F#, valtech
 date: 2011-05-25 16:25:03
 assets: assets/posts/2011-05-25-real-world-functional-programming
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Today I held a seminar about functional programming at _Valtech Tech Day 2011_. It's no coincidense that the title of the seminar is the same as [the book By Tomas Petricek](http://www.amazon.com/Real-World-Functional-Programming-Examples/dp/1933988924 "Real World Functional Programming"), since it inspired me to do the talk. After playing around with F# for over a year, it's time to get serious and use it in production case.

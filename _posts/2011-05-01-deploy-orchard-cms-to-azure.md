@@ -6,6 +6,13 @@ tags: Orchard, NuGet, Windows Azure, CMS
 date: 2011-05-01 10:52:23
 assets: assets/posts/2011-05-01-deploy-orchard-cms-to-azure
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 It's no secret that I'm working on a replacement for this blog in Orchard CMS, and while doing so, learning to deploy applications to Azure. There is a [guide provided by the Orchard Team](http://www.orchardproject.net/docs/Deploying-Orchard-to-Windows-Azure.ashx "Deploying Orchard to Windows Azure"), but it takes for granted that you're using Orchard as a plug'n'play CMS and not as a development platform. Here's a small recollection of my findings.  The Orchard CMS is pointed at the Wordpress audience, comfortable with just installing a blog platform, choose theme, widgets and be up and running without any thought on code, deployment or testing. If you don't want to author your own theme or write your own modules, you really should [download the Azure package](http://orchard.codeplex.com/releases/view/59918) and be on your way. But what if I'm a developer?

@@ -6,6 +6,13 @@ tags: soap, wcf, debug
 date: 2011-11-02 11:11:42
 assets: assets/posts/2011-11-02-debug-soap-request-and-response-in-wcf
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Often while working with SOAP service integrations I would like to see the actual SOAP envelope that is passed around. This is not trivial while working with WCF, because it effectivly hide the implementation details. You'll will have to turn on WCF message debugging.

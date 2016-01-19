@@ -6,6 +6,13 @@ tags: F#, Citerus, dojo
 date: 2011-02-16 20:26:31
 assets: assets/posts/2011-02-16-citerus-programming-challenge
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 I'm very weak for programming challenges. [Citerus](http://www.citerus.se/jfokus) held a contest where you could win an iPad if you would solve their problem. Since I'm a .NET developer, I'm not elegible for winning such a challenge but I love to meet a challenge just for the sake of it.

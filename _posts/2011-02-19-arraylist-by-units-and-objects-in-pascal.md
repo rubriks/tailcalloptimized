@@ -6,6 +6,13 @@ tags: ArrayList, turbo pascal, pascal
 date: 2011-02-19 11:54:21
 assets: assets/posts/2011-02-19-arraylist-by-units-and-objects-in-pascal
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 The last programming task my father had in store for me was writing a record store library application in Turbo Pascal. I was 14 years old and managed to produce something that would accept new records, artists and store them in a list that could be saved to and loaded from disc. The result didn't corrupt its database much more than SourceSafe corrupts its repository.  What if we would try to recreate some of that application.

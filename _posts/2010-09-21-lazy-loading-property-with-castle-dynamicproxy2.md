@@ -6,6 +6,13 @@ tags: interception, castle dynamicproxy, lazy loading
 date: 2010-09-21 06:02:04
 assets: assets/posts/2010-09-21-lazy-loading-property-with-castle-dynamicproxy2
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Today I will solve a problem concerning single responsibility principle and lazy loading properties using [Castle DynamicProxy](http://www.castleproject.org/dynamicproxy/index.html). My example application is a simple bookstore, that can display books from an XML.

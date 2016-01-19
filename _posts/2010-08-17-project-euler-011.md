@@ -6,6 +6,13 @@ tags: F#, project euler, dojo
 date: 2010-08-17 06:00:23
 assets: assets/posts/2010-08-17-project-euler-011
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 In the 20 &times; 20 grid below, four numbers along a diagonal line have been marked in red.  

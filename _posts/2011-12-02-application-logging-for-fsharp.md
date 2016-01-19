@@ -6,6 +6,13 @@ tags: F#, logging, log4net, ksprintf
 date: 2011-12-02 05:38:35
 assets: assets/posts/2011-12-02-application-logging-for-fsharp
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Using existing log frameworks with F# is easy enough. Here's an example with log4net.

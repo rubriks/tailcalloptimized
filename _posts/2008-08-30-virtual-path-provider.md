@@ -6,6 +6,13 @@ tags: vpp, coding
 date: 2008-08-30 14:43:25
 assets: assets/posts/2008-08-30-virtual-path-provider
 image: 
+author: 
+    name: Mikael Lundin
+    email: hello@mikaellundin.name 
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund                    
 ---
 
 A user in Mint should be able to upload his own files. He should upload images, css-files, xsl-files and maybe even video clips. In order to support this I will build a Virtual Path Provider where user files will be located.  Building a Virtual Path Provider is very easy. All you have to do is to override three classes in the System.Web.Hosting namespace.

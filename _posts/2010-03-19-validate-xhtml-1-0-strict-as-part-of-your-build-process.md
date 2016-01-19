@@ -6,6 +6,13 @@ tags: W3C Validator, XSD, XHtml 1.0 Strict
 date: 2010-03-19 11:00:43
 assets: assets/posts/2010-03-19-validate-xhtml-1-0-strict-as-part-of-your-build-process
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 If one of the requirements for the website you're building is that it should validate XHtml 1.0 Strict, then you can't mearly use the <a href="http://validator.w3.org/">W3C Validator</a>, but have to make it a part of your build process. That you do, by turning the validation into a test.  First, you need to get those URLs. I get mine from a sitemap.xml.

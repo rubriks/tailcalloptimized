@@ -6,6 +6,13 @@ tags: webforms, unit testing, nunit, mocking
 date: 2011-01-26 17:20:28
 assets: assets/posts/2011-01-26-unittest-how-your-webcontrols-render
 image: 
+author:
+    name: Mikael Lundin
+    email: hello@mikaellundin.name
+    web: http://mikaellundin.name
+    twitter: mikaellundin
+    github: miklund
+    linkedin: miklund
 ---
 
 Testing ASP.NET code is always hard. How do you test that a control renders the HTML that you require? I will show you how. Let's use the [ULRadioButtonList that I have written about earlier](/2010/11/26/aspnet-radiobutton-in-an-ul-li-list.html "ASP.NET RadioButton in an UL LI list") and test that it outputs the expected markup.
